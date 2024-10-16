@@ -1,0 +1,82 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[hidelinks]{hyperref}
+\usepackage[
+    a4paper,
+    % margin=1in
+    ]{geometry}
+\usepackage{mathtools}
+\usepackage{amssymb, amsthm}
+\usepackage{math}
+\usepackage{setspace}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{titlesec}
+% \usepackage{natbib}
+\titleformat*{\section}{\Large\bf}
+\titleformat*{\subsection}{\large\bf}
+\titleformat*{\subsubsection}{\normalsize\bf}
+\usepackage{chngcntr}
+\usepackage{lipsum}
+\usepackage[labelfont=bf, labelsep=period]{caption}
+\usepackage[capposition=top]{floatrow}
+\usepackage{enumitem}
+%\usepackage{newtx}
+\newtheorem{thm}{Theorem}
+\newtheorem*{thm*}{Theorem}
+\newtheorem{defn}{Definition}
+\newtheorem*{defn*}{Definition}
+\newtheorem{axiom}{Axiom}
+\newtheorem*{axiom*}{Axiom}
+\renewcommand{\theaxiom}{B\arabic{axiom}}
+\newtheorem{ax}{Axiom}
+\newtheorem*{ax*}{Axiom}
+\renewcommand{\theax}{A\arabic{ax}}
+\newtheorem{lemma}{Lemma}
+\newtheorem{prop}{Proposition}
+\newtheorem*{prop*}{Proposition}
+\newtheorem{crl}{Corollary}
+\newtheorem{remark}{Remark}[section]
+
+\newcommand{\Rfix}{\mathsf{R}}
+\newcommand{\Rfree}{\Re}
+
+\newcommand{\pref}{\succcurlyeq}
+\newcommand{\sm}{\setminus}
+\newcommand{\prefs}{R}
+\newcommand{\succs}{P}
+\newcommand{\sims}{I}
+\newcommand{\rev}[1]{#1^{-}}
+
+\newcommand{\cd}{Draft 1}
+
+\usepackage[authordate, backend=biber, maxcitenames=2, natbib=true]{biblatex-chicago}
+\usepackage[hang, flushmargin]{footmisc}
+\addbibresource{References.bib}
+
+\graphicspath{ {./Graphs/} }
+\usepackage{caption}
+\usepackage{subcaption}
+
+% \makeatletter
+% \@addtoreset{prop}{section}
+% \makeatother
+
+\title{Equity premium and correlated shocks}
+\author{Siddarth Venkatesh}
+\date{October 01, 2024}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+\input{\cd/title}
+
+\onehalfspacing
+
+\input{\cd/body}
+
+\end{document}
