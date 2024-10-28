@@ -1,14 +1,16 @@
 # Fdb version 4
-["biber correlated_shocks_equity_premium"] 1728051344.53631 "correlated_shocks_equity_premium.bcf" "correlated_shocks_equity_premium.bbl" "correlated_shocks_equity_premium" 1728503946.44815 0
-  "correlated_shocks_equity_premium.bcf" 1728503945 203698 31fc6c617176522cacfe3b2c185ab5ab "pdflatex"
+["biber correlated_shocks_equity_premium"] 1730124891.35567 "correlated_shocks_equity_premium.bcf" "correlated_shocks_equity_premium.bbl" "correlated_shocks_equity_premium" 1730126805.70198 0
+  "References.bib" 1730124889 1059 f8d0d5f64a89d5a28f030538910534d2 ""
+  "correlated_shocks_equity_premium.bcf" 1730126804 204489 d563c38b3412d7586d54d7ea7a39fed5 "pdflatex"
   (generated)
   "correlated_shocks_equity_premium.bbl"
   "correlated_shocks_equity_premium.blg"
   (rewritten before read)
-["pdflatex"] 1728503942.72071 "c:/Users/sidda/OneDrive/Research/Macroeconomics/Correlated Shocks/Paper/TeX/correlated_shocks_equity_premium.tex" "correlated_shocks_equity_premium.pdf" "correlated_shocks_equity_premium" 1728503946.45003 0
+["pdflatex"] 1730126801.24802 "c:/Users/sidda/OneDrive/Research/Macroeconomics/Correlated Shocks/Paper/equity-premium-correlated-shocks/TeX/correlated_shocks_equity_premium.tex" "correlated_shocks_equity_premium.pdf" "correlated_shocks_equity_premium" 1730126805.70423 0
   "C:/Users/sidda/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1724864508 464102 61fd9eb82b91602c843bcab32e28dc75 ""
   "C:/Users/sidda/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1714863698 24236005 60659b9cb4e62a05dc054ab242d611c4 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1001775420 2971 def0b6c1f0b107b3b936def894055589 ""
+  "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001775420 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1095.tfm" 993061956 3228 aacd2ac2d814480e4422ad7e830fd2d4 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
@@ -23,6 +25,7 @@
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1728.tfm" 993062128 3168 11457c8185ce67fb79662ba8b03d6db1 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm2074.tfm" 993062130 3184 b2541675eba9fa86d240ec0ecc913558 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecti1200.tfm" 993062324 2832 28bbd97ca29f46e76c87a158a9915203 ""
+  "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcti1200.tfm" 993062558 1604 64544291d47abfccebbf78eacbe2faaf ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -173,15 +176,15 @@
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1700599895 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "Draft 1/Sections/model.tex" 1728503940 17535 8578352186b5f87592cbdecdeec66cd2 ""
-  "Draft 1/body.tex" 1728051331 65 360e5e1fc838c1508a4c9563ee0558ca ""
+  "Draft 1/Sections/model.tex" 1730126799 19050 c30e82e858c38041cd39292f8288c891 ""
+  "Draft 1/body.tex" 1730123600 87 768f7529d9e3b795ea3764dea713af9f ""
   "Draft 1/title.tex" 1728051331 61 ea0a9916c8cde91983f06399bd3a997c ""
-  "c:/Users/sidda/OneDrive/Research/Macroeconomics/Correlated Shocks/Paper/TeX/correlated_shocks_equity_premium.tex" 1728074157 2015 9ebe75f21c6c93163f5acad107542da1 ""
-  "correlated_shocks_equity_premium.aux" 1728503945 1514 696055263f2d26673288feca804e401a "pdflatex"
-  "correlated_shocks_equity_premium.bbl" 1728051379 486 76d65a242ec496c9b4361af646ff12cb "biber correlated_shocks_equity_premium"
-  "correlated_shocks_equity_premium.out" 1728503945 823 0b9bf47f23ed40fe5d5a5a788c70bcf3 "pdflatex"
-  "correlated_shocks_equity_premium.run.xml" 1728503945 2637 aac3cf930c28e274dbf29e135bd14523 "pdflatex"
-  "correlated_shocks_equity_premium.tex" 1728074157 2015 9ebe75f21c6c93163f5acad107542da1 ""
+  "c:/Users/sidda/OneDrive/Research/Macroeconomics/Correlated Shocks/Paper/equity-premium-correlated-shocks/TeX/correlated_shocks_equity_premium.tex" 1730123563 2015 9ebe75f21c6c93163f5acad107542da1 ""
+  "correlated_shocks_equity_premium.aux" 1730126804 2361 936f3478f794f013607947a647af0c75 "pdflatex"
+  "correlated_shocks_equity_premium.bbl" 1730124897 5375 34a693da31ad69950e14f612b162b9ae "biber correlated_shocks_equity_premium"
+  "correlated_shocks_equity_premium.out" 1730126804 988 b10c528721d4de8acf134989be363473 "pdflatex"
+  "correlated_shocks_equity_premium.run.xml" 1730126804 2637 aac3cf930c28e274dbf29e135bd14523 "pdflatex"
+  "correlated_shocks_equity_premium.tex" 1730123563 2015 9ebe75f21c6c93163f5acad107542da1 ""
   "math.sty" 1728053839 5294 cfdf5667c07e4df47026fd4530916881 ""
   (generated)
   "correlated_shocks_equity_premium.aux"

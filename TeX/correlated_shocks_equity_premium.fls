@@ -1,6 +1,6 @@
-PWD c:\Users\sidda\OneDrive\Research\Macroeconomics\Correlated Shocks\Paper\TeX
+PWD c:\Users\sidda\OneDrive\Research\Macroeconomics\Correlated Shocks\Paper\equity-premium-correlated-shocks\TeX
 INPUT C:\Users\sidda\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\sidda\OneDrive\Research\Macroeconomics\Correlated Shocks\Paper\TeX\correlated_shocks_equity_premium.tex
+INPUT c:\Users\sidda\OneDrive\Research\Macroeconomics\Correlated Shocks\Paper\equity-premium-correlated-shocks\TeX\correlated_shocks_equity_premium.tex
 OUTPUT correlated_shocks_equity_premium.log
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -315,6 +315,8 @@ INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm070
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcti1200.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
 INPUT correlated_shocks_equity_premium.aux
 INPUT .\correlated_shocks_equity_premium.out
 INPUT .\correlated_shocks_equity_premium.out

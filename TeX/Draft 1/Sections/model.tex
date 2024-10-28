@@ -89,19 +89,19 @@ I have hitherto remained silent on the exact distribution followed by the shocks
 % \end{align*}
 % while
 \begin{align*}
-    \log (\z_t,\,\eta_t,\,\nu_t) \sim \Nc(\mu,\,\S)
+    \log (\eta_t,\,\nu_t,\,\z_t) \sim \Nc(\mu,\,\S)
 \end{align*}
 where
 \begin{align*}
     \S &= \begin{bmatrix}
-        \s_{\z}^2 & \o_{\z,\,\eta} & \o_{\z,\,\nu}\\
-        \o_{\z,\,\eta} & \s_{\eta}^2 & \o_{\eta,\,\nu}\\
-        \o_{\z,\,\nu} & \o_{\eta,\,\nu} & \s_{\nu}^2
+        \s_{\eta}^2 & \o_{\eta,\,\nu} & \o_{\eta,\,\z}\\
+        \o_{\nu,\,\eta} & \s_{\nu}^2 & \o_{\eta,\,\nu}\\
+        \o_{\z,\,\eta} & \o_{\nu,\,\eta} & \s_{\z}^2
     \end{bmatrix}\\
     \mu &= \begin{bmatrix}
-        -\s_{\z}^2 / 2\\
         -\s_{\eta}^2 / 2\\
-        -\s_{\nu}^2 / 2
+        -\s_{\nu}^2 / 2\\
+        -\s_{\z}^2 / 2
     \end{bmatrix}
 \end{align*}
 The marginal distributions of each of the shocks ensure that $\E_t[\eta] = \E_t[\nu] = \E_t[\z] = 1$. Meanwhile, $\o_{x,\,y}$ captures the covariance of any two variables $x$ and $y$ among the three.
@@ -114,7 +114,7 @@ The first part of solving the model is to address the problem of efficiently com
 
 Here are the steps involved in discretizing the distribution:
 \begin{enumerate}
-    \item Choose a suitable truncation of the distribution in each dimension by choosing an interval $\bs{p_{min},\,p_{max}}$
+    \item Choose a suitable truncation of the distribution in each dimension by choosing an interval $\bs{p_{min},\,p_{max}} \subseteq \bs{0,\,1}$
     \item Divide the interval given by $\bs{\Phi^{-1}(p_{min}),\,\Phi^{-1}(p_{max})}$ into $n$ intervals of $\frac{p_{max} - p_{min}}{n}$ probability each, $I = \bc{\bs{\Phi^{-1}\left(\frac{(i - 1)p_{max} + (n - i + 1)p_{min}}{n}\right),\,\Phi^{-1}\left(\frac{ip_{max} + (n - i)p_{min}}{n}\right)}}_{i=1}^{n}$
     \item Decompose the covariance matrix $\S$ using either the Cholesky decomposition, the eigendecomposition, or the positive-definite square root, to obtain a matrix $A$ such that $AA^T = \S$
     \item Then construct the random variables $Y = \mu + AZ$, where $Z \sim \Nc(0,\,I)$, to get $Y \sim \Nc(\mu,\,\Sigma)$
@@ -142,13 +142,13 @@ m_{ij} = \frac{\Rfix + \hat{\k}_{t+1}(a_i)(\Rfree\nu_j - \Rfix)}{\G_{t+1}\eta_{j
 \]
 The problem then becomes a root-finding operation pertaining to a function of $\hat{\k}$, which, given a policy function $c_{t+1}$, yields an optimal level of $\hat{\k}$ for each $a_i$. Denote this pair as $(a,\,\hat{\k})_{i}$, and the resulting effective return $\Rfix + \hat{\k}_{i}(\Rfree\nu_{j} - \Rfix)$ for each value of the shocks as $\Rc_{ij}$.
 
-\begin{remark}
-    The choice of the grid $\Ac$, at least for the next-to-last period, will be determined while keeping in mind the natural borrowing constraint given by the no-default condition. Suppose an individual has decided to invest all their savings in the risky asset, and is hit by the worst possible set of shocks in the next period. Then the individual should not be able to borrow to the extent that they may default on their debt. The natural borrowing constraint is then given by
-    \[
-    \underline{a} = \frac{-\z_{\min}\G_{T}\eta_{\min}}{\Re\nu_{\min}}
-    \]
-    An alternative choice would be to simplify the grid by using an artificial no-borrowing constraint in the grid. Note, however, that the calculation of the optimal consumption function is not constrained by this unless the borrowing constraint is imposed on the model. I then use this lower bound to generate an exponentially spaced grid of assets.
-\end{remark}
+% \begin{remark}
+%     The choice of the grid $\Ac$, at least for the next-to-last period, will be determined while keeping in mind the natural borrowing constraint given by the no-default condition. Suppose an individual has decided to invest all their savings in the risky asset, and is hit by the worst possible set of shocks in the next period. Then the individual should not be able to borrow to the extent that they may default on their debt. An upper bound on the natural borrowing constraint is then given by
+%     \[
+%     \underline{a} = \frac{-\z_{\min}\G_{T}\eta_{\min}}{\Re\nu_{\min}}
+%     \]
+%     An alternative choice would be to simplify the grid by using an artificial no-borrowing constraint in the grid. Note, however, that the calculation of the optimal consumption function is not constrained by this unless the borrowing constraint is imposed on the model. I then use this lower bound to generate an exponentially spaced grid of assets.
+% \end{remark}
 
 For each \textit{end-of-period} outcome $(a,\,\hat{\k})_i$, given $c_{t+1}$, we can use the consumption Euler equation to get
 \[
@@ -162,7 +162,7 @@ The consumed function is then given by
 \[
 \hat{c}_{t}(a_i,\,\hat{\k}_i) = \bs{\b\G_{t+1}^{-\rho}\Rfix n^{-3}\sum_{j=1}^{n^3}(\eta_{j}c_{t+1}(m_{ij}))^{-\rho}}^{-\frac{1}{\rho}}
 \]
-Now we have a vector of $c_i$ corresponding to each $(a,\,\hat{\k})_i$. Since $m_{t} = c_{t} + a_{t+1}$, we can construct the grid $\Mc$ with each $m_i \in \Mc$ given by $m_i = c_i + a_i$, where $c_{t}(a_i,\,\hat{\k}_i)$. We can now rewrite $c_t(m_i) = \hat{c}_t(a_i,\,\hat{\k}_i)$ and $\k_{t+1}(m_i) = \hat{\k}_{t+1}(a_i)$, and interpolate to get the policy functions $(c_{t}(m),\,\k_{t+1}(m)) = g_{t}(m)$ for period $t$. Finally, we can use $c_{T}(m) = m$ as a starting point and recursively obtain the estimated policy functions.
+Now we have a vector of $c_i$ corresponding to each $(a,\,\hat{\k})_i$. Since $m_{t} = c_{t} + a_{t+1}$, we can construct the grid $\Mc$ with each $m_i \in \Mc$ given by $m_i = c_i + a_i$, where $c_{t}(a_i,\,\hat{\k}_i)$. We can now rewrite $c_t(m_i) = \hat{c}_t(a_i,\,\hat{\k}_i)$ and $\k_{t+1}(m_i) = \hat{\k}_{t+1}(a_i)$, and interpolate to get the policy functions $(c_{t}(m),\,\k_{t+1}(m)) = g_{t}(m)$ for period $t$. Finally, we can use $c_{T}(m) = m$ as a starting point and recursively obtain the estimated policy functions. To simplify the computation, I solve the model with a time-invariant expected permanent income growth rate, though this assumption is in no way necessary.
 
 \textsc{Infinite-Horizon}
 
@@ -172,6 +172,13 @@ v(m) = \max_{c,\,\k'}\frac{c^{1-\rho}}{1-\rho} + \beta\G^{1-\rho} \E\bs{(\eta')^
 \]
 We can use the same process as in the finite-horizon case, where I use the first-order conditions to find the policy functions. The only difference, now, is that instead of using $c_{t+1}$ to find $\k_{t+1}$ and $c_{t}$, I now use an initial guess about the time-invariant $c$, say $c_{0}$, to compute $c_{1}$ and $\k_1$. I use this newly computed $c_1$ to obtain $c_2$ and $\k_2$. This process continues, till the policy functions converge to an approximation of $c(m)$ and $\k(m)$.
 
+\subsubsection{Choosing parameters}
+
+Since the primary determinant of optimal portfolio allocation in the model that is of interest to us is the correlation between permanent income shocks and shocks to the return on the risky asset, I solve the model while holding constant some parameters at values documented in the literature. To begin, \citet{Mehra1985} estimate that the historical real rate of return on equity in the U.S. is 7.67 percent, while the return on a relatively risk-free securities over the same period was 1.31 percent.\footnote{The original data was later updated till 2005, which forms the source of these estimates. See \citet{Mehra2006} for details.} Furthermore, the Sharpe ratio for these assets was calculated to be 0.37. Since $\nu$ is a mean-one lognormal, we know that:
+\[
+\s_{\nu}^2 = \log\bp{\frac{\Rfree - \Rfix}{0.37} + 1}
+\]
+I follow \citet{Carroll2015} and set $\s_{\eta}^2 = \frac{0.04}{11}$ and $\s_{\z}^2 = 0.04$. Data on per capita income in the U.S. reveals that real income grew at an average rate of 2.16 percent. I also set $\b = 0.93$ and $\o_{\z,\,\eta} = \o_{\z,\,\nu} = 0$. I then solve the model using a baseline of $\rho = 2$ for different values of $\o_{\eta,\,\nu}$, and then test the predictions of the model under different values of $\rho$.
 
 % To simplify the problem, I assume that the predictable component of permanent income growth, $\G_{t} = \G$ for all $t$, i.e. $\bc{\G_{t}}_{t=0}^{\infty}$ is a constant sequence. Then the Bellman equation can be reduced to
 % \[
