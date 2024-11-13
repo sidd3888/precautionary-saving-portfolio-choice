@@ -1,11 +1,12 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx} % Required for inserting 
+\graphicspath{{../Figures/}}
 \usepackage[hidelinks]{hyperref}
 \usepackage[
     a4paper,
-    % margin=1in
+    margin=1in
     ]{geometry}
 \usepackage{mathtools}
 \usepackage{amssymb, amsthm}
@@ -42,6 +43,7 @@
 
 \newcommand{\Rfix}{\mathsf{R}}
 \newcommand{\Rfree}{\Re}
+\renewcommand{\vs}{\varsigma}
 
 \newcommand{\pref}{\succcurlyeq}
 \newcommand{\sm}{\setminus}
@@ -56,7 +58,6 @@
 \usepackage[hang, flushmargin]{footmisc}
 \addbibresource{References.bib}
 
-\graphicspath{ {./Graphs/} }
 \usepackage{caption}
 \usepackage{subcaption}
 
@@ -66,7 +67,7 @@
 
 \title{Equity premium and correlated shocks}
 \author{Siddarth Venkatesh}
-\date{October 01, 2024}
+\date{November 05, 2024}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}

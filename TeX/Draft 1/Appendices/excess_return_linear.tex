@@ -1,0 +1,20 @@
+\subsection{Approximating the excess return equation}
+
+We want to approximate the excess return equation
+\[
+\E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\eta_{t+1}c_{t+1})^{-\rho}} = 0
+\]
+Define the function $g : \R_{++}^{3} \to \R$ as
+\[
+    g(\eta,\,\nu,\,\z) = (\Rfree\nu - \Rfix)\bp{\eta c\bp{\frac{\Rfix + \k(\Rfree\nu - \Rfix)}{\G\eta}(m - c(m)) + \z}}^{-\rho}
+\]
+where $\Rfree$, $\Rfix$, $\G$, $m$, $c : \R_{+} \to \R_{+}$ are treated as known. Let $m'$ be defined as
+\[
+m' = \frac{\Rfix + \k(\Rfree\nu - \Rfix)}{\G\eta}(m - c(m)) + \z
+\]
+Observe that the partial derivatives of this function are
+\begin{align*}
+    \pd{g(\eta,\,\nu,\,\z)}{\eta} &= -\rho(\Rfree\nu - \Rfix)\bp{\eta c\bp{m'}}^{-\rho-1}\bp{c(m') - c'(m')(m' - \z)}\\
+    \pd{g(\eta,\,\nu,\,\z)}{\nu} &= \Rfree(\eta c(m')) - \rho(\Rfree\nu - \Rfix)(\eta c(m))^{-\rho - 1}\bp{c'(m') \frac{\k\Rfree}{\G}(m - c(m))}\\
+    \pd{g(\eta,\,\nu,\,\z)}{\z} &= -\rho(\Rfree\nu - \Rfix)(\eta c(m'))^{-\rho-1}(\eta c'(m'))
+\end{align*}
