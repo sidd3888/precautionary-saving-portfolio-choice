@@ -1,1121 +1,167 @@
-% $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
-% Do not modify the above lines!
-%
-% This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
-%
-\begingroup
-\makeatletter
-\@ifundefined{ver@biblatex.sty}
-  {\@latex@error
-     {Missing 'biblatex' package}
-     {The bibliography requires the 'biblatex' package.}
-      \aftergroup\endinput}
-  {}
-\endgroup
+\begin{thebibliography}{xx}
 
+\harvarditem{Andersen \harvardand\ Nielsen}{2011}{Andersen2011}
+Andersen, S. \harvardand\ Nielsen, K.~M.  \harvardyearleft
+  2011\harvardyearright , `Participation constraints in the stock market:
+  Evidence from unexpected inheritance due to sudden death', {\em Review of
+  Financial Studies} {\bf 24},~1667--1697.
 
-\refsection{0}
-  \datalist[entry]{cms/global//global/global/global}
-    \entry{Andersen2011}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=8d29937da505f1fed506ee7d0ce8dfcd}{%
-           family={Andersen},
-           familyi={A\bibinitperiod},
-           given={Steffen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5a1e9de5a2d5e05429516d800a82b5ed}{%
-           family={Nielsen},
-           familyi={N\bibinitperiod},
-           given={Kasper\bibnamedelima Meisner},
-           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{913fd7854842a1565d7070c475f39c83}
-      \strng{fullhash}{913fd7854842a1565d7070c475f39c83}
-      \strng{fullhashraw}{913fd7854842a1565d7070c475f39c83}
-      \strng{bibnamehash}{913fd7854842a1565d7070c475f39c83}
-      \strng{authorbibnamehash}{913fd7854842a1565d7070c475f39c83}
-      \strng{authornamehash}{913fd7854842a1565d7070c475f39c83}
-      \strng{authorfullhash}{913fd7854842a1565d7070c475f39c83}
-      \strng{authorfullhashraw}{913fd7854842a1565d7070c475f39c83}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{5}
-      \field{journaltitle}{Review of Financial Studies}
-      \field{month}{5}
-      \field{title}{Participation Constraints in the Stock Market: Evidence from Unexpected Inheritance Due to Sudden Death}
-      \field{volume}{24}
-      \field{year}{2011}
-      \field{pages}{1667\bibrangedash 1697}
-      \range{pages}{31}
-    \endentry
-    \entry{Bagliano2014}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=d828c9c23f45330c2daebde85e3e9aae}{%
-           family={Bagliano},
-           familyi={B\bibinitperiod},
-           given={Fabio\bibnamedelima C.},
-           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0992aad1b4ec22649a9c4ddbfd2a9c9f}{%
-           family={Fugazza},
-           familyi={F\bibinitperiod},
-           given={Carolina},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a60d5418b4eef667c0d044204c6ae7c8}{%
-           family={Nicodano},
-           familyi={N\bibinitperiod},
-           given={Giovanna},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e9baa1733ba41bc3381d46bc40241c1a}
-      \strng{fullhash}{aa2b074dd42a0484ce59ce83f55125cc}
-      \strng{fullhashraw}{aa2b074dd42a0484ce59ce83f55125cc}
-      \strng{bibnamehash}{aa2b074dd42a0484ce59ce83f55125cc}
-      \strng{authorbibnamehash}{aa2b074dd42a0484ce59ce83f55125cc}
-      \strng{authornamehash}{e9baa1733ba41bc3381d46bc40241c1a}
-      \strng{authorfullhash}{aa2b074dd42a0484ce59ce83f55125cc}
-      \strng{authorfullhashraw}{aa2b074dd42a0484ce59ce83f55125cc}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{6}
-      \field{journaltitle}{Review of Finance}
-      \field{month}{10}
-      \field{title}{Optimal Life-Cycle Portfolios for Heterogeneous Workers*}
-      \field{volume}{18}
-      \field{year}{2014}
-      \field{pages}{2283\bibrangedash 2323}
-      \range{pages}{41}
-    \endentry
-    \entry{Baxter1997}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c2b9eeb40c53b88d50c93e35b61f9e59}{%
-           family={Baxter},
-           familyi={B\bibinitperiod},
-           given={Marianne},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7ee1f889b24b9085eb6c29995080c7c4}{%
-           family={Jermann},
-           familyi={J\bibinitperiod},
-           given={Urban\bibnamedelima J.},
-           giveni={U\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \strng{fullhash}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \strng{fullhashraw}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \strng{bibnamehash}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \strng{authorbibnamehash}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \strng{authornamehash}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \strng{authorfullhash}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \strng{authorfullhashraw}{7daa74e2c8cd02c87dfb2cd7e386bfc5}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{1}
-      \field{journaltitle}{American Economic Review}
-      \field{month}{3}
-      \field{title}{The International Diversification Puzzle Is Worse Than You Think}
-      \field{volume}{87}
-      \field{year}{1997}
-      \field{pages}{170\bibrangedash 180}
-      \range{pages}{11}
-    \endentry
-    \entry{Benzoni2007}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=16348fc4f0758ae2d590b8dcbbf577e1}{%
-           family={Benzoni},
-           familyi={B\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e952223497da7b893438e201999ad7f}{%
-           family={Collin‐Dufresne},
-           familyi={C\bibinithyphendelim D\bibinitperiod},
-           given={Pierre},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=834b547fb953affdebdb58329617b5c6}{%
-           family={Goldstein},
-           familyi={G\bibinitperiod},
-           given={Robert\bibnamedelima S.},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{01c468d002971f7c21037034763fde37}
-      \strng{fullhash}{d3b8fa2857b1fd81a56936b36ed1cd84}
-      \strng{fullhashraw}{d3b8fa2857b1fd81a56936b36ed1cd84}
-      \strng{bibnamehash}{d3b8fa2857b1fd81a56936b36ed1cd84}
-      \strng{authorbibnamehash}{d3b8fa2857b1fd81a56936b36ed1cd84}
-      \strng{authornamehash}{01c468d002971f7c21037034763fde37}
-      \strng{authorfullhash}{d3b8fa2857b1fd81a56936b36ed1cd84}
-      \strng{authorfullhashraw}{d3b8fa2857b1fd81a56936b36ed1cd84}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{abstract}{We study portfolio choice when labor income and dividends are cointegrated. Economically plausible calibrations suggest young investors should take substantial short positions in the stock market. Because of cointegration the young agent's human capital effectively becomes “stock‐like.” However, for older agents with shorter times‐to‐retirement, cointegration does not have sufficient time to act, and thus their human capital becomes more “bond‐like.” Together, these effects create hump‐shaped life‐cycle portfolio holdings, consistent with empirical observation. These results hold even when asset return predictability is accounted for.}
-      \field{issue}{5}
-      \field{journaltitle}{The Journal of Finance}
-      \field{month}{10}
-      \field{title}{Portfolio Choice over the Life‐Cycle when the Stock and Labor Markets Are Cointegrated}
-      \field{volume}{62}
-      \field{year}{2007}
-      \field{pages}{2123\bibrangedash 2167}
-      \range{pages}{45}
-    \endentry
-    \entry{Briggs2021}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=e15b9612ff708d13e5642ff2da6acbc4}{%
-           family={Briggs},
-           familyi={B\bibinitperiod},
-           given={Joseph},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1d424741d7d49b6d7e005fe6089deb9c}{%
-           family={Cesarini},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7dbd099780b14287ec1cd2910d9cc49e}{%
-           family={Lindqvist},
-           familyi={L\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=543ca31ab1a8559365302de28192343f}{%
-           family={Östling},
-           familyi={Ö\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{11a5f315f46715e06eaed8aed995d09e}
-      \strng{fullhash}{d2849e048de93f644295aff772a8b322}
-      \strng{fullhashraw}{d2849e048de93f644295aff772a8b322}
-      \strng{bibnamehash}{d2849e048de93f644295aff772a8b322}
-      \strng{authorbibnamehash}{d2849e048de93f644295aff772a8b322}
-      \strng{authornamehash}{11a5f315f46715e06eaed8aed995d09e}
-      \strng{authorfullhash}{d2849e048de93f644295aff772a8b322}
-      \strng{authorfullhashraw}{d2849e048de93f644295aff772a8b322}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{1}
-      \field{journaltitle}{Journal of Financial Economics}
-      \field{month}{1}
-      \field{title}{Windfall gains and stock market participation}
-      \field{volume}{139}
-      \field{year}{2021}
-      \field{pages}{57\bibrangedash 83}
-      \range{pages}{27}
-    \endentry
-    \entry{Campbell1996}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b7ec0e33525f8b94af88e38cc709b02d}{%
-           family={Campbell},
-           familyi={C\bibinitperiod},
-           given={John\bibnamedelima Y.},
-           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b7ec0e33525f8b94af88e38cc709b02d}
-      \strng{fullhash}{b7ec0e33525f8b94af88e38cc709b02d}
-      \strng{fullhashraw}{b7ec0e33525f8b94af88e38cc709b02d}
-      \strng{bibnamehash}{b7ec0e33525f8b94af88e38cc709b02d}
-      \strng{authorbibnamehash}{b7ec0e33525f8b94af88e38cc709b02d}
-      \strng{authornamehash}{b7ec0e33525f8b94af88e38cc709b02d}
-      \strng{authorfullhash}{b7ec0e33525f8b94af88e38cc709b02d}
-      \strng{authorfullhashraw}{b7ec0e33525f8b94af88e38cc709b02d}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{2}
-      \field{journaltitle}{Journal of Political Economy}
-      \field{month}{4}
-      \field{title}{Understanding Risk and Return}
-      \field{volume}{104}
-      \field{year}{1996}
-      \field{pages}{298\bibrangedash 345}
-      \range{pages}{48}
-    \endentry
-    \entry{Carroll1992}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=473cc4aac98586cce67f15f3f3b0cff4}{%
-           family={Carroll},
-           familyi={C\bibinitperiod},
-           given={Christopher\bibnamedelima D.},
-           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{fullhash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{fullhashraw}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{bibnamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorbibnamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authornamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorfullhash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorfullhashraw}{473cc4aac98586cce67f15f3f3b0cff4}
-      \field{extraname}{1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{2}
-      \field{journaltitle}{Brookings Papers on Economic Activity}
-      \field{title}{The Buffer-Stock Theory of Saving: Some Macroeconomic Evidence}
-      \field{volume}{1992}
-      \field{year}{1992}
-      \field{pages}{61}
-      \range{pages}{1}
-    \endentry
-    \entry{Carroll1997}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=473cc4aac98586cce67f15f3f3b0cff4}{%
-           family={Carroll},
-           familyi={C\bibinitperiod},
-           given={Christopher\bibnamedelima D.},
-           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{fullhash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{fullhashraw}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{bibnamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorbibnamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authornamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorfullhash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorfullhashraw}{473cc4aac98586cce67f15f3f3b0cff4}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{1}
-      \field{journaltitle}{The Quarterly Journal of Economics}
-      \field{month}{2}
-      \field{title}{Buffer-Stock Saving and the Life Cycle/Permanent Income Hypothesis}
-      \field{volume}{112}
-      \field{year}{1997}
-      \field{pages}{1\bibrangedash 55}
-      \range{pages}{55}
-    \endentry
-    \entry{Carroll2006}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=473cc4aac98586cce67f15f3f3b0cff4}{%
-           family={Carroll},
-           familyi={C\bibinitperiod},
-           given={Christopher\bibnamedelima D.},
-           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{fullhash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{fullhashraw}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{bibnamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorbibnamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authornamehash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorfullhash}{473cc4aac98586cce67f15f3f3b0cff4}
-      \strng{authorfullhashraw}{473cc4aac98586cce67f15f3f3b0cff4}
-      \field{extraname}{3}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{3}
-      \field{journaltitle}{Economics Letters}
-      \field{month}{6}
-      \field{title}{The method of endogenous gridpoints for solving dynamic stochastic optimization problems}
-      \field{volume}{91}
-      \field{year}{2006}
-      \field{pages}{312\bibrangedash 320}
-      \range{pages}{9}
-    \endentry
-    \entry{Constantinides2002}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=4320d29771815b45bdab3dc4b198edc7}{%
-           family={Constantinides},
-           familyi={C\bibinitperiod},
-           given={G.\bibnamedelimi M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9b9ddd6284d924c56525f16af039290f}{%
-           family={Donaldson},
-           familyi={D\bibinitperiod},
-           given={J.\bibnamedelimi B.},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=264bc5e3cdf8ec17b30d5910b539a852}{%
-           family={Mehra},
-           familyi={M\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a46bc5c8bbc086f8667a7c03ca2c425b}
-      \strng{fullhash}{ec59f74c9e22eca7c85671e47ccf1e63}
-      \strng{fullhashraw}{ec59f74c9e22eca7c85671e47ccf1e63}
-      \strng{bibnamehash}{ec59f74c9e22eca7c85671e47ccf1e63}
-      \strng{authorbibnamehash}{ec59f74c9e22eca7c85671e47ccf1e63}
-      \strng{authornamehash}{a46bc5c8bbc086f8667a7c03ca2c425b}
-      \strng{authorfullhash}{ec59f74c9e22eca7c85671e47ccf1e63}
-      \strng{authorfullhashraw}{ec59f74c9e22eca7c85671e47ccf1e63}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{1}
-      \field{journaltitle}{The Quarterly Journal of Economics}
-      \field{month}{2}
-      \field{title}{Junior Can't Borrow: A New Perspective on the Equity Premium Puzzle}
-      \field{volume}{117}
-      \field{year}{2002}
-      \field{pages}{269\bibrangedash 296}
-      \range{pages}{28}
-    \endentry
-    \entry{Davis2006}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=436e25609a5e8f78d485f754f4af4176}{%
-           family={Davis},
-           familyi={D\bibinitperiod},
-           given={Steven\bibnamedelima J},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=28d65f9b413852def964d6b6711c1fc0}{%
-           family={Kubler},
-           familyi={K\bibinitperiod},
-           given={Felix},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8453fe2da19d9851df46cbeeee06cbcc}{%
-           family={Willen},
-           familyi={W\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e542ef85210b05a62b9bd077b3fdfa55}
-      \strng{fullhash}{24bc0c07f6ca2c9aabff326b160d6b6a}
-      \strng{fullhashraw}{24bc0c07f6ca2c9aabff326b160d6b6a}
-      \strng{bibnamehash}{24bc0c07f6ca2c9aabff326b160d6b6a}
-      \strng{authorbibnamehash}{24bc0c07f6ca2c9aabff326b160d6b6a}
-      \strng{authornamehash}{e542ef85210b05a62b9bd077b3fdfa55}
-      \strng{authorfullhash}{24bc0c07f6ca2c9aabff326b160d6b6a}
-      \strng{authorfullhashraw}{24bc0c07f6ca2c9aabff326b160d6b6a}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{2}
-      \field{journaltitle}{Review of Economics and Statistics}
-      \field{month}{5}
-      \field{title}{Borrowing Costs and the Demand for Equity over the Life Cycle}
-      \field{volume}{88}
-      \field{year}{2006}
-      \field{pages}{348\bibrangedash 362}
-      \range{pages}{15}
-    \endentry
-    \entry{Deaton1991}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=49e860b4f71d798fa4f5cf1c90103fc4}{%
-           family={Deaton},
-           familyi={D\bibinitperiod},
-           given={Angus},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{fullhash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{fullhashraw}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{bibnamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authorbibnamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authornamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authorfullhash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authorfullhashraw}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{5}
-      \field{journaltitle}{Econometrica}
-      \field{month}{9}
-      \field{title}{Saving and Liquidity Constraints}
-      \field{volume}{59}
-      \field{year}{1991}
-      \field{pages}{1221}
-      \range{pages}{1}
-    \endentry
-    \entry{Dominitz2007}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7a5b114cfa273b88a79d339514608a0c}{%
-           family={Dominitz},
-           familyi={D\bibinitperiod},
-           given={Jeff},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=af7d401f5054eb76507756b744b21667}{%
-           family={Manski},
-           familyi={M\bibinitperiod},
-           given={Charles\bibnamedelima F.},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{974671e872146eb1e459855da05381bb}
-      \strng{fullhash}{974671e872146eb1e459855da05381bb}
-      \strng{fullhashraw}{974671e872146eb1e459855da05381bb}
-      \strng{bibnamehash}{974671e872146eb1e459855da05381bb}
-      \strng{authorbibnamehash}{974671e872146eb1e459855da05381bb}
-      \strng{authornamehash}{974671e872146eb1e459855da05381bb}
-      \strng{authorfullhash}{974671e872146eb1e459855da05381bb}
-      \strng{authorfullhashraw}{974671e872146eb1e459855da05381bb}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{2-3}
-      \field{journaltitle}{Journal of the European Economic Association}
-      \field{month}{5}
-      \field{title}{Expected Equity Returns and Portfolio Choice: Evidence from the Health and Retirement Study}
-      \field{volume}{5}
-      \field{year}{2007}
-      \field{pages}{369\bibrangedash 379}
-      \range{pages}{11}
-    \endentry
-    \entry{Gul1991}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=eaf7c895370004c855cace7fb0e6d4d3}{%
-           family={Gul},
-           familyi={G\bibinitperiod},
-           given={Faruk},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{eaf7c895370004c855cace7fb0e6d4d3}
-      \strng{fullhash}{eaf7c895370004c855cace7fb0e6d4d3}
-      \strng{fullhashraw}{eaf7c895370004c855cace7fb0e6d4d3}
-      \strng{bibnamehash}{eaf7c895370004c855cace7fb0e6d4d3}
-      \strng{authorbibnamehash}{eaf7c895370004c855cace7fb0e6d4d3}
-      \strng{authornamehash}{eaf7c895370004c855cace7fb0e6d4d3}
-      \strng{authorfullhash}{eaf7c895370004c855cace7fb0e6d4d3}
-      \strng{authorfullhashraw}{eaf7c895370004c855cace7fb0e6d4d3}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{3}
-      \field{journaltitle}{Econometrica}
-      \field{month}{5}
-      \field{title}{A Theory of Disappointment Aversion}
-      \field{volume}{59}
-      \field{year}{1991}
-      \field{pages}{667\bibrangedash 686}
-      \range{pages}{20}
-    \endentry
-    \entry{Haliassos1995}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cb8a345f7aaf897c4cdd0cae825510d3}{%
-           family={Haliassos},
-           familyi={H\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cc57a9ee074aa666c8bf481fd1e0f929}{%
-           family={Bertaut},
-           familyi={B\bibinitperiod},
-           given={Carol\bibnamedelima C.},
-           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9206d5a1be699b2e4e9e33ce824db65}
-      \strng{fullhash}{c9206d5a1be699b2e4e9e33ce824db65}
-      \strng{fullhashraw}{c9206d5a1be699b2e4e9e33ce824db65}
-      \strng{bibnamehash}{c9206d5a1be699b2e4e9e33ce824db65}
-      \strng{authorbibnamehash}{c9206d5a1be699b2e4e9e33ce824db65}
-      \strng{authornamehash}{c9206d5a1be699b2e4e9e33ce824db65}
-      \strng{authorfullhash}{c9206d5a1be699b2e4e9e33ce824db65}
-      \strng{authorfullhashraw}{c9206d5a1be699b2e4e9e33ce824db65}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{432}
-      \field{journaltitle}{The Economic Journal}
-      \field{month}{9}
-      \field{title}{Why do so Few Hold Stocks?}
-      \field{volume}{105}
-      \field{year}{1995}
-      \field{pages}{1110\bibrangedash 1129}
-      \range{pages}{20}
-    \endentry
-    \entry{Haliassos1998}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cb8a345f7aaf897c4cdd0cae825510d3}{%
-           family={Haliassos},
-           familyi={H\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1af887cdf40c90a648d7238398a61815}{%
-           family={Hassapis},
-           familyi={H\bibinitperiod},
-           given={Christis},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{fullhash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{fullhashraw}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{bibnamehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authorbibnamehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authornamehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authorfullhash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authorfullhashraw}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \field{extraname}{1}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{SSRN Electronic Journal}
-      \field{title}{Borrowing Constraints, Portfolio Choice, and Precautionary Motives: Theoretical Predictions and Empirical Complications}
-      \field{year}{1998}
-    \endentry
-    \entry{Haliassos2001}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=cb8a345f7aaf897c4cdd0cae825510d3}{%
-           family={Haliassos},
-           familyi={H\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1af887cdf40c90a648d7238398a61815}{%
-           family={Hassapis},
-           familyi={H\bibinitperiod},
-           given={Christis},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{fullhash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{fullhashraw}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{bibnamehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authorbibnamehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authornamehash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authorfullhash}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \strng{authorfullhashraw}{b24d1ce8e9f35f839bf94f20ba8642e8}
-      \field{extraname}{2}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{468}
-      \field{journaltitle}{The Economic Journal}
-      \field{month}{1}
-      \field{title}{Non‐Expected Utility, Saving and Portfolios}
-      \field{volume}{111}
-      \field{year}{2001}
-      \field{pages}{69\bibrangedash 102}
-      \range{pages}{34}
-    \endentry
-    \entry{Harenberg2018}{report}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cb956acad558f30824de2a95099cb137}{%
-           family={Harenberg},
-           familyi={H\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Goethe University}%
-      }
-      \list{location}{1}{%
-        {Frankfurt}%
-      }
-      \strng{namehash}{cb956acad558f30824de2a95099cb137}
-      \strng{fullhash}{cb956acad558f30824de2a95099cb137}
-      \strng{fullhashraw}{cb956acad558f30824de2a95099cb137}
-      \strng{bibnamehash}{cb956acad558f30824de2a95099cb137}
-      \strng{authorbibnamehash}{cb956acad558f30824de2a95099cb137}
-      \strng{authornamehash}{cb956acad558f30824de2a95099cb137}
-      \strng{authorfullhash}{cb956acad558f30824de2a95099cb137}
-      \strng{authorfullhashraw}{cb956acad558f30824de2a95099cb137}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Asset Pricing in OLG Economies With Borrowing Constraints and Idiosyncratic Income Risk}
-      \field{type}{Working Paper}
-      \field{year}{2018}
-    \endentry
-    \entry{Kogan2007}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=4b0b222a07cb059c2fb55d9200bd6369}{%
-           family={Kogan},
-           familyi={K\bibinitperiod},
-           given={Leonid},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b66d967f1b4d160ab2af5d4fb46fbd31}{%
-           family={Makarov},
-           familyi={M\bibinitperiod},
-           given={Igor},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9cc21ebfac2cb0ca09dd01a2d7c19d73}{%
-           family={Uppal},
-           familyi={U\bibinitperiod},
-           given={Raman},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e496f7fae2e07fa477d77baa71a7126b}
-      \strng{fullhash}{480c221e82a768c655e5f4f39efee0eb}
-      \strng{fullhashraw}{480c221e82a768c655e5f4f39efee0eb}
-      \strng{bibnamehash}{480c221e82a768c655e5f4f39efee0eb}
-      \strng{authorbibnamehash}{480c221e82a768c655e5f4f39efee0eb}
-      \strng{authornamehash}{e496f7fae2e07fa477d77baa71a7126b}
-      \strng{authorfullhash}{480c221e82a768c655e5f4f39efee0eb}
-      \strng{authorfullhashraw}{480c221e82a768c655e5f4f39efee0eb}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{1}
-      \field{journaltitle}{Mathematics and Financial Economics}
-      \field{month}{4}
-      \field{title}{The equity risk premium and the riskfree rate in an economy with borrowing constraints}
-      \field{volume}{1}
-      \field{year}{2007}
-      \field{pages}{1\bibrangedash 19}
-      \range{pages}{19}
-    \endentry
-    \entry{Koo1999}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c62b2bb25b5026e5a31cce60fc1960b0}{%
-           family={Koo},
-           familyi={K\bibinitperiod},
-           given={Hyeng\bibnamedelima Keun},
-           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \strng{fullhash}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \strng{fullhashraw}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \strng{bibnamehash}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \strng{authorbibnamehash}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \strng{authornamehash}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \strng{authorfullhash}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \strng{authorfullhashraw}{c62b2bb25b5026e5a31cce60fc1960b0}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{2}
-      \field{journaltitle}{Mathematical Methods of Operations Research (ZOR)}
-      \field{month}{10}
-      \field{title}{Consumption and portfolio selection with labor income: A discrete-time approach}
-      \field{volume}{50}
-      \field{year}{1999}
-      \field{pages}{219\bibrangedash 243}
-      \range{pages}{25}
-    \endentry
-    \entry{Kreps1978}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=6d5c6824b3d5f70b654a2f85953e2033}{%
-           family={Kreps},
-           familyi={K\bibinitperiod},
-           given={David\bibnamedelima M.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7f361649bbd1a9f74ae46275ca8a0731}{%
-           family={Porteus},
-           familyi={P\bibinitperiod},
-           given={Evan\bibnamedelima L.},
-           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \strng{fullhash}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \strng{fullhashraw}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \strng{bibnamehash}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \strng{authorbibnamehash}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \strng{authornamehash}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \strng{authorfullhash}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \strng{authorfullhashraw}{b8d243e16d4b84ce9d9f0a07f681756f}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{1}
-      \field{journaltitle}{Econometrica}
-      \field{month}{1}
-      \field{title}{Temporal Resolution of Uncertainty and Dynamic Choice Theory}
-      \field{volume}{46}
-      \field{year}{1978}
-      \field{pages}{185\bibrangedash 200}
-      \range{pages}{16}
-    \endentry
-    \entry{Mehra2006}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c2f2135f2f8392e4dd6c0aea582b4bc3}{%
-           family={Mehra},
-           familyi={M\bibinitperiod},
-           given={Rajnish},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \strng{fullhash}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \strng{fullhashraw}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \strng{bibnamehash}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \strng{authorbibnamehash}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \strng{authornamehash}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \strng{authorfullhash}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \strng{authorfullhashraw}{c2f2135f2f8392e4dd6c0aea582b4bc3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{1}
-      \field{journaltitle}{Foundations and Trends® in Finance}
-      \field{title}{The Equity Premium Puzzle: A Review}
-      \field{volume}{2}
-      \field{year}{2006}
-      \field{pages}{1\bibrangedash 81}
-      \range{pages}{81}
-    \endentry
-    \entry{Mehra1985}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c2f2135f2f8392e4dd6c0aea582b4bc3}{%
-           family={Mehra},
-           familyi={M\bibinitperiod},
-           given={Rajnish},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7c33f6de320158f1138eff5e1820c068}{%
-           family={Prescott},
-           familyi={P\bibinitperiod},
-           given={Edward\bibnamedelima C.},
-           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \strng{fullhash}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \strng{fullhashraw}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \strng{bibnamehash}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \strng{authorbibnamehash}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \strng{authornamehash}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \strng{authorfullhash}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \strng{authorfullhashraw}{a4beba47da0d5bc82ffb61ca00daf40c}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{2}
-      \field{journaltitle}{Journal of Monetary Economics}
-      \field{month}{3}
-      \field{title}{The equity premium: A puzzle}
-      \field{volume}{15}
-      \field{year}{1985}
-      \field{pages}{145\bibrangedash 161}
-      \range{pages}{17}
-    \endentry
-    \entry{Merton1969}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b1e2894bce14479f5a711418ce8f8ffa}{%
-           family={Merton},
-           familyi={M\bibinitperiod},
-           given={Robert\bibnamedelima C.},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b1e2894bce14479f5a711418ce8f8ffa}
-      \strng{fullhash}{b1e2894bce14479f5a711418ce8f8ffa}
-      \strng{fullhashraw}{b1e2894bce14479f5a711418ce8f8ffa}
-      \strng{bibnamehash}{b1e2894bce14479f5a711418ce8f8ffa}
-      \strng{authorbibnamehash}{b1e2894bce14479f5a711418ce8f8ffa}
-      \strng{authornamehash}{b1e2894bce14479f5a711418ce8f8ffa}
-      \strng{authorfullhash}{b1e2894bce14479f5a711418ce8f8ffa}
-      \strng{authorfullhashraw}{b1e2894bce14479f5a711418ce8f8ffa}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{3}
-      \field{journaltitle}{The Review of Economics and Statistics}
-      \field{month}{8}
-      \field{title}{Lifetime Portfolio Selection under Uncertainty: The Continuous-Time Case}
-      \field{volume}{51}
-      \field{year}{1969}
-      \field{pages}{247}
-      \range{pages}{1}
-    \endentry
-    \entry{Quiggin1982}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6a05a4fccb05bdcb11b3182c5dbad7f7}{%
-           family={Quiggin},
-           familyi={Q\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \strng{fullhash}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \strng{fullhashraw}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \strng{bibnamehash}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \strng{authorbibnamehash}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \strng{authornamehash}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \strng{authorfullhash}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \strng{authorfullhashraw}{6a05a4fccb05bdcb11b3182c5dbad7f7}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{4}
-      \field{journaltitle}{Journal of Economic Behavior \& Organization}
-      \field{month}{12}
-      \field{title}{A theory of anticipated utility}
-      \field{volume}{3}
-      \field{year}{1982}
-      \field{pages}{323\bibrangedash 343}
-      \range{pages}{21}
-    \endentry
-    \entry{Routledge2010}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5860c9355d212f79c817db3df0dcf5a2}{%
-           family={Routledge},
-           familyi={R\bibinitperiod},
-           given={Bryan\bibnamedelima R.},
-           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=68d2f41fffb1fcdac4e570763a21a595}{%
-           family={Zin},
-           familyi={Z\bibinitperiod},
-           given={Stanley\bibnamedelima E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1cd77f7c13fbec53f36222843bea6e95}
-      \strng{fullhash}{1cd77f7c13fbec53f36222843bea6e95}
-      \strng{fullhashraw}{1cd77f7c13fbec53f36222843bea6e95}
-      \strng{bibnamehash}{1cd77f7c13fbec53f36222843bea6e95}
-      \strng{authorbibnamehash}{1cd77f7c13fbec53f36222843bea6e95}
-      \strng{authornamehash}{1cd77f7c13fbec53f36222843bea6e95}
-      \strng{authorfullhash}{1cd77f7c13fbec53f36222843bea6e95}
-      \strng{authorfullhashraw}{1cd77f7c13fbec53f36222843bea6e95}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{abstract}{We characterize generalized disappointment aversion (GDA) risk preferences that can overweight lower‐tail outcomes relative to expected utility. We show in an endowment economy that recursive utility with GDA risk preferences generates effective risk aversion that is countercyclical. This feature comes from endogenous variation in the probability of disappointment in the representative agent's intertemporal consumption‐saving problem that underlies the asset pricing model. The variation in effective risk aversion produces a large equity premium and a risk‐free rate that is procyclical and has low volatility in an economy with a simple autoregressive endowment‐growth process.}
-      \field{issue}{4}
-      \field{journaltitle}{The Journal of Finance}
-      \field{month}{8}
-      \field{title}{Generalized Disappointment Aversion and Asset Prices}
-      \field{volume}{65}
-      \field{year}{2010}
-      \field{pages}{1303\bibrangedash 1332}
-      \range{pages}{30}
-    \endentry
-    \entry{Samuelson1969}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=78270c793a8e0c5fa92c64dca4b6a2b8}{%
-           family={Samuelson},
-           familyi={S\bibinitperiod},
-           given={Paul\bibnamedelima A.},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \strng{fullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \strng{fullhashraw}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \strng{bibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \strng{authorbibnamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \strng{authornamehash}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \strng{authorfullhash}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \strng{authorfullhashraw}{78270c793a8e0c5fa92c64dca4b6a2b8}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{issue}{3}
-      \field{journaltitle}{The Review of Economics and Statistics}
-      \field{month}{8}
-      \field{title}{Lifetime Portfolio Selection By Dynamic Stochastic Programming}
-      \field{volume}{51}
-      \field{year}{1969}
-      \field{pages}{239}
-      \range{pages}{1}
-    \endentry
-    \entry{Schreindorfer2020}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=63e0b63f847d3e38068ce830f5459f86}{%
-           family={Schreindorfer},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{63e0b63f847d3e38068ce830f5459f86}
-      \strng{fullhash}{63e0b63f847d3e38068ce830f5459f86}
-      \strng{fullhashraw}{63e0b63f847d3e38068ce830f5459f86}
-      \strng{bibnamehash}{63e0b63f847d3e38068ce830f5459f86}
-      \strng{authorbibnamehash}{63e0b63f847d3e38068ce830f5459f86}
-      \strng{authornamehash}{63e0b63f847d3e38068ce830f5459f86}
-      \strng{authorfullhash}{63e0b63f847d3e38068ce830f5459f86}
-      \strng{authorfullhashraw}{63e0b63f847d3e38068ce830f5459f86}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{abstract}{I document that dividend growth and returns on the aggregate U.S. stock market are more correlated with consumption growth in bad economic times. In a consumption-based asset pricing model with a generalized disappointment-averse investor and small, IID consumption shocks, this feature results in a realistic equity premium despite low risk aversion. The model is consistent with the main facts about stock market risk premiums inferred from equity index options, remains tightly parameterized, and allows for analytical solutions for asset prices. An extension with non-IID dynamics accounts for excess volatility and return predictability, while preserving the model’s consistency with option moments.}
-      \field{issue}{8}
-      \field{journaltitle}{The Review of Financial Studies}
-      \field{month}{8}
-      \field{title}{Macroeconomic Tail Risks and Asset Prices}
-      \field{volume}{33}
-      \field{year}{2020}
-      \field{pages}{3541\bibrangedash 3582}
-      \range{pages}{42}
-    \endentry
-    \entry{Mateo2024}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9eccca9a71c5bb0c3313ff1af79c70a1}{%
-           family={Velásquez-Giraldo},
-           familyi={V\bibinithyphendelim G\bibinitperiod},
-           given={Mateo},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \strng{fullhash}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \strng{fullhashraw}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \strng{bibnamehash}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \strng{authorbibnamehash}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \strng{authornamehash}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \strng{authorfullhash}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \strng{authorfullhashraw}{9eccca9a71c5bb0c3313ff1af79c70a1}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Unpublished Manuscript}
-      \field{title}{Life-Cycle Portfolio Choices and Heterogeneous Stock Market Expectations}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://mateovg.com/files/pdf/JMP_VelasquezGiraldoM.pdf
-      \endverb
-      \verb{url}
-      \verb https://mateovg.com/files/pdf/JMP_VelasquezGiraldoM.pdf
-      \endverb
-    \endentry
-    \entry{Viceira2001}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ceaafd3c73a96faaed001284cb4edd80}{%
-           family={Viceira},
-           familyi={V\bibinitperiod},
-           given={Luis\bibnamedelima M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ceaafd3c73a96faaed001284cb4edd80}
-      \strng{fullhash}{ceaafd3c73a96faaed001284cb4edd80}
-      \strng{fullhashraw}{ceaafd3c73a96faaed001284cb4edd80}
-      \strng{bibnamehash}{ceaafd3c73a96faaed001284cb4edd80}
-      \strng{authorbibnamehash}{ceaafd3c73a96faaed001284cb4edd80}
-      \strng{authornamehash}{ceaafd3c73a96faaed001284cb4edd80}
-      \strng{authorfullhash}{ceaafd3c73a96faaed001284cb4edd80}
-      \strng{authorfullhashraw}{ceaafd3c73a96faaed001284cb4edd80}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{abstract}{This paper examines how risky labor income and retirement affect optimal portfolio choice. With idiosyncratic labor income risk, the optimal allocation to stocks is unambiguously larger for employed investors than for retired investors, consistent with the typical recommendations of investment advisors. Increasing idiosyncratic labor income risk raises investors' willingness to save and reduces their stock portfolio allocation towards the level of retired investors. Positive correlation between labor income and stock returns has a further negative effect and can actually reduce stockholdings below the level of retired investors.}
-      \field{issue}{2}
-      \field{journaltitle}{The Journal of Finance}
-      \field{month}{4}
-      \field{title}{Optimal Portfolio Choice for Long‐Horizon Investors with Nontradable Labor Income}
-      \field{volume}{56}
-      \field{year}{2001}
-      \field{pages}{433\bibrangedash 470}
-      \range{pages}{38}
-    \endentry
-  \enddatalist
-\endrefsection
-\endinput
+\harvarditem[Bagliano et~al.]{Bagliano, Fugazza \harvardand\
+  Nicodano}{2014}{Bagliano2014}
+Bagliano, F.~C., Fugazza, C. \harvardand\ Nicodano, G.  \harvardyearleft
+  2014\harvardyearright , `Optimal life-cycle portfolios for heterogeneous
+  workers', {\em Review of Finance} {\bf 18},~2283--2323.
 
+\harvarditem{Baxter \harvardand\ Jermann}{1997}{Baxter1997}
+Baxter, M. \harvardand\ Jermann, U.~J.  \harvardyearleft 1997\harvardyearright
+  , `The international diversification puzzle is worse than you think', {\em
+  American Economic Review} {\bf 87},~170--180.
+
+\harvarditem[Benzoni et~al.]{Benzoni, Collin‐Dufresne \harvardand\
+  Goldstein}{2007}{Benzoni2007}
+Benzoni, L., Collin‐Dufresne, P. \harvardand\ Goldstein, R.~S.
+  \harvardyearleft 2007\harvardyearright , `Portfolio choice over the
+  life‐cycle when the stock and labor markets are cointegrated', {\em The
+  Journal of Finance} {\bf 62},~2123--2167.
+
+\harvarditem[Briggs et~al.]{Briggs, Cesarini, Lindqvist \harvardand\
+  Östling}{2021}{Briggs2021}
+Briggs, J., Cesarini, D., Lindqvist, E. \harvardand\ Östling, R.
+  \harvardyearleft 2021\harvardyearright , `Windfall gains and stock market
+  participation', {\em Journal of Financial Economics} {\bf 139},~57--83.
+
+\harvarditem{Campbell}{1996}{Campbell1996}
+Campbell, J.~Y.  \harvardyearleft 1996\harvardyearright , `Understanding risk
+  and return', {\em Journal of Political Economy} {\bf 104},~298--345.
+
+\harvarditem{Carroll}{1992}{Carroll1992}
+Carroll, C.~D.  \harvardyearleft 1992\harvardyearright , `The buffer-stock
+  theory of saving: Some macroeconomic evidence', {\em Brookings Papers on
+  Economic Activity} {\bf 1992},~61.
+
+\harvarditem{Carroll}{1997}{Carroll1997}
+Carroll, C.~D.  \harvardyearleft 1997\harvardyearright , `Buffer-stock saving
+  and the life cycle/permanent income hypothesis', {\em The Quarterly Journal
+  of Economics} {\bf 112},~1--55.
+
+\harvarditem{Carroll}{2006}{Carroll2006}
+Carroll, C.~D.  \harvardyearleft 2006\harvardyearright , `The method of
+  endogenous gridpoints for solving dynamic stochastic optimization problems',
+  {\em Economics Letters} {\bf 91},~312--320.
+
+\harvarditem[Constantinides et~al.]{Constantinides, Donaldson \harvardand\
+  Mehra}{2002}{Constantinides2002}
+Constantinides, G.~M., Donaldson, J.~B. \harvardand\ Mehra, R.
+  \harvardyearleft 2002\harvardyearright , `Junior can't borrow: A new
+  perspective on the equity premium puzzle', {\em The Quarterly Journal of
+  Economics} {\bf 117},~269--296.
+
+\harvarditem[Davis et~al.]{Davis, Kubler \harvardand\ Willen}{2006}{Davis2006}
+Davis, S.~J., Kubler, F. \harvardand\ Willen, P.  \harvardyearleft
+  2006\harvardyearright , `Borrowing costs and the demand for equity over the
+  life cycle', {\em Review of Economics and Statistics} {\bf 88},~348--362.
+
+\harvarditem{Deaton}{1991}{Deaton1991}
+Deaton, A.  \harvardyearleft 1991\harvardyearright , `Saving and liquidity
+  constraints', {\em Econometrica} {\bf 59},~1221.
+
+\harvarditem{Dominitz \harvardand\ Manski}{2007}{Dominitz2007}
+Dominitz, J. \harvardand\ Manski, C.~F.  \harvardyearleft 2007\harvardyearright
+  , `Expected equity returns and portfolio choice: Evidence from the health and
+  retirement study', {\em Journal of the European Economic Association} {\bf
+  5},~369--379.
+
+\harvarditem{Gul}{1991}{Gul1991}
+Gul, F.  \harvardyearleft 1991\harvardyearright , `A theory of disappointment
+  aversion', {\em Econometrica} {\bf 59},~667--686.
+
+\harvarditem{Haliassos \harvardand\ Bertaut}{1995}{Haliassos1995}
+Haliassos, M. \harvardand\ Bertaut, C.~C.  \harvardyearleft
+  1995\harvardyearright , `Why do so few hold stocks?', {\em The Economic
+  Journal} {\bf 105},~1110--1129.
+
+\harvarditem{Haliassos \harvardand\ Hassapis}{1998}{Haliassos1998}
+Haliassos, M. \harvardand\ Hassapis, C.  \harvardyearleft 1998\harvardyearright
+  , `Borrowing constraints, portfolio choice, and precautionary motives:
+  Theoretical predictions and empirical complications', {\em SSRN Electronic
+  Journal} .
+
+\harvarditem{Haliassos \harvardand\ Hassapis}{2001}{Haliassos2001}
+Haliassos, M. \harvardand\ Hassapis, C.  \harvardyearleft 2001\harvardyearright
+  , `Non‐expected utility, saving and portfolios', {\em The Economic Journal}
+  {\bf 111},~69--102.
+
+\harvarditem{Harenberg}{2018}{Harenberg2018}
+Harenberg, D.  \harvardyearleft 2018\harvardyearright , Asset pricing in olg
+  economies with borrowing constraints and idiosyncratic income risk, Working
+  paper, Goethe University, Frankfurt.
+
+\harvarditem{Jang \harvardand\ Park}{2015}{Jang2015}
+Jang, B.-G. \harvardand\ Park, S.  \harvardyearleft 2015\harvardyearright ,
+  Consumption, retirement, and asset allocation with unemployment risks and
+  borrowing constraints.
+\newblock Accessed November 21, 2024.
+\newline\harvardurl{\href{http://www.korfin.org/korfin_file/forum/15fall6-3.pdf}{\emph{http://www.korfin.org/korfin\_file/forum/15fall6-3.pdf}}}
+
+\harvarditem[Kogan et~al.]{Kogan, Makarov \harvardand\ Uppal}{2007}{Kogan2007}
+Kogan, L., Makarov, I. \harvardand\ Uppal, R.  \harvardyearleft
+  2007\harvardyearright , `The equity risk premium and the riskfree rate in an
+  economy with borrowing constraints', {\em Mathematics and Financial
+  Economics} {\bf 1},~1--19.
+
+\harvarditem{Koo}{1999}{Koo1999}
+Koo, H.~K.  \harvardyearleft 1999\harvardyearright , `Consumption and portfolio
+  selection with labor income: A discrete-time approach', {\em Mathematical
+  Methods of Operations Research (ZOR)} {\bf 50},~219--243.
+
+\harvarditem{Kreps \harvardand\ Porteus}{1978}{Kreps1978}
+Kreps, D.~M. \harvardand\ Porteus, E.~L.  \harvardyearleft
+  1978\harvardyearright , `Temporal resolution of uncertainty and dynamic
+  choice theory', {\em Econometrica} {\bf 46},~185--200.
+
+\harvarditem{Mehra}{2006}{Mehra2006}
+Mehra, R.  \harvardyearleft 2006\harvardyearright , `The equity premium puzzle:
+  A review', {\em Foundations and Trends® in Finance} {\bf 2},~1--81.
+
+\harvarditem{Mehra \harvardand\ Prescott}{1985}{Mehra1985}
+Mehra, R. \harvardand\ Prescott, E.~C.  \harvardyearleft 1985\harvardyearright
+  , `The equity premium: A puzzle', {\em Journal of Monetary Economics} {\bf
+  15},~145--161.
+
+\harvarditem{Merton}{1969}{Merton1969}
+Merton, R.~C.  \harvardyearleft 1969\harvardyearright , `Lifetime portfolio
+  selection under uncertainty: The continuous-time case', {\em The Review of
+  Economics and Statistics} {\bf 51},~247.
+
+\harvarditem{Quiggin}{1982}{Quiggin1982}
+Quiggin, J.  \harvardyearleft 1982\harvardyearright , `A theory of anticipated
+  utility', {\em Journal of Economic Behavior \& Organization} {\bf
+  3},~323--343.
+
+\harvarditem{Routledge \harvardand\ Zin}{2010}{Routledge2010}
+Routledge, B.~R. \harvardand\ Zin, S.~E.  \harvardyearleft
+  2010\harvardyearright , `Generalized disappointment aversion and asset
+  prices', {\em The Journal of Finance} {\bf 65},~1303--1332.
+
+\harvarditem{Samuelson}{1969}{Samuelson1969}
+Samuelson, P.~A.  \harvardyearleft 1969\harvardyearright , `Lifetime portfolio
+  selection by dynamic stochastic programming', {\em The Review of Economics
+  and Statistics} {\bf 51},~239.
+
+\harvarditem{Schreindorfer}{2020}{Schreindorfer2020}
+Schreindorfer, D.  \harvardyearleft 2020\harvardyearright , `Macroeconomic tail
+  risks and asset prices', {\em The Review of Financial Studies} {\bf
+  33},~3541--3582.
+
+\harvarditem{Velásquez-Giraldo}{2024}{Mateo2024}
+Velásquez-Giraldo, M.  \harvardyearleft 2024\harvardyearright , Life-cycle
+  portfolio choices and heterogeneous stock market expectations.
+\newblock Accessed November 19, 2024.
+\newline\harvardurl{\href{https://mateovg.com/files/pdf/JMP_VelasquezGiraldoM.pdf}{\emph{https://mateovg.com/files/pdf/JMP\_VelasquezGiraldoM.pdf}}}
+
+\harvarditem{Viceira}{2001}{Viceira2001}
+Viceira, L.~M.  \harvardyearleft 2001\harvardyearright , `Optimal portfolio
+  choice for long‐horizon investors with nontradable labor income', {\em The
+  Journal of Finance} {\bf 56},~433--470.
+
+\end{thebibliography}

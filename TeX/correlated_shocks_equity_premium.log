@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.5)  21 NOV 2024 17:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.5)  21 NOV 2024 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -421,249 +421,13 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@prop=\count318
 \c@crl=\count319
 \c@remark=\count320
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\biblatex-chicago.sty
-Package: biblatex-chicago 2022/07/02 v 3.18 biblatex style
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
-\xs_counta=\count321
-\xs_countb=\count322
-)
-Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-) (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count323
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count324
-\c@listtotal=\count325
-\c@listcount=\count326
-\c@liststart=\count327
-\c@liststop=\count328
-\c@citecount=\count329
-\c@citetotal=\count330
-\c@multicitecount=\count331
-\c@multicitetotal=\count332
-\c@instcount=\count333
-\c@maxnames=\count334
-\c@minnames=\count335
-\c@maxitems=\count336
-\c@minitems=\count337
-\c@citecounter=\count338
-\c@maxcitecounter=\count339
-\c@savedcitecounter=\count340
-\c@uniquelist=\count341
-\c@uniquename=\count342
-\c@refsection=\count343
-\c@refsegment=\count344
-\c@maxextratitle=\count345
-\c@maxextratitleyear=\count346
-\c@maxextraname=\count347
-\c@maxextradate=\count348
-\c@maxextraalpha=\count349
-\c@abbrvpenalty=\count350
-\c@highnamepenalty=\count351
-\c@lownamepenalty=\count352
-\c@maxparens=\count353
-\c@parenlevel=\count354
-\blx@tempcnta=\count355
-\blx@tempcntb=\count356
-\blx@tempcntc=\count357
-\c@blx@maxsection=\count358
-\blx@maxsegment@0=\count359
-\blx@notetype=\count360
-\blx@parenlevel@text=\count361
-\blx@parenlevel@foot=\count362
-\blx@sectionciteorder@0=\count363
-\blx@sectionciteorderinternal@0=\count364
-\blx@entrysetcounter=\count365
-\blx@biblioinstance=\count366
-\labelnumberwidth=\skip80
-\labelalphawidth=\skip81
-\biblabelsep=\skip82
-\bibitemsep=\skip83
-\bibnamesep=\skip84
-\bibinitsep=\skip85
-\bibparsep=\skip86
-\bibhang=\skip87
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language79
-\c@mincomprange=\count367
-\c@maxcomprange=\count368
-\c@mincompwidth=\count369
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count370
-\c@savedafterword=\count371
-\c@annotator=\count372
-\c@savedannotator=\count373
-\c@author=\count374
-\c@savedauthor=\count375
-\c@bookauthor=\count376
-\c@savedbookauthor=\count377
-\c@commentator=\count378
-\c@savedcommentator=\count379
-\c@editor=\count380
-\c@savededitor=\count381
-\c@editora=\count382
-\c@savededitora=\count383
-\c@editorb=\count384
-\c@savededitorb=\count385
-\c@editorc=\count386
-\c@savededitorc=\count387
-\c@foreword=\count388
-\c@savedforeword=\count389
-\c@holder=\count390
-\c@savedholder=\count391
-\c@introduction=\count392
-\c@savedintroduction=\count393
-\c@namea=\count394
-\c@savednamea=\count395
-\c@nameb=\count396
-\c@savednameb=\count397
-\c@namec=\count398
-\c@savednamec=\count399
-\c@translator=\count400
-\c@savedtranslator=\count401
-\c@shortauthor=\count402
-\c@savedshortauthor=\count403
-\c@shorteditor=\count404
-\c@savedshorteditor=\count405
-\c@labelname=\count406
-\c@savedlabelname=\count407
-\c@institution=\count408
-\c@savedinstitution=\count409
-\c@lista=\count410
-\c@savedlista=\count411
-\c@listb=\count412
-\c@savedlistb=\count413
-\c@listc=\count414
-\c@savedlistc=\count415
-\c@listd=\count416
-\c@savedlistd=\count417
-\c@liste=\count418
-\c@savedliste=\count419
-\c@listf=\count420
-\c@savedlistf=\count421
-\c@location=\count422
-\c@savedlocation=\count423
-\c@organization=\count424
-\c@savedorganization=\count425
-\c@origlocation=\count426
-\c@savedoriglocation=\count427
-\c@origpublisher=\count428
-\c@savedorigpublisher=\count429
-\c@publisher=\count430
-\c@savedpublisher=\count431
-\c@language=\count432
-\c@savedlanguage=\count433
-\c@origlanguage=\count434
-\c@savedoriglanguage=\count435
-\c@pageref=\count436
-\c@savedpageref=\count437
-\shorthandwidth=\skip88
-\shortjournalwidth=\skip89
-\shortserieswidth=\skip90
-\shorttitlewidth=\skip91
-\shortauthorwidth=\skip92
-\shorteditorwidth=\skip93
-\locallabelnumberwidth=\skip94
-\locallabelalphawidth=\skip95
-\localshorthandwidth=\skip96
-\localshortjournalwidth=\skip97
-\localshortserieswidth=\skip98
-\localshorttitlewidth=\skip99
-\localshortauthorwidth=\skip100
-\localshorteditorwidth=\skip101
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count438
-\c@textcitetotal=\count439
-\c@textcitemaxnames=\count440
-\c@biburlbigbreakpenalty=\count441
-\c@biburlbreakpenalty=\count442
-\c@biburlnumpenalty=\count443
-\c@biburlucpenalty=\count444
-\c@biburllcpenalty=\count445
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count446
-)
-Package biblatex Info: Trying to load natbib compatibility...
-Package biblatex Info: ... file 'blx-natbib.def' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
-File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
-)
-Package biblatex Info: Trying to load bibliography style 'chicago-authordate'...
-Package biblatex Info: ... file 'chicago-authordate.bbx' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicago-authordate.bbx
-File: chicago-authordate.bbx 2022/11/17 v 3.18b biblatex bibliography style
-\lositemsep=\skip102
-Package biblatex Info: Delimiter 'revsdnamedelim' in context '' already defined, overwriting.
-\cms@tempcnta=\count447
-\cms@tempcntb=\count448
-\c@bbx:relatedcount=\count449
-\c@bbx:relatedtotal=\count450
-)
-Package biblatex Info: Trying to load citation style 'chicago-authordate'...
-Package biblatex Info: ... file 'chicago-authordate.cbx' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicago-authordate.cbx
-File: chicago-authordate.cbx 2022/07/02 v 3.18 biblatex citation style
-Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
-Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\chicago-dates-common.cbx
-File: chicago-dates-common.cbx 2024/04/15 v 3.20 biblatex citation style
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\citetitle'.
-Package biblatex Info: Redefining '\footfullcite'.
-Package biblatex Info: Redefining '\fullcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
-\c@cms@punct=\count451
-Package biblatex Info: Delimiter 'dateeradelim' in context '' already defined, overwriting.
-))
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-Package biblatex Info: ... and expl3
-(biblatex)             2024-03-14 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-))) (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+ (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip80
+\bibsep=\skip81
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count321
+) (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
 \FN@temptoken=\toks39
 \footnotemargin=\dimen264
@@ -677,45 +441,42 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
 ) (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count452
+\c@subfigure=\count322
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count453
-)
-\@quotelevel=\count454
-\@quotereset=\count455
- (correlated_shocks_equity_premium.aux)
+\c@subtable=\count323
+) (correlated_shocks_equity_premium.aux)
 \openout1 = `correlated_shocks_equity_premium.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count456
+\scratchcounter=\count324
 \scratchdimen=\dimen266
 \scratchbox=\box62
-\nofMPsegments=\count457
-\nofMParguments=\count458
+\nofMPsegments=\count325
+\nofMParguments=\count326
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count459
+\MPscratchCnt=\count327
 \MPscratchDim=\dimen267
-\MPnumerator=\count460
-\makeMPintoPDFobject=\count461
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
 \everyMPtoPDFconversion=\toks41
 ) (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -735,10 +496,10 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 80.
  (correlated_shocks_equity_premium.out) (correlated_shocks_equity_premium.out)
-\@outlinefile=\write4
-\openout4 = `correlated_shocks_equity_premium.out'.
+\@outlinefile=\write3
+\openout3 = `correlated_shocks_equity_premium.out'.
 
 
 *geometry* driver: auto-detecting
@@ -780,35 +541,7 @@ Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Trying to load language 'english' -> 'cms-american'...
-Package biblatex Info: ... file 'cms-american.lbx' found.
-(C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\cms-american.lbx
-File: cms-american.lbx 2022/07/02 v 3.18 biblatex localization
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.lbx
-File: american.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-))
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-))
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `correlated_shocks_equity_premium.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'correlated_shocks_equity_premium.bbl' found.
- (correlated_shocks_equity_premium.bbl)
-Package biblatex Info: Reference section=0 on input line 81.
-Package biblatex Info: Reference segment=0 on input line 81.
- (Draft 1/title.tex
+(Draft 1/title.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -824,7 +557,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.8 
      [1] [2]) (Draft 1/Sections/model.tex [3] [4] [5] [6] [7] [8]) (Draft 1/Sections/results.tex
-<../Figures/kFunc_baseline.png, id=235, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_baseline.png, id=256, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline.png Graphic file (type png)
 <use ../Figures/kFunc_baseline.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline.png  used on input line 13.
@@ -833,12 +566,12 @@ Package pdftex.def Info: ../Figures/kFunc_baseline.png  used on input line 13.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Figures/kFunc_baseline_corrTransFull.png, id=237, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_baseline_corrTransFull.png, id=258, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corrTransFull.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corrTransFull.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline_corrTransFull.png  used on input line 24.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-<../Figures/kFunc_baseline_corr.png, id=238, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_baseline_corr.png, id=259, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corr.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corr.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline_corr.png  used on input line 30.
@@ -847,22 +580,22 @@ Package pdftex.def Info: ../Figures/kFunc_baseline_corr.png  used on input line 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] [10 <../Figures/kFunc_baseline.png> <../Figures/kFunc_baseline_corrTransFull.png> <../Figures/kFunc_baseline_corr.png>]
-<../Figures/ShareLimit_transInc_baseline.png, id=259, 409.7709pt x 312.2064pt>
+<../Figures/ShareLimit_transInc_baseline.png, id=280, 409.7709pt x 312.2064pt>
 File: ../Figures/ShareLimit_transInc_baseline.png Graphic file (type png)
 <use ../Figures/ShareLimit_transInc_baseline.png>
 Package pdftex.def Info: ../Figures/ShareLimit_transInc_baseline.png  used on input line 54.
 (pdftex.def)             Requested size: 177.56607pt x 135.28943pt.
-<../Figures/ShareLimit_permInc_baseline.png, id=260, 409.7709pt x 312.2064pt>
+<../Figures/ShareLimit_permInc_baseline.png, id=281, 409.7709pt x 312.2064pt>
 File: ../Figures/ShareLimit_permInc_baseline.png Graphic file (type png)
 <use ../Figures/ShareLimit_permInc_baseline.png>
 Package pdftex.def Info: ../Figures/ShareLimit_permInc_baseline.png  used on input line 60.
 (pdftex.def)             Requested size: 177.56607pt x 135.28943pt.
-<../Figures/kFunc_baseline_corrTrans.png, id=265, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_baseline_corrTrans.png, id=286, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corrTrans.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corrTrans.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline_corrTrans.png  used on input line 78.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-<../Figures/kFunc_baseline_corrZoomed.png, id=266, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_baseline_corrZoomed.png, id=287, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corrZoomed.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corrZoomed.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline_corrZoomed.png  used on input line 84.
@@ -872,19 +605,19 @@ Package pdftex.def Info: ../Figures/kFunc_baseline_corrZoomed.png  used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <../Figures/ShareLimit_transInc_baseline.png> <../Figures/ShareLimit_permInc_baseline.png>] [12 <../Figures/kFunc_baseline_corrTrans.png> <../Figures/kFunc_baseline_corrZoomed.png>]
-<../Figures/cFunc_baseline_zoomed.png, id=287, 401.8212pt x 298.4751pt>
+<../Figures/cFunc_baseline_zoomed.png, id=308, 401.8212pt x 298.4751pt>
 File: ../Figures/cFunc_baseline_zoomed.png Graphic file (type png)
 <use ../Figures/cFunc_baseline_zoomed.png>
 Package pdftex.def Info: ../Figures/cFunc_baseline_zoomed.png  used on input line 103.
 (pdftex.def)             Requested size: 271.7835pt x 201.88554pt.
  [13 <../Figures/cFunc_baseline_zoomed.png>] [14]
-<../Figures/wealth_transition_baseline.png, id=305, 385.9218pt x 298.4751pt>
+<../Figures/wealth_transition_baseline.png, id=327, 385.9218pt x 298.4751pt>
 File: ../Figures/wealth_transition_baseline.png Graphic file (type png)
 <use ../Figures/wealth_transition_baseline.png>
 Package pdftex.def Info: ../Figures/wealth_transition_baseline.png  used on input line 139.
 (pdftex.def)             Requested size: 271.7835pt x 210.20636pt.
  [15]
-<../Figures/kFunc_target_baseline.png, id=312, 401.8212pt x 298.4751pt>
+<../Figures/kFunc_target_baseline.png, id=334, 401.8212pt x 298.4751pt>
 File: ../Figures/kFunc_target_baseline.png Graphic file (type png)
 <use ../Figures/kFunc_target_baseline.png>
 Package pdftex.def Info: ../Figures/kFunc_target_baseline.png  used on input line 147.
@@ -894,7 +627,7 @@ Package pdftex.def Info: ../Figures/kFunc_target_baseline.png  used on input lin
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <../Figures/wealth_transition_baseline.png>]) (Draft 1/Sections/zero_inc.tex [17 <../Figures/kFunc_target_baseline.png>]
-<../Figures/ShareLimit_permInc_zeroInc.png, id=329, 409.7709pt x 312.2064pt>
+<../Figures/ShareLimit_permInc_zeroInc.png, id=352, 409.7709pt x 312.2064pt>
 File: ../Figures/ShareLimit_permInc_zeroInc.png Graphic file (type png)
 <use ../Figures/ShareLimit_permInc_zeroInc.png>
 Package pdftex.def Info: ../Figures/ShareLimit_permInc_zeroInc.png  used on input line 29.
@@ -904,28 +637,28 @@ Package pdftex.def Info: ../Figures/ShareLimit_permInc_zeroInc.png  used on inpu
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18]
-<../Figures/kFunc_zeroInc_target.png, id=336, 401.8212pt x 298.4751pt>
+<../Figures/kFunc_zeroInc_target.png, id=359, 401.8212pt x 298.4751pt>
 File: ../Figures/kFunc_zeroInc_target.png Graphic file (type png)
 <use ../Figures/kFunc_zeroInc_target.png>
 Package pdftex.def Info: ../Figures/kFunc_zeroInc_target.png  used on input line 38.
 (pdftex.def)             Requested size: 271.7835pt x 201.88554pt.
  [19 <../Figures/ShareLimit_permInc_zeroInc.png> <../Figures/kFunc_zeroInc_target.png>] [20]
-<../Figures/kFunc_US_rho4.png, id=368, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_US_rho4.png, id=403, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_US_rho4.png Graphic file (type png)
 <use ../Figures/kFunc_US_rho4.png>
 Package pdftex.def Info: ../Figures/kFunc_US_rho4.png  used on input line 79.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-<../Figures/kFunc_US_rho12.png, id=369, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_US_rho12.png, id=404, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_US_rho12.png Graphic file (type png)
 <use ../Figures/kFunc_US_rho12.png>
 Package pdftex.def Info: ../Figures/kFunc_US_rho12.png  used on input line 84.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-<../Figures/kFunc_US_target.png, id=370, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_US_target.png, id=405, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_US_target.png Graphic file (type png)
 <use ../Figures/kFunc_US_target.png>
 Package pdftex.def Info: ../Figures/kFunc_US_target.png  used on input line 97.
 (pdftex.def)             Requested size: 199.75972pt x 150.8221pt.
-<../Figures/kFunc_US_zeroInc.png, id=371, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_US_zeroInc.png, id=406, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_US_zeroInc.png Graphic file (type png)
 <use ../Figures/kFunc_US_zeroInc.png>
 Package pdftex.def Info: ../Figures/kFunc_US_zeroInc.png  used on input line 102.
@@ -935,7 +668,7 @@ Package pdftex.def Info: ../Figures/kFunc_US_zeroInc.png  used on input line 102
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [21 <../Figures/kFunc_US_rho4.png> <../Figures/kFunc_US_rho12.png>] (Draft 1/Sections/discussion.tex [22 <../Figures/kFunc_US_target.png> <../Figures/kFunc_US_zeroInc.png>] [23] [24]) (Draft 1/appendix.tex [25] (Draft 1/Appendices/last_prd_portfolio.tex
-<../Figures/kFunc_LastPrd.png, id=423, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_LastPrd.png, id=473, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_LastPrd.png Graphic file (type png)
 <use ../Figures/kFunc_LastPrd.png>
 Package pdftex.def Info: ../Figures/kFunc_LastPrd.png  used on input line 5.
@@ -945,35 +678,22 @@ Overfull \hbox (14.85793pt too wide) detected at line 23
 []
  []
 
-[26 <../Figures/kFunc_LastPrd.png>]))) [27]
-Overfull \hbox (8.28934pt too wide) in paragraph at lines 90--90
-[][]\T1/cmr/m/n/12 Mehra, Ra-jnish. 2006. ``The Eq-uity Pre-mium Puz-zle: A Re-view.'' \T1/cmr/m/it/12 Foun-da-tions and Trends\TS1/cmr/m/it/12 ®
- []
-
-
-Overfull \hbox (1.16806pt too wide) in paragraph at lines 90--90
-[][]\T1/cmr/m/n/12 Merton, Robert C. 1969. ``Life-time Port-fo-lio Se-lec-tion un-der Un-cer-tainty: The Continuous-
- []
-
-[28{C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [29] (correlated_shocks_equity_premium.aux)
+[26 <../Figures/kFunc_LastPrd.png>]))) (correlated_shocks_equity_premium.bbl [27] [28{C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) [29] (correlated_shocks_equity_premium.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `correlated_shocks_equity_premium.out' has not changed.
 (rerunfilecheck)             Checksum: 829AD1A6483501F4325B75624D639BE1;4826.
-Package logreq Info: Writing requests to 'correlated_shocks_equity_premium.run.xml'.
-\openout1 = `correlated_shocks_equity_premium.run.xml'.
-
  ) 
 Here is how much of TeX's memory you used:
- 25055 strings out of 474424
- 455804 string characters out of 5741740
- 1942496 words of memory out of 5000000
- 46954 multiletter control sequences out of 15000+600000
+ 15796 strings out of 474424
+ 260360 string characters out of 5741740
+ 1941496 words of memory out of 5000000
+ 37756 multiletter control sequences out of 15000+600000
  582254 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,17n,93p,2006b,3949s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,17n,93p,2006b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
 
@@ -993,9 +713,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on correlated_shocks_equity_premium.pdf (30 pages, 794207 bytes).
+Output written on correlated_shocks_equity_premium.pdf (30 pages, 801316 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 640 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
  278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -149,48 +149,8 @@ INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\rotating.s
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\rotating.sty
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\biblatex-chicago.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\biblatex-chicago.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\generic\xstring\xstring.tex
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-natbib.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-natbib.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-natbib.def
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-authordate.bbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-authordate.bbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-authordate.bbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-authordate.cbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-authordate.cbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-authordate.cbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-dates-common.cbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-dates-common.cbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\chicago-dates-common.cbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\american.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\american.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\footmisc\footmisc.sty
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\footmisc\footmisc.sty
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
@@ -225,22 +185,6 @@ OUTPUT correlated_shocks_equity_premium.pdf
 INPUT .\correlated_shocks_equity_premium.out
 INPUT .\correlated_shocks_equity_premium.out
 OUTPUT correlated_shocks_equity_premium.out
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\cms-american.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\cms-american.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\cms-american.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\american.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT correlated_shocks_equity_premium.bcf
-INPUT correlated_shocks_equity_premium.bbl
-INPUT .\correlated_shocks_equity_premium.bbl
-INPUT .\correlated_shocks_equity_premium.bbl
-INPUT .\correlated_shocks_equity_premium.bbl
-INPUT correlated_shocks_equity_premium.bbl
 INPUT .\Draft 1\title.tex
 INPUT .\Draft 1\title.tex
 INPUT .\Draft 1\title.tex
@@ -458,13 +402,14 @@ INPUT .\Draft 1\Appendices\excess_return_linear.tex
 INPUT .\Draft 1\Appendices\excess_return_linear.tex
 INPUT .\Draft 1\Appendices\excess_return_linear.tex
 INPUT Draft 1\Appendices\excess_return_linear.tex
+INPUT .\correlated_shocks_equity_premium.bbl
+INPUT .\correlated_shocks_equity_premium.bbl
+INPUT correlated_shocks_equity_premium.bbl
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcti1200.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
 INPUT correlated_shocks_equity_premium.aux
 INPUT .\correlated_shocks_equity_premium.out
 INPUT .\correlated_shocks_equity_premium.out
-INPUT correlated_shocks_equity_premium.run.xml
-OUTPUT correlated_shocks_equity_premium.run.xml
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb

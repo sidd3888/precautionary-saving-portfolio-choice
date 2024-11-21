@@ -3,7 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx} % Required for inserting 
 \graphicspath{{../Figures/}}
-\usepackage[hidelinks, colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=cyan]{hyperref}
+\usepackage[hidelinks, colorlinks=true, linkcolor=blue, citecolor=cyan, urlcolor=blue]{hyperref}
 \usepackage[
     a4paper,
     margin=1in
@@ -52,16 +52,15 @@
 \newcommand{\sims}{I}
 \newcommand{\rev}[1]{#1^{-}}
 
-\newcommand{\cd}{Draft 1}
+\newcommand{\cd}{Draft 1} % Choose the version of the paper to render
 
 \newcommand{\pdd}[3]{\frac{\partial^2 #1}{\partial {#2}^2}\Bigg|_{#3}}
 
 % \newcommand{\pd2}[3]{\frac{\partial^2 #1}{\partial {#2}^2}\Big|_{#3}}
 
-\usepackage[authordate, backend=biber, maxcitenames=2, natbib=true]{biblatex-chicago}
-% \usepackage[backend=biber, natbib=true, maxcitenames=2]{biblatex}
-\addbibresource{References.bib}
-% \usepackage{natbib}
+% \usepackage[authordate, backend=biber, maxcitenames=2, natbib=true]{biblatex-chicago}
+% \addbibresource{References.bib}
+\usepackage{natbib}
 \usepackage[hang, flushmargin]{footmisc}
 
 \usepackage{caption}
@@ -86,9 +85,9 @@
 
 \input{\cd/body}
 
-\printbibliography
+% \printbibliography
 
-% \bibliographystyle{agsm}
-% \bibliography{References}
+\bibliographystyle{agsm}
+\bibliography{References}
 
 \end{document}

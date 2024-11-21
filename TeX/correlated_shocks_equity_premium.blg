@@ -1,16 +1,48 @@
-[1] Config.pm:308> INFO - This is Biber 2.20
-[2] Config.pm:311> INFO - Logfile is 'correlated_shocks_equity_premium.blg'
-[295] biber-MSWIN64:340> INFO - === 
-[394] Biber.pm:420> INFO - Reading 'correlated_shocks_equity_premium.bcf'
-[1010] Biber.pm:994> INFO - Found 30 citekeys in bib section 0
-[1039] Biber.pm:4463> INFO - Processing section 0
-[1069] Biber.pm:4654> INFO - Looking for bibtex file 'References.bib' for section 0
-[1183] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1278] bibtex.pm:1519> INFO - Found BibTeX data source 'References.bib'
-[1616] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1616] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1616] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
-[1616] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'en-US'
-[1616] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[1681] bbl.pm:676> INFO - Writing 'correlated_shocks_equity_premium.bbl' with encoding 'UTF-8'
-[1711] bbl.pm:779> INFO - Output to correlated_shocks_equity_premium.bbl
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: correlated_shocks_equity_premium.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+The style file: agsm.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: References.bib
+You've used 31 entries,
+            2909 wiz_defined-function locations,
+            863 strings with 9599 characters,
+and the built_in function-call counts, 103831 in all, are:
+= -- 16700
+> -- 1271
+< -- 0
++ -- 7746
+- -- 378
+* -- 8797
+:= -- 21295
+add.period$ -- 33
+call.type$ -- 31
+change.case$ -- 435
+chr.to.int$ -- 31
+cite$ -- 31
+duplicate$ -- 476
+empty$ -- 1014
+format.name$ -- 486
+if$ -- 18571
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 28
+newline$ -- 100
+num.names$ -- 316
+pop$ -- 87
+preamble$ -- 1
+purify$ -- 465
+quote$ -- 0
+skip$ -- 399
+stack$ -- 0
+substring$ -- 23424
+swap$ -- 83
+text.length$ -- 434
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 124
+warning$ -- 0
+while$ -- 678
+width$ -- 0
+write$ -- 392
