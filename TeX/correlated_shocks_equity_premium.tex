@@ -3,7 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx} % Required for inserting 
 \graphicspath{{../Figures/}}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks, colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=cyan]{hyperref}
 \usepackage[
     a4paper,
     margin=1in
@@ -54,9 +54,15 @@
 
 \newcommand{\cd}{Draft 1}
 
+\newcommand{\pdd}[3]{\frac{\partial^2 #1}{\partial {#2}^2}\Bigg|_{#3}}
+
+% \newcommand{\pd2}[3]{\frac{\partial^2 #1}{\partial {#2}^2}\Big|_{#3}}
+
 \usepackage[authordate, backend=biber, maxcitenames=2, natbib=true]{biblatex-chicago}
-\usepackage[hang, flushmargin]{footmisc}
+% \usepackage[backend=biber, natbib=true, maxcitenames=2]{biblatex}
 \addbibresource{References.bib}
+% \usepackage{natbib}
+\usepackage[hang, flushmargin]{footmisc}
 
 \usepackage{caption}
 \usepackage{subcaption}
@@ -65,9 +71,9 @@
 % \@addtoreset{prop}{section}
 % \makeatother
 
-\title{Equity premium and correlated shocks}
+\title{Portfolio choice with correlated income growth and equity return shocks}
 \author{Siddarth Venkatesh}
-\date{November 05, 2024}
+\date{November 21, 2024}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1em}
@@ -79,5 +85,10 @@
 \onehalfspacing
 
 \input{\cd/body}
+
+\printbibliography
+
+% \bibliographystyle{agsm}
+% \bibliography{References}
 
 \end{document}

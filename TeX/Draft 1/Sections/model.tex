@@ -1,10 +1,10 @@
-\section{Model}
+\section{Model}\label{model}
 
 \subsection{The basic problem}
 
 I start by examining the basic consumption-saving problem. The individual maximizes their discounted lifetime utility from the consumption stream $\bc{C_{t}}_{t=0}^{T}$, where $T = \infty$ in the infinite-horizon model
 \begin{equation}\label{eq:prb}
-   \max_{\bc{C_t}_{t=0}^{T}}\E_{t}\sum_{t=0}^{T}\b^t u(C_t)
+   \max_{\bc{C_t}_{t=0}^{T}}\E_{0}\sum_{t=0}^{T}\b^t u(C_t)
 \end{equation}
 subject to the period-wise constraints
 \begin{align*}
@@ -23,11 +23,11 @@ where $\G_t$ is the predictable component of the growth of permanent income, and
     W_{t+1} &= \overbrace{\bp{\Rfix + \k_{t+1}(\Rfree_{t+1} - \Rfix)}}^{\Rc_{t+1}}A_{t+1} \label{eq:wealth}\\
     \Rfree_{t+1} &= \Rfree \nu_{t+1} \label{eq:return}
 \end{align}
-where $\Rfree_{t+1}$ is the return on the investments made in the risky asset in period $t$, $\nu_{t+1}$ is a mean-one shock, and $\Rc_{t+1}$ is the effective rate of return on assets stemming from the portfolio optimization decision $\k_{t+1}$. I impose an artificial borrowing constraint on the consumer that limits their borrowing as a proportion of their permanent income,
+where $\Rfree_{t+1}$ is the return on the investments made in the risky asset in period $t$, $\nu_{t+1}$ is a mean-one shock, and $\Rc_{t+1}$ is the effective rate of return on assets stemming from the portfolio optimization decision $\k_{t+1}$. The choice of $\k_{t+1}$ is restricted to the interval $\bs{0,\,1}$, thus precluding debt-financed equity positions. I impose an artificial borrowing constraint on the consumer that limits their borrowing as a proportion of their permanent income,
 \[
 A_{t+1} \geq \underline{a}P_{t} \tag{$\underline{a} \leq 0$}
 \]
-We can then use equation (\ref{eq:wealth}) rewrite the period budget constraint as
+It is reasonable to model borrowing limits as dependent on permanent income, which is something that is observed practically. In the context of this problem, it also aids in preserving its homotheticity. I set $\underline{a} = 0$ to focus purely on how savings are allocated between the two assets. We can then use equation (\ref{eq:wealth}) rewrite the period budget constraint as
 \[
 W_{t+1} = \Rc_{t+1}(W_{t} + Y_{t} - C_{t})
 \]
@@ -62,24 +62,32 @@ Then using the same conditions under optimality for period $t+1$, replace $v'(m_
 \begin{equation}\label{eq:euler}
     c_t^{-\rho} = \b \E_{t}\bs{\Rc_{t+1}(\Gc_{t+1}c_{t+1})^{-\rho}}
 \end{equation}
-while the first order condition for $\k_{t+1}$ is given by
-% \begin{align*}
-%     \b \E_{t} \bs{\Gc_{t+1}^{-\rho}(\Rfree_{t+1} - \Rfix)(m_t - c_t)v'(m_{t+1})} &= 0\\
-%     \E_{t}\bs{\Gc_{t+1}^{-\rho}(\Rfree_{t+1} - \Rfix)(m_t - c_t)u'(c_{t+1})} &= 0
-% \end{align*}
+The optimality condition for the portfolio share, $\k_{t+1}$ is slightly trickier, given that it is bounded by $\bs{0,\,1}$. Finally, note that portfolio share is irrelevant when $a_{t+1} = 0$, which means that we can only pin it down for when $a_{t+1} \neq 0$. In that case, a choice of $\k_{t+1}$ is optimal if
 \begin{equation}\label{eq:excess_return}
-    a_{t+1}\E_{t}\bs{\bp{\Rfree_{t+1} - \Rfix}(\Gc_{t+1}c_{t+1})^{-\rho}} = 0
+    \begin{cases}
+        \E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} = 0 & \k_{t+1} \in \bp{0,\,1}\\
+        \E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} \geq 0 & \k_{t+1} = 1\\
+        \E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} \leq 0 & \k_{t+1} = 0
+    \end{cases}
 \end{equation}
-When optimal $a_{t+1} \neq 0$, then
-% \footnote{It is sufficient to show that
+% while the first order condition for $\k_{t+1}$ is given by
+% % \begin{align*}
+% %     \b \E_{t} \bs{\Gc_{t+1}^{-\rho}(\Rfree_{t+1} - \Rfix)(m_t - c_t)v'(m_{t+1})} &= 0\\
+% %     \E_{t}\bs{\Gc_{t+1}^{-\rho}(\Rfree_{t+1} - \Rfix)(m_t - c_t)u'(c_{t+1})} &= 0
+% % \end{align*}
+% \begin{equation}\label{eq:excess_return}
+%     a_{t+1}\E_{t}\bs{\bp{\Rfree_{t+1} - \Rfix}(\Gc_{t+1}c_{t+1})^{-\rho}} = 0
+% \end{equation}
+% When optimal $a_{t+1} \neq 0$, then
+% % \footnote{It is sufficient to show that
+% % \[
+% % m_{t}^{-\rho} < \b \E_{t}\bs{\Rc_{t+1}(G_{t+1}\z_{t+1})^{-\rho}}
+% % \]
+% % }
 % \[
-% m_{t}^{-\rho} < \b \E_{t}\bs{\Rc_{t+1}(G_{t+1}\z_{t+1})^{-\rho}}
+% \E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} = 0
 % \]
-% }
-\[
-\E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} = 0
-\]
-Now see that from equation (\ref{eq:euler}) we get
+Now see that whenever the optimal portfolio decision is to hold a mixture of both the safe and the risky asset, the consumption Euler equation can be reduced to
 \begin{align*}
     c_{t}^{-\rho} &= \b \E_{t}\bs{(\Rfix + \k_{t+1}(\Rfree_{t+1} - \Rfix))(\Gc_{t+1}c_{t+1})^{-\rho}}\\
     &= \b \bs{\E_{t}\bs{\Rfix(\Gc_{t+1}c_{t+1})^{-\rho}} + \k_{t+1}\E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}}}\\
@@ -131,9 +139,7 @@ Computing expectations of functions of these shocks can now be reduced to the fo
 
 \subsubsection{Computing optimal decisions}
 
-\textsc{Finite-Horizon}
-
-I solve the model using a sequential application of the endogenous grid method, dividing a period into two subperiods, the first stage involving a consumption decision ($c$), and the second involving the portfolio optimization problem ($\k$).
+I solve the model using a sequential application of the endogenous grid method \citep{Carroll2006}, dividing a period into two subperiods, the first stage involving a consumption decision ($c$), and the second involving the portfolio optimization problem ($\k$).
 
 Construct a grid of assets $\Ac = \bs{\underline{a} = a_1 < a_2 < ... < a_k = \overline{a}}$. To solve the problem pertaining to any period $t$, observe from equation (\ref{eq:excess_return}) that whenever $a_i \neq 0$, the optimal share of risky assets is given by the choice of $\hat{\k}_{t+1}(a_i) \in [0,\,1]$ such that
 \begin{equation}\label{eq:kappa}
@@ -145,93 +151,23 @@ m_{ij} = \frac{\Rfix + \hat{\k}_{t+1}(a_i)(\Rfree\nu_j - \Rfix)}{\G_{t+1}\eta_{j
 \]
 The problem then becomes a root-finding operation pertaining to a function of $\hat{\k}$, which, given a policy function $c_{t+1}$, yields an optimal level of $\hat{\k}$ for each $a_i$. Denote this pair as $(a,\,\hat{\k})_{i}$, and the resulting effective return $\Rfix + \hat{\k}_{i}(\Rfree\nu_{j} - \Rfix)$ for each value of the shocks as $\Rc_{ij}$.
 
-% \begin{remark}
-%     The choice of the grid $\Ac$, at least for the next-to-last period, will be determined while keeping in mind the natural borrowing constraint given by the no-default condition. Suppose an individual has decided to invest all their savings in the risky asset, and is hit by the worst possible set of shocks in the next period. Then the individual should not be able to borrow to the extent that they may default on their debt. An upper bound on the natural borrowing constraint is then given by
-%     \[
-%     \underline{a} = \frac{-\z_{\min}\G_{T}\eta_{\min}}{\Re\nu_{\min}}
-%     \]
-%     An alternative choice would be to simplify the grid by using an artificial no-borrowing constraint in the grid. Note, however, that the calculation of the optimal consumption function is not constrained by this unless the borrowing constraint is imposed on the model. I then use this lower bound to generate an exponentially spaced grid of assets.
-% \end{remark}
-
 For each \textit{end-of-period} outcome $(a,\,\hat{\k})_i$, given $c_{t+1}$, we can use the consumption Euler equation to get
 \[
 [\hat{c}_t(a_i,\,\hat{\k}_i)]^{-\rho} = \b\G_{t+1}^{-\rho} n^{-3}\sum_{j=1}^{n^3}\Rc_{ij}(\eta_{j}c_{t+1}(m_{ij}))^{-\rho}
 \]
-where $\hat{c}$ denotes that this yields a "consumed" function. However, as $\hat{\k}_{i}$ is the value that solves equation (\ref{eq:kappa})
+where $\hat{c}$ denotes that this yields a consumed function of the assets and portfolio share.
+This function is then given by
 \[
-[\hat{c}_{t}(a_i,\,\hat{\k}_i)]^{-\rho} = \b\G_{t+1}^{-\rho}\Rfix n^{-3}\sum_{j=1}^{n^3}(\eta_{j}c_{t+1}(m_{ij}))^{-\rho}
+\hat{c}_{t}(a_i,\,\hat{\k}_i) = \bs{\b\G_{t+1}^{-\rho}n^{-3}\sum_{j=1}^{n^3}\Rc_{ij}(\eta_{j}c_{t+1}(m_{ij}))^{-\rho}}^{-\frac{1}{\rho}}
 \]
-The consumed function is then given by
-\[
-\hat{c}_{t}(a_i,\,\hat{\k}_i) = \bs{\b\G_{t+1}^{-\rho}\Rfix n^{-3}\sum_{j=1}^{n^3}(\eta_{j}c_{t+1}(m_{ij}))^{-\rho}}^{-\frac{1}{\rho}}
-\]
-Now we have a vector of $c_i$ corresponding to each $(a,\,\hat{\k})_i$. Since $m_{t} = c_{t} + a_{t+1}$, we can construct the grid $\Mc$ with each $m_i \in \Mc$ given by $m_i = c_i + a_i$, where $c_{t}(a_i,\,\hat{\k}_i)$. We can now rewrite $c_t(m_i) = \hat{c}_t(a_i,\,\hat{\k}_i)$ and $\k_{t+1}(m_i) = \hat{\k}_{t+1}(a_i)$, and interpolate to get the policy functions $(c_{t}(m),\,\k_{t+1}(m)) = g_{t}(m)$ for period $t$. Finally, we can use $c_{T}(m) = m$ as a starting point and recursively obtain the estimated policy functions. To simplify the computation, I solve the model with a time-invariant expected permanent income growth rate, though this assumption is in no way necessary.
+Now we have a vector of $\hat{c}_i$ corresponding to each $(a,\,\hat{\k})_i$. Since $m_{t} = c_{t} + a_{t+1}$, we can construct the grid $\Mc$ with each $m_i \in \Mc$ given by $m_i = \hat{c}_i + a_i$, where $\hat{c}_{i} = \hat{c}_{t}(a_i,\,\hat{\k}_i)$. We can now rewrite $c_t(m_i) = \hat{c}_t(a_i,\,\hat{\k}_i)$ and $\k_{t+1}(m_i) = \hat{\k}_{t+1}(a_i)$, and interpolate to get the policy functions $(c_{t}(m),\,\k_{t+1}(m)) = g_{t}(m)$ for period $t$.\footnote{While I use linear interpolation by default, cubic-spline interpolation yields similar results for the consumption function. However, due to drastic directional changes in the optimal portfolio share, spline interpolation sometimes suggests a portfolio share outside the interval $[0,\,1]$.} In the finite-horizon case, the model can be solved using $c_{T}(m) = m$ as the initial policy function and iterating backwards till period 0. For the infinite-horizon case, I use a guess $c_{0}(m)$ to obtain a sequence of guesses $\bc{c_{k}(m),\,\k_{k}(m)}_{k=0}^{K}$ that converge to the true policy functions $c(m)$ and $\k(m)$. Since my focus is not on life-cycle applications, I solve each model with a constant permanent growth factor $\G$.
 
-\textsc{Infinite-Horizon}
+% Finally, we can use $c_{T}(m) = m$ as a starting point and recursively obtain the estimated policy functions. To simplify the computation, I solve the model with a time-invariant expected permanent income growth rate, though this assumption is in no way necessary.
 
-Since it is impossible to store an infinite sequence of values for the predictable growth factors $\G_{t}$, I simplify the infinite-horizon problem by assuming that $\G_{t} = \G$ for all periods $t$, i.e. $\bc{\G_{t}}_{t=0}^{\infty}$ is a constant sequence. Then the Bellman equation can be simplified to
-\[
-v(m) = \max_{c,\,\k'}\frac{c^{1-\rho}}{1-\rho} + \beta\G^{1-\rho} \E\bs{(\eta')^{1-\rho}v\bp{\frac{\Rfix + \k'(\Rfree' - \Rfix)}{\G\eta'}(m - c) + \z'}}
-\]
-We can use the same process as in the finite-horizon case, where I use the first-order conditions to find the policy functions. The only difference, now, is that instead of using $c_{t+1}$ to find $\k_{t+1}$ and $c_{t}$, I now use an initial guess about the time-invariant $c$, say $c_{0}$, to compute $c_{1}$ and $\k_1$. I use this newly computed $c_1$ to obtain $c_2$ and $\k_2$. This process continues, till the policy functions converge to an approximation of $c(m)$ and $\k(m)$.
+% \textsc{Infinite-Horizon}
 
-% To simplify the problem, I assume that the predictable component of permanent income growth, $\G_{t} = \G$ for all $t$, i.e. $\bc{\G_{t}}_{t=0}^{\infty}$ is a constant sequence. Then the Bellman equation can be reduced to
+% Since it is impossible to store an infinite sequence of values for the predictable growth factors $\G_{t}$, I simplify the infinite-horizon problem by assuming that $\G_{t} = \G$ for all periods $t$, i.e. $\bc{\G_{t}}_{t=0}^{\infty}$ is a constant sequence. Then the Bellman equation can be simplified to
 % \[
 % v(m) = \max_{c,\,\k'}\frac{c^{1-\rho}}{1-\rho} + \beta\G^{1-\rho} \E\bs{(\eta')^{1-\rho}v\bp{\frac{\Rfix + \k'(\Rfree' - \Rfix)}{\G\eta'}(m - c) + \z'}}
 % \]
-% The first objective is to be able to compute the expectations of the value function over the state space of the shocks efficiently. Given that numerical integration can be slow even for a single variable, to calculate an integral with three variables for each possible holding of money and the associated consumption. To get around this problem, I use an equiprobable discretization of the joint lognormal distribution with a total of $n^3$ atoms, each of which are assigned the probability $n^{-3}$. Then the expectation of the continuation value is simply the average of the continuation values at $n^3$ different points.
-
-% One way to then solve the model would be to look at the problem as specified by the state variables $(a,\,\k,\,\eta,\,\nu,\,\z)$, which together pin down $m$. Then with
-% \[
-% m(a,\,\k,\,\eta,\,\nu,\,\z) = \frac{a}{\Gamma\eta}\bp{\Rfix + \k(\Rfree\nu - \Rfix)} + \z
-% \]
-% and the policy function $g : \Ac \times \mathrm{K} \times S \to \Ac \times \mathrm{K}$, where $S$ is the set of atoms in the discretized joint lognormal distribution, $\Ac = \bs{a_1 < a_2 < ... < a_{k}}$ and $\mathrm{K} = \bs{\k_1 < \k_2 < ... < \k_{\ell}}$ are the grids of possible savings and portfolio shares, we can compute the value associated with any given state. To ensure that the $\mathrm{K}$ is comprehensive, it would be enough to ensure $\k_1 = 0$ and $\k_{\ell} = 1$. However, to ensure that $\Ac$ spans a large enough interval, we can look at the highest possible value of the shocks in the discrete distribution to see after what value of $a$ is $a'$ necessarily lower than $a$. Then, define a $(k \times \ell) \times (k \times \ell)$ matrix $J_{i}$ for each $s_i \in S$ such that $J_{i}(p,\,q) = 1$ if $(a,\,\k)_q = g((a,\,\k)_p,\,s_i)$. We can define a $(k \times \ell) \times 1$ vector $v_i$ for each $s_i \in S$, which represents the value associated with each $(a,\,\k) \in \Ac \times \mathrm{K}$ when the shock values are $s_i = (\eta,\,\nu,\,\z)_i$. Then writing $m_i$ as the $(k \times \ell) \times 1$ vector such that $m_i(j) = m((a,\,\k)_j,\,s_i)$ and $g(s_i)$ as the vector of $g(a,\,\k,\,s_i)$ for each $(a,\,\k) \in \Ac \times \mathrm{K}$ gives the vector $r_i = u(m_i - g_1(s_i))$ and
-% \begin{align*}
-%     \begin{bmatrix}
-%         v_1\\
-%         v_2\\
-%         \vdots\\
-%         v_{n^3}
-%     \end{bmatrix} &= \begin{bmatrix}
-%         r_1\\
-%         r_2\\
-%         \vdots\\
-%         r_{n^3}
-%     \end{bmatrix} + \b n^{-3}\begin{bmatrix}
-%         I_1 \otimes \textbf{1}^T \otimes J_1\\
-%         I_2 \otimes \textbf{1}^T \otimes J_2\\
-%         \vdots\\
-%         I_{n^3} \otimes \textbf{1}^T \otimes J_{n^3}
-%     \end{bmatrix}\begin{bmatrix}
-%         v_1\\
-%         v_2\\
-%         \vdots\\
-%         v_{n^3}
-%     \end{bmatrix}\\
-%     \implies \begin{bmatrix}
-%         v_1\\
-%         v_2\\
-%         \vdots\\
-%         v_{n^3}
-%     \end{bmatrix} &= \bp{I_{N \times N} - \b n^{-3}\begin{bmatrix}
-%         I_1 \otimes \textbf{1}^T \otimes J_1\\
-%         I_2 \otimes \textbf{1}^T \otimes J_2\\
-%         \vdots\\
-%         I_{n^3} \otimes \textbf{1}^T \otimes J_{n^3}
-%     \end{bmatrix}}^{-1}\begin{bmatrix}
-%         r_1\\
-%         r_2\\
-%         \vdots\\
-%         r_{n^3}
-%     \end{bmatrix}
-% \end{align*}
-% where $N = k \times \ell \times n^3$ and $I_j$ is the $j$-th row of $I_{n^3 \times n^3}$.
-
-% Even after discretizing the space of the shocks, we are likely to end up with too many possible states to efficiently use a grid-search algorithm to allow us to calculate the value and/or the policy functions by either value function iteration or the policy improvement algorithm. Note that if $n = 10$, we obtain $1000$ states in total. Then even if $(k \times \ell)$ is something in the range of 100, we end up with vectors of size $1,00,000 \times 1$ or larger.
-
-
-% To circumvent this issue, the approach I use is the following. Let $\Mc = [m_1 < m_2 < m_3 < ... < m_k]$ be the grid over money holdings.
-% \begin{enumerate}
-%     \item Pick an initial guess for the policy function $g : \Mc \to \R \times [0,\,1]$
-%     \item For each possible vector of shocks $(\eta,\,\nu,\,\z)$, construct a grid of possible values of $m'$ from the choice of $(a',\,\k')$ specified by the policy function.
-% \end{enumerate}
+% We can use the same process as in the finite-horizon case, where I use the first-order conditions to find the policy functions. The only difference, now, is that instead of using $c_{t+1}$ to find $\k_{t+1}$ and $c_{t}$, I now use an initial guess about the time-invariant $c$, say $c_{0}$, to compute $c_{1}$ and $\k_1$. I use this newly computed $c_1$ to obtain $c_2$ and $\k_2$. This process continues, till the policy functions converge to an approximation of $c(m)$ and $\k(m)$.

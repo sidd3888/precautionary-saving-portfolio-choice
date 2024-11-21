@@ -209,6 +209,14 @@ INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT .\correlated_shocks_equity_premium.out
 INPUT .\correlated_shocks_equity_premium.out
 INPUT correlated_shocks_equity_premium.out
@@ -217,15 +225,6 @@ OUTPUT correlated_shocks_equity_premium.pdf
 INPUT .\correlated_shocks_equity_premium.out
 INPUT .\correlated_shocks_equity_premium.out
 OUTPUT correlated_shocks_equity_premium.out
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\cms-american.lbx
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\cms-american.lbx
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-chicago\cms-american.lbx
@@ -268,19 +267,20 @@ INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
+INPUT C:\Users\sidda\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-t1.enc
 INPUT .\Draft 1\body.tex
 INPUT .\Draft 1\body.tex
 INPUT .\Draft 1\body.tex
 INPUT .\Draft 1\body.tex
 INPUT Draft 1\body.tex
-INPUT .\Draft 1\Sections\model.tex
-INPUT .\Draft 1\Sections\model.tex
-INPUT .\Draft 1\Sections\model.tex
-INPUT .\Draft 1\Sections\model.tex
-INPUT Draft 1\Sections\model.tex
+INPUT .\Draft 1\Sections\intro.tex
+INPUT .\Draft 1\Sections\intro.tex
+INPUT .\Draft 1\Sections\intro.tex
+INPUT .\Draft 1\Sections\intro.tex
+INPUT Draft 1\Sections\intro.tex
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -298,22 +298,25 @@ INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\sidda\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-t1.enc
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
+INPUT .\Draft 1\Sections\model.tex
+INPUT .\Draft 1\Sections\model.tex
+INPUT .\Draft 1\Sections\model.tex
+INPUT .\Draft 1\Sections\model.tex
+INPUT Draft 1\Sections\model.tex
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT .\Draft 1\Sections\results.tex
 INPUT .\Draft 1\Sections\results.tex
@@ -345,6 +348,18 @@ INPUT ..\Figures\kFunc_baseline_corr.png
 INPUT ..\Figures\kFunc_baseline_corr.png
 INPUT ..\Figures\kFunc_baseline_corr.png
 INPUT ..\Figures\kFunc_baseline_corr.png
+INPUT ..\Figures\ShareLimit_transInc_baseline.png
+INPUT ..\Figures\ShareLimit_transInc_baseline.png
+INPUT ..\Figures\ShareLimit_transInc_baseline.png
+INPUT ..\Figures\ShareLimit_transInc_baseline.png
+INPUT ..\Figures\ShareLimit_transInc_baseline.png
+INPUT ..\Figures\ShareLimit_transInc_baseline.png
+INPUT ..\Figures\ShareLimit_permInc_baseline.png
+INPUT ..\Figures\ShareLimit_permInc_baseline.png
+INPUT ..\Figures\ShareLimit_permInc_baseline.png
+INPUT ..\Figures\ShareLimit_permInc_baseline.png
+INPUT ..\Figures\ShareLimit_permInc_baseline.png
+INPUT ..\Figures\ShareLimit_permInc_baseline.png
 INPUT ..\Figures\kFunc_baseline_corrTrans.png
 INPUT ..\Figures\kFunc_baseline_corrTrans.png
 INPUT ..\Figures\kFunc_baseline_corrTrans.png
@@ -364,6 +379,35 @@ INPUT ..\Figures\cFunc_baseline_zoomed.png
 INPUT ..\Figures\cFunc_baseline_zoomed.png
 INPUT ..\Figures\cFunc_baseline_zoomed.png
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
+INPUT ..\Figures\wealth_transition_baseline.png
+INPUT ..\Figures\wealth_transition_baseline.png
+INPUT ..\Figures\wealth_transition_baseline.png
+INPUT ..\Figures\wealth_transition_baseline.png
+INPUT ..\Figures\wealth_transition_baseline.png
+INPUT ..\Figures\wealth_transition_baseline.png
+INPUT ..\Figures\kFunc_target_baseline.png
+INPUT ..\Figures\kFunc_target_baseline.png
+INPUT ..\Figures\kFunc_target_baseline.png
+INPUT ..\Figures\kFunc_target_baseline.png
+INPUT ..\Figures\kFunc_target_baseline.png
+INPUT ..\Figures\kFunc_target_baseline.png
+INPUT .\Draft 1\Sections\zero_inc.tex
+INPUT .\Draft 1\Sections\zero_inc.tex
+INPUT .\Draft 1\Sections\zero_inc.tex
+INPUT .\Draft 1\Sections\zero_inc.tex
+INPUT Draft 1\Sections\zero_inc.tex
+INPUT ..\Figures\ShareLimit_permInc_zeroInc.png
+INPUT ..\Figures\ShareLimit_permInc_zeroInc.png
+INPUT ..\Figures\ShareLimit_permInc_zeroInc.png
+INPUT ..\Figures\ShareLimit_permInc_zeroInc.png
+INPUT ..\Figures\ShareLimit_permInc_zeroInc.png
+INPUT ..\Figures\ShareLimit_permInc_zeroInc.png
+INPUT ..\Figures\kFunc_zeroInc_target.png
+INPUT ..\Figures\kFunc_zeroInc_target.png
+INPUT ..\Figures\kFunc_zeroInc_target.png
+INPUT ..\Figures\kFunc_zeroInc_target.png
+INPUT ..\Figures\kFunc_zeroInc_target.png
+INPUT ..\Figures\kFunc_zeroInc_target.png
 INPUT ..\Figures\kFunc_US_rho4.png
 INPUT ..\Figures\kFunc_US_rho4.png
 INPUT ..\Figures\kFunc_US_rho4.png
@@ -376,9 +420,39 @@ INPUT ..\Figures\kFunc_US_rho12.png
 INPUT ..\Figures\kFunc_US_rho12.png
 INPUT ..\Figures\kFunc_US_rho12.png
 INPUT ..\Figures\kFunc_US_rho12.png
+INPUT ..\Figures\kFunc_US_target.png
+INPUT ..\Figures\kFunc_US_target.png
+INPUT ..\Figures\kFunc_US_target.png
+INPUT ..\Figures\kFunc_US_target.png
+INPUT ..\Figures\kFunc_US_target.png
+INPUT ..\Figures\kFunc_US_target.png
+INPUT ..\Figures\kFunc_US_zeroInc.png
+INPUT ..\Figures\kFunc_US_zeroInc.png
+INPUT ..\Figures\kFunc_US_zeroInc.png
+INPUT ..\Figures\kFunc_US_zeroInc.png
+INPUT ..\Figures\kFunc_US_zeroInc.png
+INPUT ..\Figures\kFunc_US_zeroInc.png
+INPUT .\Draft 1\Sections\discussion.tex
+INPUT .\Draft 1\Sections\discussion.tex
+INPUT .\Draft 1\Sections\discussion.tex
+INPUT .\Draft 1\Sections\discussion.tex
+INPUT Draft 1\Sections\discussion.tex
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0800.tfm
+INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx0600.tfm
 INPUT .\Draft 1\appendix.tex
 INPUT .\Draft 1\appendix.tex
 INPUT Draft 1\appendix.tex
+INPUT .\Draft 1\Appendices\last_prd_portfolio.tex
+INPUT .\Draft 1\Appendices\last_prd_portfolio.tex
+INPUT .\Draft 1\Appendices\last_prd_portfolio.tex
+INPUT .\Draft 1\Appendices\last_prd_portfolio.tex
+INPUT Draft 1\Appendices\last_prd_portfolio.tex
+INPUT ..\Figures\kFunc_LastPrd.png
+INPUT ..\Figures\kFunc_LastPrd.png
+INPUT ..\Figures\kFunc_LastPrd.png
+INPUT ..\Figures\kFunc_LastPrd.png
+INPUT ..\Figures\kFunc_LastPrd.png
+INPUT ..\Figures\kFunc_LastPrd.png
 INPUT .\Draft 1\Appendices\excess_return_linear.tex
 INPUT .\Draft 1\Appendices\excess_return_linear.tex
 INPUT .\Draft 1\Appendices\excess_return_linear.tex
@@ -417,8 +491,6 @@ INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss12.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
@@ -433,8 +505,6 @@ INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\s
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1440.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1728.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1728.pfb
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfcc1200.pfb
-INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfcc1200.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0700.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0700.pfb
 INPUT C:\Users\sidda\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0800.pfb

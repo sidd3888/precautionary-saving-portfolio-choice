@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.5)  14 NOV 2024 03:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.5)  21 NOV 2024 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -101,6 +101,7 @@ File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
 Package hyperref Info: Hyper index ON on input line 4187.
@@ -127,7 +128,7 @@ Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
 Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
@@ -685,24 +686,24 @@ Package caption Info: New subtype `subtable' on input line 238.
  (correlated_shocks_equity_premium.aux)
 \openout1 = `correlated_shocks_equity_premium.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count456
@@ -727,8 +728,14 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-Package hyperref Info: Link coloring OFF on input line 75.
+)) (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 81.
  (correlated_shocks_equity_premium.out) (correlated_shocks_equity_premium.out)
 \@outlinefile=\write4
 \openout4 = `correlated_shocks_equity_premium.out'.
@@ -773,16 +780,9 @@ Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
-(C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package biblatex Info: Trying to load language 'english' -> 'cms-american'...
 Package biblatex Info: ... file 'cms-american.lbx' found.
- (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\cms-american.lbx
+(C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-chicago\cms-american.lbx
 File: cms-american.lbx 2022/07/02 v 3.18 biblatex localization
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
@@ -806,100 +806,196 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'correlated_shocks_equity_premium.bbl' found.
  (correlated_shocks_equity_premium.bbl)
-Package biblatex Info: Reference section=0 on input line 75.
-Package biblatex Info: Reference segment=0 on input line 75.
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
  (Draft 1/title.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (C:\Users\sidda\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) (Draft 1/body.tex (Draft 1/Sections/model.tex [1
+) [1
 
-{C:/Users/sidda/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2] [3] [4] [5]) (Draft 1/Sections/results.tex [6]
-<../Figures/kFunc_baseline.png, id=146, 395.3169pt x 298.4751pt>
+{C:/Users/sidda/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) (Draft 1/body.tex (Draft 1/Sections/intro.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 
+     [1] [2]) (Draft 1/Sections/model.tex [3] [4] [5] [6] [7] [8]) (Draft 1/Sections/results.tex
+<../Figures/kFunc_baseline.png, id=235, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline.png Graphic file (type png)
 <use ../Figures/kFunc_baseline.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline.png  used on input line 13.
 (pdftex.def)             Requested size: 271.7835pt x 205.20567pt.
-<../Figures/kFunc_baseline_corrTransFull.png, id=148, 395.3169pt x 298.4751pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../Figures/kFunc_baseline_corrTransFull.png, id=237, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corrTransFull.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corrTransFull.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline_corrTransFull.png  used on input line 24.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-<../Figures/kFunc_baseline_corr.png, id=149, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_baseline_corr.png, id=238, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corr.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corr.png>
 Package pdftex.def Info: ../Figures/kFunc_baseline_corr.png  used on input line 30.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
- [7 <../Figures/kFunc_baseline.png> <../Figures/kFunc_baseline_corrTransFull.png> <../Figures/kFunc_baseline_corr.png>]
-<../Figures/kFunc_baseline_corrTrans.png, id=166, 395.3169pt x 298.4751pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9] [10 <../Figures/kFunc_baseline.png> <../Figures/kFunc_baseline_corrTransFull.png> <../Figures/kFunc_baseline_corr.png>]
+<../Figures/ShareLimit_transInc_baseline.png, id=259, 409.7709pt x 312.2064pt>
+File: ../Figures/ShareLimit_transInc_baseline.png Graphic file (type png)
+<use ../Figures/ShareLimit_transInc_baseline.png>
+Package pdftex.def Info: ../Figures/ShareLimit_transInc_baseline.png  used on input line 54.
+(pdftex.def)             Requested size: 177.56607pt x 135.28943pt.
+<../Figures/ShareLimit_permInc_baseline.png, id=260, 409.7709pt x 312.2064pt>
+File: ../Figures/ShareLimit_permInc_baseline.png Graphic file (type png)
+<use ../Figures/ShareLimit_permInc_baseline.png>
+Package pdftex.def Info: ../Figures/ShareLimit_permInc_baseline.png  used on input line 60.
+(pdftex.def)             Requested size: 177.56607pt x 135.28943pt.
+<../Figures/kFunc_baseline_corrTrans.png, id=265, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corrTrans.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corrTrans.png>
-Package pdftex.def Info: ../Figures/kFunc_baseline_corrTrans.png  used on input line 58.
+Package pdftex.def Info: ../Figures/kFunc_baseline_corrTrans.png  used on input line 78.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-<../Figures/kFunc_baseline_corrZoomed.png, id=167, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_baseline_corrZoomed.png, id=266, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_baseline_corrZoomed.png Graphic file (type png)
 <use ../Figures/kFunc_baseline_corrZoomed.png>
-Package pdftex.def Info: ../Figures/kFunc_baseline_corrZoomed.png  used on input line 64.
+Package pdftex.def Info: ../Figures/kFunc_baseline_corrZoomed.png  used on input line 84.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9 <../Figures/kFunc_baseline_corrTrans.png> <../Figures/kFunc_baseline_corrZoomed.png>]
-<../Figures/cFunc_baseline_zoomed.png, id=184, 401.8212pt x 298.4751pt>
+[11 <../Figures/ShareLimit_transInc_baseline.png> <../Figures/ShareLimit_permInc_baseline.png>] [12 <../Figures/kFunc_baseline_corrTrans.png> <../Figures/kFunc_baseline_corrZoomed.png>]
+<../Figures/cFunc_baseline_zoomed.png, id=287, 401.8212pt x 298.4751pt>
 File: ../Figures/cFunc_baseline_zoomed.png Graphic file (type png)
 <use ../Figures/cFunc_baseline_zoomed.png>
-Package pdftex.def Info: ../Figures/cFunc_baseline_zoomed.png  used on input line 83.
+Package pdftex.def Info: ../Figures/cFunc_baseline_zoomed.png  used on input line 103.
 (pdftex.def)             Requested size: 271.7835pt x 201.88554pt.
- [10 <../Figures/cFunc_baseline_zoomed.png>] [11]
-<../Figures/kFunc_US_rho4.png, id=212, 395.3169pt x 298.4751pt>
+ [13 <../Figures/cFunc_baseline_zoomed.png>] [14]
+<../Figures/wealth_transition_baseline.png, id=305, 385.9218pt x 298.4751pt>
+File: ../Figures/wealth_transition_baseline.png Graphic file (type png)
+<use ../Figures/wealth_transition_baseline.png>
+Package pdftex.def Info: ../Figures/wealth_transition_baseline.png  used on input line 139.
+(pdftex.def)             Requested size: 271.7835pt x 210.20636pt.
+ [15]
+<../Figures/kFunc_target_baseline.png, id=312, 401.8212pt x 298.4751pt>
+File: ../Figures/kFunc_target_baseline.png Graphic file (type png)
+<use ../Figures/kFunc_target_baseline.png>
+Package pdftex.def Info: ../Figures/kFunc_target_baseline.png  used on input line 147.
+(pdftex.def)             Requested size: 271.7835pt x 201.88554pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <../Figures/wealth_transition_baseline.png>]) (Draft 1/Sections/zero_inc.tex [17 <../Figures/kFunc_target_baseline.png>]
+<../Figures/ShareLimit_permInc_zeroInc.png, id=329, 409.7709pt x 312.2064pt>
+File: ../Figures/ShareLimit_permInc_zeroInc.png Graphic file (type png)
+<use ../Figures/ShareLimit_permInc_zeroInc.png>
+Package pdftex.def Info: ../Figures/ShareLimit_permInc_zeroInc.png  used on input line 29.
+(pdftex.def)             Requested size: 271.7835pt x 207.0811pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18]
+<../Figures/kFunc_zeroInc_target.png, id=336, 401.8212pt x 298.4751pt>
+File: ../Figures/kFunc_zeroInc_target.png Graphic file (type png)
+<use ../Figures/kFunc_zeroInc_target.png>
+Package pdftex.def Info: ../Figures/kFunc_zeroInc_target.png  used on input line 38.
+(pdftex.def)             Requested size: 271.7835pt x 201.88554pt.
+ [19 <../Figures/ShareLimit_permInc_zeroInc.png> <../Figures/kFunc_zeroInc_target.png>] [20]
+<../Figures/kFunc_US_rho4.png, id=368, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_US_rho4.png Graphic file (type png)
 <use ../Figures/kFunc_US_rho4.png>
-Package pdftex.def Info: ../Figures/kFunc_US_rho4.png  used on input line 135.
+Package pdftex.def Info: ../Figures/kFunc_US_rho4.png  used on input line 79.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-<../Figures/kFunc_US_rho12.png, id=213, 395.3169pt x 298.4751pt>
+<../Figures/kFunc_US_rho12.png, id=369, 395.3169pt x 298.4751pt>
 File: ../Figures/kFunc_US_rho12.png Graphic file (type png)
 <use ../Figures/kFunc_US_rho12.png>
-Package pdftex.def Info: ../Figures/kFunc_US_rho12.png  used on input line 140.
+Package pdftex.def Info: ../Figures/kFunc_US_rho12.png  used on input line 84.
 (pdftex.def)             Requested size: 177.56607pt x 134.0666pt.
-) (Draft 1/appendix.tex (Draft 1/Appendices/excess_return_linear.tex [12 <../Figures/kFunc_US_rho4.png> <../Figures/kFunc_US_rho12.png>])))
-Overfull \hbox (8.28934pt too wide) in paragraph at lines 81--81
+<../Figures/kFunc_US_target.png, id=370, 395.3169pt x 298.4751pt>
+File: ../Figures/kFunc_US_target.png Graphic file (type png)
+<use ../Figures/kFunc_US_target.png>
+Package pdftex.def Info: ../Figures/kFunc_US_target.png  used on input line 97.
+(pdftex.def)             Requested size: 199.75972pt x 150.8221pt.
+<../Figures/kFunc_US_zeroInc.png, id=371, 395.3169pt x 298.4751pt>
+File: ../Figures/kFunc_US_zeroInc.png Graphic file (type png)
+<use ../Figures/kFunc_US_zeroInc.png>
+Package pdftex.def Info: ../Figures/kFunc_US_zeroInc.png  used on input line 102.
+(pdftex.def)             Requested size: 199.75972pt x 150.8221pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [21 <../Figures/kFunc_US_rho4.png> <../Figures/kFunc_US_rho12.png>] (Draft 1/Sections/discussion.tex [22 <../Figures/kFunc_US_target.png> <../Figures/kFunc_US_zeroInc.png>] [23] [24]) (Draft 1/appendix.tex [25] (Draft 1/Appendices/last_prd_portfolio.tex
+<../Figures/kFunc_LastPrd.png, id=423, 395.3169pt x 298.4751pt>
+File: ../Figures/kFunc_LastPrd.png Graphic file (type png)
+<use ../Figures/kFunc_LastPrd.png>
+Package pdftex.def Info: ../Figures/kFunc_LastPrd.png  used on input line 5.
+(pdftex.def)             Requested size: 271.7835pt x 205.20567pt.
+) (Draft 1/Appendices/excess_return_linear.tex
+Overfull \hbox (14.85793pt too wide) detected at line 23
+[]
+ []
+
+[26 <../Figures/kFunc_LastPrd.png>]))) [27]
+Overfull \hbox (8.28934pt too wide) in paragraph at lines 90--90
 [][]\T1/cmr/m/n/12 Mehra, Ra-jnish. 2006. ``The Eq-uity Pre-mium Puz-zle: A Re-view.'' \T1/cmr/m/it/12 Foun-da-tions and Trends\TS1/cmr/m/it/12 ®
  []
 
-[13{C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (correlated_shocks_equity_premium.aux)
+
+Overfull \hbox (1.16806pt too wide) in paragraph at lines 90--90
+[][]\T1/cmr/m/n/12 Merton, Robert C. 1969. ``Life-time Port-fo-lio Se-lec-tion un-der Un-cer-tainty: The Continuous-
+ []
+
+[28{C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [29] (correlated_shocks_equity_premium.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `correlated_shocks_equity_premium.out' has not changed.
-(rerunfilecheck)             Checksum: 1DE28BB3F0F280E46D5FC7EF31416B0A;2929.
+(rerunfilecheck)             Checksum: 829AD1A6483501F4325B75624D639BE1;4826.
 Package logreq Info: Writing requests to 'correlated_shocks_equity_premium.run.xml'.
 \openout1 = `correlated_shocks_equity_premium.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24699 strings out of 474424
- 445074 string characters out of 5741740
- 1941496 words of memory out of 5000000
- 46674 multiletter control sequences out of 15000+600000
- 581372 words of font info for 97 fonts, out of 8000000 for 9000
+ 25055 strings out of 474424
+ 455804 string characters out of 5741740
+ 1942496 words of memory out of 5000000
+ 46954 multiletter control sequences out of 15000+600000
+ 582254 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,17n,93p,2006b,3949s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfcc1200.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on correlated_shocks_equity_premium.pdf (13 pages, 535585 bytes).
+<C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Users/sidda/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on correlated_shocks_equity_premium.pdf (30 pages, 794207 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
