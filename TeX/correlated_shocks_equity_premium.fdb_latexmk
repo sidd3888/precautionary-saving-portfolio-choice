@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex correlated_shocks_equity_premium"] 1732354730.78814 "correlated_shocks_equity_premium.aux" "correlated_shocks_equity_premium.bbl" "correlated_shocks_equity_premium" 1732355419.09604 0
+["bibtex correlated_shocks_equity_premium"] 1732354730.78814 "correlated_shocks_equity_premium.aux" "correlated_shocks_equity_premium.bbl" "correlated_shocks_equity_premium" 1732356118.82324 0
   "./References.bib" 1732354713 14011 f7d21aef0f8c6854efa0fcc21a40997c ""
   "C:/Users/sidda/AppData/Local/Programs/MiKTeX/bibtex/bst/harvard/agsm.bst" 1233280140 25549 e3d0f1ab4ae55e777f7352db30e2c6f7 ""
-  "correlated_shocks_equity_premium.aux" 1732355416 13996 ece3454e38bd4c5fdf2a18331b5e5586 "pdflatex"
+  "correlated_shocks_equity_premium.aux" 1732356117 13996 ece3454e38bd4c5fdf2a18331b5e5586 "pdflatex"
   (generated)
   "correlated_shocks_equity_premium.bbl"
   "correlated_shocks_equity_premium.blg"
   (rewritten before read)
-["pdflatex"] 1732355411.60602 "c:/Users/sidda/OneDrive/Research/Macroeconomics/Correlated Shocks/Paper/equity-premium-correlated-shocks/TeX/correlated_shocks_equity_premium.tex" "correlated_shocks_equity_premium.pdf" "correlated_shocks_equity_premium" 1732355419.09956 0
+["pdflatex"] 1732356114.31558 "c:/Users/sidda/OneDrive/Research/Macroeconomics/Correlated Shocks/Paper/equity-premium-correlated-shocks/TeX/correlated_shocks_equity_premium.tex" "correlated_shocks_equity_premium.pdf" "correlated_shocks_equity_premium" 1732356118.8251 0
   "../Figures/ShareLimit_permInc_baseline.png" 1731852198 28647 2429e1c273a519c566eeb6c7e68fc82f ""
   "../Figures/ShareLimit_permInc_zeroInc.png" 1731852228 29228 aada2494f1fe1d35a520354a7e5f8385 ""
   "../Figures/ShareLimit_transInc_baseline.png" 1731852212 23046 656e548e2266fbcdee368b8806f6df30 ""
@@ -194,11 +194,11 @@
   "Draft 1/Sections/zero_inc.tex" 1732346449 11127 cee3d4fbd0eef61d9151c8f3c7761d35 ""
   "Draft 1/appendix.tex" 1731869106 222 95a63361909c2caa9a8faa911734628a ""
   "Draft 1/body.tex" 1732196864 208 7070ba059f344b0d11c881e56999231b ""
-  "Draft 1/title.tex" 1732355313 1443 0c3caacf0225b4f3a275c4d3baf684d5 ""
+  "Draft 1/title.tex" 1732356113 1464 b09512d01ac6f53ca707c7f524f58826 ""
   "c:/Users/sidda/OneDrive/Research/Macroeconomics/Correlated Shocks/Paper/equity-premium-correlated-shocks/TeX/correlated_shocks_equity_premium.tex" 1732355410 2773 3b492f686a54aed37a88b30bb3b3d649 ""
-  "correlated_shocks_equity_premium.aux" 1732355416 13996 ece3454e38bd4c5fdf2a18331b5e5586 "pdflatex"
+  "correlated_shocks_equity_premium.aux" 1732356117 13996 ece3454e38bd4c5fdf2a18331b5e5586 "pdflatex"
   "correlated_shocks_equity_premium.bbl" 1732354731 9568 757e0a9966b7461078f97d1b486ef9bb "bibtex correlated_shocks_equity_premium"
-  "correlated_shocks_equity_premium.out" 1732355416 4826 829ad1a6483501f4325b75624d639be1 "pdflatex"
+  "correlated_shocks_equity_premium.out" 1732356117 4826 829ad1a6483501f4325b75624d639be1 "pdflatex"
   "correlated_shocks_equity_premium.tex" 1732355410 2773 3b492f686a54aed37a88b30bb3b3d649 ""
   "math.sty" 1728053839 5294 cfdf5667c07e4df47026fd4530916881 ""
   (generated)
