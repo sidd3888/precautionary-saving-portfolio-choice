@@ -24,6 +24,13 @@ Benzoni, L., Collin‐Dufresne, P. \harvardand\ Goldstein, R.~S.
   life‐cycle when the stock and labor markets are cointegrated', {\em The
   Journal of Finance} {\bf 62},~2123--2167.
 
+\harvarditem[Bodie et~al.]{Bodie, Merton \harvardand\
+  Samuelson}{1992}{Bodie1992}
+Bodie, Z., Merton, R.~C. \harvardand\ Samuelson, W.~F.  \harvardyearleft
+  1992\harvardyearright , `Labor supply flexibility and portfolio choice in a
+  life cycle model', {\em Journal of Economic Dynamics and Control} {\bf
+  16},~427--449.
+
 \harvarditem[Briggs et~al.]{Briggs, Cesarini, Lindqvist \harvardand\
   Östling}{2021}{Briggs2021}
 Briggs, J., Cesarini, D., Lindqvist, E. \harvardand\ Östling, R.
@@ -48,6 +55,12 @@ Carroll, C.~D.  \harvardyearleft 1997\harvardyearright , `Buffer-stock saving
 Carroll, C.~D.  \harvardyearleft 2006\harvardyearright , `The method of
   endogenous gridpoints for solving dynamic stochastic optimization problems',
   {\em Economics Letters} {\bf 91},~312--320.
+
+\harvarditem{Carroll}{2024}{Carroll2024}
+Carroll, C.~D.  \harvardyearleft 2024\harvardyearright , `Solution methods for
+  microeconomic dynamic stochastic optimization problems'.
+\newblock Accessed November 23, 2024.
+\newline\harvardurl{\href{https://llorracc.github.io/SolvingMicroDSOPs/}{\emph{https://llorracc.github.io/SolvingMicroDSOPs/}}}
 
 \harvarditem[Constantinides et~al.]{Constantinides, Donaldson \harvardand\
   Mehra}{2002}{Constantinides2002}
@@ -96,12 +109,21 @@ Harenberg, D.  \harvardyearleft 2018\harvardyearright , Asset pricing in olg
   economies with borrowing constraints and idiosyncratic income risk, Working
   paper, Goethe University, Frankfurt.
 
+\harvarditem{Heaton \harvardand\ Lucas}{1997}{Heaton1997}
+Heaton, J. \harvardand\ Lucas, D.  \harvardyearleft 1997\harvardyearright ,
+  `Market frictions, savings behavior, and portfolio choice', {\em
+  Macroeconomic Dynamics} {\bf 1},~76--101.
+
 \harvarditem{Jang \harvardand\ Park}{2015}{Jang2015}
 Jang, B.-G. \harvardand\ Park, S.  \harvardyearleft 2015\harvardyearright ,
   Consumption, retirement, and asset allocation with unemployment risks and
   borrowing constraints.
 \newblock Accessed November 21, 2024.
 \newline\harvardurl{\href{http://www.korfin.org/korfin_file/forum/15fall6-3.pdf}{\emph{http://www.korfin.org/korfin\_file/forum/15fall6-3.pdf}}}
+
+\harvarditem{Kimball}{1991}{Kimball1991}
+Kimball, M.  \harvardyearleft 1991\harvardyearright , Precautionary motives for
+  holding assets, Working paper, National Bureau of Economic Research.
 
 \harvarditem[Kogan et~al.]{Kogan, Makarov \harvardand\ Uppal}{2007}{Kogan2007}
 Kogan, L., Makarov, I. \harvardand\ Uppal, R.  \harvardyearleft

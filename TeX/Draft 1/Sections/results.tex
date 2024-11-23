@@ -6,7 +6,7 @@ I first analyze the findings from the infinite-horizon model on three fronts, th
 
 \subsubsection{Optimal portfolio share at high-wealth levels}
 
-I start by looking at the baseline model with uncorrelated shocks to income and asset returns. I set the equity premium at 3 percent for this part of the analysis, and the standard deviation of the logged shock to the equity return at 15 percent, i.e. $\s_{\nu} = 0.15$. I let all other parameters be as in Table \ref{tab:model_parameters}. Figure \ref{fig:baseline_portfolio} shows that the optimal portfolio allocation $\k(m)$ is 1 at low values of $m$ and decreases to an asymptotic value as $m$ tends to infinity.
+I start by looking at the baseline model with uncorrelated shocks to income and asset returns. I set the equity premium at 3 percent for this part of the analysis, and the standard deviation of the logged shock to the equity return at 15 percent, i.e. $\s_{\nu} = 0.15$. I let all other parameters be as in Table \ref{tab:model_parameters}. Figure \ref{fig:baseline_portfolio} shows that the optimal portfolio allocation $\k(m)$ is 1 at low values of $m$ and decreases to an asymptotic value, as specified by the Merton-Samuelson model, as $m$ tends to infinity.
 
 \begin{figure}[h]
     \centering
@@ -45,7 +45,7 @@ where
 \[
 m_{t+1} = \frac{\Rc_{t+1}}{\Gc_{t+1}}(m_{t} - c_{t}) + \z_{t+1}
 \]
-Unquestionably, the covariances between the shocks affect the realized values of $m_{t+1}$, and therefore the realizations of future consumption given by $c(m_{t+1})$. However, for high values of $m_{t}$, given the nature of the consumption function and the low MPC out of current wealth (see section \ref{consumption_baseline}), the variability of the amounts consumed in the future is fairly low. Moreover, consider levels of wealth sufficiently high such that $c(m)$ is large. Naturally, $c_{t+1}^{-\rho}$ is bound to be an extremely small quantity, implying that optimal values of $\k$ are likely to grow increasingly similar under the models with and without correlations in shocks as $m$ grows larger.
+Unquestionably, the covariances between the shocks affect the realized values of $m_{t+1}$, and therefore the realizations of future consumption given by $c(m_{t+1})$. However, as $m_{t}$ becomes arbitrarily large, the ratio of labor income and present discounted value of human capital to assets tends to 0. As such, in the limit, irrespective of the covariances between the income shocks and asset returns, the consumer decides their portfolio share as if income is not a consideration. In other words, they behave like an individiual who has no labor income, and derives all income from the return on their investments \citep{Carroll2024}.
 
 \begin{figure}[h]
     \centering

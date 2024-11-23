@@ -121,7 +121,7 @@ The marginal distributions of each of the shocks ensure that $\E_t[\eta] = \E_t[
 
 \subsubsection{Discretizing the joint distribution}\label{discretization}
 
-The first part of solving the model is to address the problem of efficiently computing expectations of the marginal utilities of consumption decisions in future periods. Under the current formulation, the shocks to income and returns are drawn independently in each time period, which means that it is enough to discretize these shocks using their single-period distribution. I use an equiprobable approximation of a truncated version (at 3 standard deviations) of these lognormal variables.
+The first part of solving the model is to address the problem of efficiently computing expectations of the marginal utilities of consumption decisions in future periods. Under the current formulation, the shocks to income and returns are drawn independently in each time period, which means that it is enough to discretize these shocks using their single-period distribution. I use an equiprobable approximation of a truncated version (at 3 standard deviations) of these lognormal variables.\footnote{The code for this algorithm is available as part of a \href{https://github.com/econ-ark/HARK/pull/1412}{contribution} I made to the \href{https://github.com/econ-ark/HARK}{HARK} toolkit.}
 
 Here are the steps involved in discretizing the distribution:
 \begin{enumerate}
