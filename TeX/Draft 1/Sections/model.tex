@@ -18,7 +18,7 @@ where $\z_t$ is a transitory mean-one shock. Permanent income, $P_t$, itself gro
 \begin{equation}\label{eq:perm_inc}
     P_t = \G_t P_{t-1} \eta_t
 \end{equation}
-where $\G_t$ is the predictable component of the growth of permanent income, and $\eta_t$ is a mean-one shock. Further, individuals can also invest, in a perfectly divisible manner, between a risk-free (bond) and a risky (equity) asset. If the consumer chooses to hold $\k_{t+1}$ share of the savings in the risky asset in period $t$ (that is, their portfolio at the start of period $t+1$ contains $\k_{t+1}$ share of the risky asset), wealth in period $t+1$ is determined by
+where $\G_t$ is the predictable component of the growth of permanent income, and $\eta_t$ is a mean-one shock. Further, individuals can also invest, in a perfectly divisible manner, between a risk-free and a risky (equity) asset. If the consumer chooses to hold $\k_{t+1}$ share of the savings in the risky asset in period $t$ (that is, their portfolio at the start of period $t+1$ contains $\k_{t+1}$ share of the risky asset), wealth in period $t+1$ is determined by
 \begin{align}
     W_{t+1} &= \overbrace{\bp{\Rfix + \k_{t+1}(\Rfree_{t+1} - \Rfix)}}^{\Rc_{t+1}}A_{t+1} \label{eq:wealth}\\
     \Rfree_{t+1} &= \Rfree \nu_{t+1} \label{eq:return}
@@ -27,7 +27,7 @@ where $\Rfree_{t+1}$ is the return on the investments made in the risky asset in
 \[
 A_{t+1} \geq \underline{a}P_{t} \tag{$\underline{a} \leq 0$}
 \]
-It is reasonable to model borrowing limits as dependent on permanent income, which is something that is observed practically. In the context of this problem, it also aids in preserving its homotheticity. I set $\underline{a} = 0$ to focus purely on how savings are allocated between the two assets. We can then use equation (\ref{eq:wealth}) rewrite the period budget constraint as
+It is reasonable to model borrowing limits as dependent on permanent income, which is something that is observed practically. In the context of this problem, it also aids in preserving its homotheticity (see below). I set $\underline{a} = 0$ to focus purely on how savings are allocated between the two assets. We can then use equation (\ref{eq:wealth}) rewrite the period budget constraint as
 \[
 W_{t+1} = \Rc_{t+1}(W_{t} + Y_{t} - C_{t})
 \]
@@ -121,7 +121,7 @@ The marginal distributions of each of the shocks ensure that $\E_t[\eta] = \E_t[
 
 \subsubsection{Discretizing the joint distribution}\label{discretization}
 
-The first part of solving the model is to address the problem of efficiently computing expectations of the marginal utilities of consumption decisions in future periods. Under the current formulation, the shocks to income and returns are drawn independently in each time period, which means that it is enough to discretize these shocks using their single-period distribution. I use an equiprobable approximation of a truncated version (at 3 standard deviations) of these lognormal variables.\footnote{The code for this algorithm is available as part of a \href{https://github.com/econ-ark/HARK/pull/1412}{contribution} I made to the \href{https://github.com/econ-ark/HARK}{HARK} toolkit.}
+The first part of solving the model is to address the problem of efficiently computing expectations of the marginal utilities of consumption decisions in future periods. Under the current formulation, the shocks to income and returns are drawn independently in each time period, which means that it is enough to discretize these shocks using their single-period distribution. I use an equiprobable approximation of a truncated version (at 3 standard deviations of the underlying standard normal) of these lognormal variables.\footnote{The code for this algorithm is available as part of a \href{https://github.com/econ-ark/HARK/pull/1412}{contribution} I made to the \href{https://github.com/econ-ark/HARK}{HARK} toolkit.}
 
 Here are the steps involved in discretizing the distribution:
 \begin{enumerate}
@@ -132,14 +132,14 @@ Here are the steps involved in discretizing the distribution:
     \item Construct the set $I^3$ and , and compute the conditional expectation of the vector of shocks $X = \exp(Y)$ in each set of $I^3$, yielding the set of equiprobable atoms $S = \bc{\bp{\eta,\,\nu,\,\z}_{j}}_{j=1}^{n^3}$
 \end{enumerate}
 
-Computing expectations of functions of these shocks can now be reduced to the following operation
+Computing expectations of functions of these shocks can now be reduced to the following approximation
 \[
-\E\bs{g(\eta,\,\nu,\,\z)} = n^{-3}\sum_{j=1}^{n^3}g(\eta_j,\,\nu_j,\,\z_j)
+\E\bs{g(\eta,\,\nu,\,\z)} \approx n^{-3}\sum_{j=1}^{n^3}g(\eta_j,\,\nu_j,\,\z_j)
 \]
 
 \subsubsection{Computing optimal decisions}
 
-I solve the model using a sequential application of the endogenous grid method \citep{Carroll2006}, dividing a period into two subperiods, the first stage involving a consumption decision ($c$), and the second involving the portfolio optimization problem ($\k$).
+I solve the model using a sequential application of the endogenous grid method \citep{Carroll2006}, dividing a period into two subperiods, the first stage involving a consumption decision ($c$), and the second involving the portfolio optimization problem ($\k$). This description largely pertains to the finite-horizon version, though the infinite-horizon solution merely replaces periods with a sequence of guesses.
 
 Construct a grid of assets $\Ac = \bs{\underline{a} = a_1 < a_2 < ... < a_k = \overline{a}}$. To solve the problem pertaining to any period $t$, observe from equation (\ref{eq:excess_return}) that whenever $a_i \neq 0$, the optimal share of risky assets is given by the choice of $\hat{\k}_{t+1}(a_i) \in [0,\,1]$ such that
 \begin{equation}\label{eq:kappa}
