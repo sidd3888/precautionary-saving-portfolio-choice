@@ -1,0 +1,69 @@
+\section{Calibration}\label{us_data}
+
+While the previous sections distill the primary insights from the model with an artificial parameterization of asset returns, both in terms of the equity premium and the variability of the returns from equity, I now look at how the model responds to being calibrated to parameters documented in the literature about U.S. data. Since the primary determinant of optimal portfolio allocation in the model that is of interest to us is the correlation between permanent income shocks and shocks to the return on the risky asset, I vary this parameter while holding the others constant at documented values. To begin, \citet{Mehra1985} estimate that the historical real rate of return on equity in the U.S. is 7.67 percent, while the return on a relatively risk-free securities over the same period was 1.31 percent.\footnote{The original data was later updated till 2005, which forms the source of these estimates. See \citet{Mehra2006} for details.} Furthermore, the Sharpe ratio for these assets was calculated to be 0.37. Since $\nu$ is a mean-one lognormal, we know that:
+\[
+\s_{\nu}^2 = \log\bp{\bp{\frac{\Rfree - \Rfix}{0.37\Rfree}}^2 + 1}
+\]
+I follow \citet{Carroll1992} and set the standard deviations of logged permanent and transitory income shocks to 10 percent. Following the same paper, I set permanent income growth at 3 percent and the probability of the zero income event as 0.5 percent. I also set $\b = 0.93$ and $\o_{\z,\,\psi} = \o_{\z,\,\nu} = 0$. I then solve the model using a baseline of $\rho = 4$ for different values of $\o_{\psi,\,\nu}$. The full choice of parameters is then given in Table \ref{tab:model_parameters}.
+
+\begin{table}[htbp]
+    \begin{tabular}{ccc}
+        \toprule
+        Parameter & Value & Source\\
+        \midrule
+        $\rho$ & 4\\
+        $\b$ & 0.93\\
+        $\G$ & 1.03 & \citet{Carroll1992}\\
+        $\Rfree$ & 1.0767 & \citet{Mehra2006}\\
+        $\Rfix$ & 1.0131 & \citet{Mehra2006}\\
+        $\s_{\nu}^2$ & 0.011 & \citet{Mehra2006}\\
+        $\s_{\psi}^2$ & 0.01 & \citet{Carroll1992}\\
+        $\s_{\z}^2$ & 0.01 & \citet{Carroll1992}\\
+        $\wp$ & 0.005 & \citet{Carroll1992}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Parameters used to solve the model}
+    \label{tab:model_parameters}
+\end{table}
+
+The first thing we can see under this new parameterization is that even with highly collinear shocks ($\text{corr}(\log\nu,\,\log\psi) \approx 1$), the optimal portfolio share is 1. This is because despite the high covariance, the excess return of more than 6 percent and the relatively low volatility, with a standard deviation of under 10.5 percent for the logged shock to returns, makes it difficult to justify holding the risk-free asset. In fact, Figure \ref{fig:US_rho_comparison} shows that the equity share of portfolio falls to realistic levels under the no-borrowing constraint only when $\rho$ is as large as 12. This number is close to the benchmark by \citet{Schreindorfer2020}, whose model incorporates disappointment averse preferences and has agents exhibit levels of relative risk aversion of close to 10.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NBCCalibratedLowRRA}
+        \caption{$\rho = 4$}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NBCCalibratedHighRRA}
+        \caption{$\rho = 12$}
+    \end{subfigure}
+    \caption{U.S. figures requires extremely high RRA to explain the equity premium}
+    \label{fig:US_rho_comparison}
+\end{figure}
+
+This result is well-contextualized in light of Proposition \ref{prop:low_wealth_share}, which characterizes the threshold on covariance between income and asset returns that would make the poor invest in the risk-free asset. Given the values of $\s_{\nu}$ and $\s_{\psi}$ in Table \ref{tab:model_parameters}, $\o_{\nu,\,\psi}$ is bounded above by a little over $0.01$. Even assuming nearly perfect correlation between equity returns and permanent income growth, $\tilde{\o}$, as defined in Proposition \ref{prop:low_wealth_share}, needs an RRA ($\rho$) of approximately 6 to make the poor invest in the risk-free asset. However, despite this high RRA, the portfolio share quickly converges toward the Merton-Samuelson bound, which is relatively close to 1.
+
+The limiting value of the portfolio share of equity is not very different under the model with zero-income events. In fact, the limiting portfolio share of equity is identical between the two models. What changes is how we can explain the equity share around the target wealth.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{\NBCCalibratedTarget}
+        \caption{$\rho = 7$, NBC}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.9\textwidth]{\NIRCalibratedTarget}
+        \caption{$\rho = 7.5$, Zero Income Events}
+    \end{subfigure}
+    \caption{Portfolio share around target wealth under the no-borrowing constraint and zero-income events}
+    \label{fig:US_zeroInc_target}
+\end{figure}
+
+Figure \ref{fig:US_zeroInc_target} shows that for $\rho = 7.5$, optimal portfolio share around the target wealth actually falls to around 30\%. Meanwhile, in the model with the no-borrowing constraint, the equity share at target is 0. This is so, even as the limiting values of share holdings under this parameterization are really high. As such, while the model with zero income events makes for a better approximation around the target wealth, it performs identically to the model with the borrowing constraint for high $m_t$ and worse by predicting that the poor will invest close to the share limit in equity, particularly as $m_t \to 0$. In any case, a value for $\rho$ greater than 7 does not produce suitable implications for consumption-savings behavior.
+
+These findings show that while these models do not explain the equity premium perfectly, the introduction of the correlation between permanent income shocks and asset returns has produced a significant improvement in how optimal portfolio decisions fit the data at relatively reasonable levels of risk aversion. Furthermore, while the model with the no-borrowing constraint accurately prohibits the extremely poor from investing in equity, the introduction of the zero income events ensures that consumers engage in precautionary saving and invest some of their fairly substantial savings in equity as a result.

@@ -1,0 +1,177 @@
+\section{Results}\label{results}
+
+\subsection{Revisiting the excess return equation}
+
+Appendix \ref{excess_return_approx} shows, similar to \citepos{Mehra1985} original derivation, that the excess return equation that determines the optimal portfolio allocation can be approximated as
+\begin{equation}\label{eq:excess_return_linear}
+    \E_{t}\bs{\Rfree_{t+1}} - \Rfix \approx \rho\text{cov}(\D \ln C_{t+1},\,\Rfree_{t+1})
+\end{equation}
+Appendix \ref{app:cons_return_cov} further provides an approximation of the covariance of log consumption growth and equity returns, which allows us to derive an approximation of the optimal equity share rule. The subsequent sections will use this approximation to derive certain properties of the optimal equity share rule.
+
+As a preface to those results, we can make certain observations on the basis of equation \eqref{eq:excess_return_linear}. First, since consumption growth is closely related to permanent income growth, a large increase in the covariance between permanent income growth shocks and shocks to $\Rfree_{t+1}$ would then imply that the excess return on equity is less than the covariance between consumption growth and the return on equity, scaled by the relative risk aversion coefficient. One thing to note here is that this approximation depends solely on the covariance, and not the correlation between permanent income growth and the risky rate of return. Proposition \ref{prop:low_wealth_share} shows that the optimal equity share at low wealth levels depends solely on the covariance of income shocks and equity returns, the average rates of return, and the relative risk aversion coefficient. The particularly surprising element here, is that this is independent of the volatility of equity. Closely linked to this is the observation is that optimal equity share is increasing in wealth, in contrast to the decreasing share observed in the standard model. This is shown in Proposition \ref{prop:wealth_share_diff}.
+
+The other aspect is how the optimal equity share behaves as the wealth to permanent income ratio grows arbitrarily large. Proposition \ref{prop:high_wealth_share} shows that the optimal equity share converges to a value independent of the covariance between income shocks and equity returns. In particular, the optimal equity share converges to the Merton-Samuelson limit, which is the optimal equity share in the absence of any income.\footnote{See \citet{Carroll2024} for a discussion.}
+
+\subsection{Baseline results}
+
+I start by looking at the baseline NBC model with uncorrelated shocks to income and asset returns. I set the equity premium at 3 percent for this part of the analysis, and the standard deviation of the logged shock to the equity return at 15 percent, i.e. $\s_{\nu} = 0.15$. I let all other parameters be as in Table \ref{tab:model_parameters}. Figure \ref{fig:baseline_portfolio} shows that the optimal portfolio allocation $\vs(m)$ is 1 at low values of $m$ and decreases to an asymptotic value, as specified by the Merton-Samuelson model, as $m$ tends to infinity.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{\BaselinePortfolio}
+    \caption{Optimal portfolio share with uncorrelated shocks}
+    \label{fig:baseline_portfolio}
+\end{figure}
+
+The analytic expression for the asymptotic portfolio share (the Merton-Samuelson share) shows that $\vs^* = \lim_{m\to\infty}\vs(m)$ is increasing in the equity premium. Since the consumer is risk-averse, increasing the volatility of the returns to equity will decrease its attractiveness, thus reducing the optimal value of $\vs^*$ upon an increase in $\s_{\nu}$. However, this is a largely counterintuitive prediction, keeping in mind that those with low wealth-to-income ratios are predicted to invest their entire income in equity. This is a result of the fact that the wealthy agent consumes largely out of wealth, and their consumption exceeds their income, while the poorer agent consumes largely out of income.
+
+\subsection{Optimal equity share at low wealth levels}
+
+The first result, stemming from the NBC model, is that optimal portfolio share is either 0 or 1 for low wealth levels.
+
+\begin{prop}\label{prop:low_wealth_share}
+    Under the no-borrowing constraint, for some $m^* > 0$, the optimal portfolio rule is given as
+    \[
+        \vs(m) = \begin{cases}
+            0 & \text{if } \o_{\psi,\,\nu} + \frac{c'(1)}{c(1)}\o_{\z,\,\nu} < \tilde{\o}\\
+            1 & \text{if } \o_{\psi,\,\nu} + \frac{c'(1)}{c(1)}\o_{\z,\,\nu} > \tilde{\o}
+        \end{cases}
+    \]
+    for all $m < m^*$, where $\tilde{\o} \cong \frac{\Rfree - \Rfix}{\rho\Rfree}$.
+\end{prop}
+
+\pf See Appendix \ref{pf:low_wealth_share}
+
+The idea behind the result above is that for low levels of wealth, the NBC agent consumes their entire wealth. As a result, changing the portfolio share does not affect the covariances between future consumption growth and equity returns. For agents who save small but negligible amounts of their wealth, the excess return on equity cannot make up for the imbalance caused by large covariances between income shocks (whether permanent or transitory) and equity return shocks. As such, low wealth NBC agents faced with such uncertainty invest their savings in the risk-free asset. A key observation to make from the above result is that the threshold on covariance between income shocks and equity returns for the NBC agent to exhibit such behavior is independent (at least directly) of the volatility of returns on equity. The only role the volatility of equity plays, then, is through the bounds it imposes on $\o_{\psi,\,\nu}$ and $\o_{\z,\,\nu}$.
+
+The behavior described in the result above can be seen in the figure below.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NBCTransLowInc}
+        \caption{Transitory shock}
+        \label{subfig:correlated_poor_transitory}        
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NBCPermLowInc}
+        \caption{Permanent shock}
+        \label{subfig:correlated_poor_permanent}
+    \end{subfigure}
+    \caption{Individuals with low wealth invest all their savings in the risk-free asset}
+    \label{fig:baseline_correlated_poor}
+\end{figure}
+
+Figure \ref{fig:baseline_correlated_poor} shows that agents with normalized wealth less than 1 (somewhere between 1 and 2 to be precise), invest all their savings in the risk-free asset, irrespective of whether asset returns are correlated with transitory or permanent income shocks. At low levels of savings, notice that $\t_{t+1}$ comprises the major component of $m_{t+1}$, and high covariance between $\nu_{t+1}$ and $\z_{t+1}$ implies that low values of $\t_{t+1}$ go with low values of $\nu_{t+1}$. Since the marginal utility of future consumption is high at low values of $m_{t+1}$, which coincides with low values of $\Rfree_{t+1}$, greater weight is placed on instances with low asset returns when taking the expectations in equation (\ref{eq:excess_return}). This lowers the optimal portfolio share of the risky asset, in this case to 0. The other situation is when $\nu$ is correlated with $\psi$. Given the equation of $m_{t+1}$, this actually reduces the variability in $c(m_{t+1})$. However, the positive correlation between $\nu$ and $\psi$ implies that when $\Rfree_{t+1} - \Rfix$ is negative, $\Gc_{t+1}$ is low, implying that $\Gc_{t+1}^{-\rho}$ is higher. Thus, the instances of negative return are weighted higher in the excess return equation. Supposing that $\nu$ and $\psi$ are perfectly correlated, if $\vs = 1$, then $m_{t+1} - \t_{t+1}$ becomes a constant, and the higher weight accorded to instances with negative return implies that the expectation becomes negative. On the other hand, if $\vs = 0$, negative values of $\Rfree_{t+1} - \Rfix$ are coupled with low values of $\Gc_{t+1}$ and therefore higher $m_{t+1}$, implying that the lower marginal utility of normalized consumption under negative excess returns makes $\vs = 0$ closer to optimality.
+
+The second aspect is how the optimal portfolio share looks for slightly higher levels of wealth. While the kink in the consumption function occurs at $m < 1$, agents consume almost all of their monetary resources and save next to nothing upto $m \approx 1.5$ (see Appendix \ref{consumption_baseline}). As such, the high MPC causes variability in future monetary resources to translate into variability in future consumption at an almost one-to-one level. After a certain threshold, however, the MPC sharply falls, and the concavity of the consumption function ensures that it continues to fall. Moreover, due to the diminishing marginal utility of consumption and the very low magnitude of the marginal-marginal-utility of consumption, variability in $m_{t+1}$ translates to very little variability in $c(m_{t+1})^{-\rho}$. The analysis of the finite horizon model in section \ref{finite_horizon} highlights the particular relevance of the MPC channel on this effect.
+
+One additional change in the portfolio share rule observed in the case of covarying permanent income shocks is that after the threshold value of wealth for $\vs(m) = 0$ has passed, the optimal portfolio share is not only low, but increasing in wealth. This is formally proved in Proposition \ref{prop:wealth_share_diff}. The result also shows that for a reasonable collection of values of the equity premium, risk-free rate, and volatility of equity returns, the optimal portfolio share is less than the Merton-Samuelson share for all wealth levels if and only if the covariance between permanent income shocks and equity returns is greater than $\tilde{\o}$.
+
+\begin{prop}\label{prop:wealth_share_diff}
+    Under the no-borrowing constraint, with $\o_{\z,\,\nu} = 0$, 
+    \begin{enumerate}[topsep=0pt, itemsep=0pt, label=(\roman*)]
+        \item the optimal portfolio share is increasing in wealth ($m$) if $\o_{\psi,\,\nu} > \s_{\nu}^2$
+        \item if $\o_{\psi,\,\nu} < \s_{\nu}$, it is increasing (decreasing) in wealth if and only if $\o_{\psi,\,\nu} > \tilde{\o}$ ($\o_{\psi,\,\nu} < \tilde{\o}$), where $\tilde{\o} \cong \frac{\Rfree - \Rfix}{\rho\Rfree}$. Consequently, for plausible values of $\Rfree$, $\Rfix$, and $\s_{\nu}$, the optimal portfolio share is less than (greater than) the Merton-Samuelson share for all wealth levels if and only if $\o_{\psi,\,\nu} > \tilde{\o}$ ($\o_{\psi,\,\nu} < \tilde{\o}$).
+    \end{enumerate}
+\end{prop}
+
+\pf See Appendix \ref{pf:wealth_share_diff}
+
+Given these findings, the natural question to ask is whether this behavior prevails in the NIR model. As seen in Figure \ref{fig:zeroInc_poor}, the optimal portfolio share for low wealth levels asymptotically converges to the Merton-Samuelson share. This is in sharp contrast to the NBC model, where the optimal portfolio allocation rule is monotonic in wealth.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{\NIRPermLowInc}
+    \caption{Arbitrarily poor invest the Merton-Samuelson share}
+    \label{fig:zeroInc_poor}
+\end{figure}
+
+A close examination of the Figure \ref{fig:zeroInc_poor} and \ref{subfig:correlated_poor_permanent} shows that the optimal portfolio share of equity in the NIR model is almost identical to that in the NBC model for ratios of wealth to permanent income greater than 2. The divergence in the optimal portfolio share for low wealth levels from the previous model can be attributed to the fact that the zero-income event, where $\t_{t+1} = 0$, has more extreme consequences for low wealth levels, and features prominently in the expectation calculation in equation \eqref{eq:excess_return}.
+
+Since the excess return equation can be thought of as a weighted average of the excess return on equity, we must observe the nature of events that are weighted the highest. Note that as wealth becomes smaller, the marginal utility of consumption contingent on the realization of the zero-income event becomes arbitrarily large. This is so, because future consumption tends to 0 as wealth tends to 0. As such, the instances with $\t_{t+1} = 0$ are weighted the highest, and are asymptotically accorded full weight in the excess return calculation. As current wealth tends to 0, next-period wealth also tends to 0 under the realization of the zero-income event. By the same argument, optimal consumption and portfolio allocation behavior in the next period will reflect an arbitrarily large weight accorded to the realization of the zero-income event in period $t+2$. By repeated application of this argument, the optimal portfolio share should be akin to the model with no labor income asymptotically. This is the description of the Merton-Samuelson model, where consumption is purely a cake-eating problem. Thus, the optimal portfolio allocation behavior also tends to the Merton-Samuelson share, as shown in Figure \ref{fig:zeroInc_poor}.
+
+\subsection{Optimal equity share at high wealth levels}
+
+The next question of interest is how the portfolio allocation rule behaves as the wealth-to-permanent-income ratio grows arbitrarily large. The following proposition shows that the optimal equity share, in both the NBC and NIR models, converges to the Merton-Samuelson share.
+
+\begin{prop}\label{prop:high_wealth_share}
+    In both the NBC and NIR models, the optimal portfolio share does not depend on $\o_{\psi,\,\nu}$ or $\o_{\z,\,\nu}$ as $m \to \infty$. Furthermore,
+    \[
+        \lim_{m\to\infty}\vs(m) \approx \frac{\Rfree - \Rfix}{\rho\s_{\nu}^2}
+    \]
+\end{prop}
+
+\pf See Appendix \ref{pf:high_wealth_share}
+
+Proposition \ref{prop:high_wealth_share} shows that the optimal portfolio share is not only independent of the covariance of the income process with returns on equity, but also tends to a value that is characteristic of the model in which there is no income. The explanation for this behavior can be found by examining the optimal portfolio share condition, given by:
+\[
+\E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c(m_{t+1}))^{-\rho}} = 0
+\]
+where
+\[
+m_{t+1} = \frac{\Rc_{t+1}}{\Gc_{t+1}}(m_{t} - c_{t}) + \t_{t+1}
+\]
+Unquestionably, the covariances between the shocks affect the realized values of $m_{t+1}$, and therefore the realizations of future consumption given by $c(m_{t+1})$. However, as $m_{t}$ becomes arbitrarily large, two things occur. First, the agent consumes primarily out of their wealth, as opposed to their income. As such, the marginal utility of consumption becomes less sensitive to the realization of the income shocks. After all, as wealth becomes arbitrarily large, a small deviation in income produces an even smaller deviation in consumption, depending on the limiting MPC, which is an insignificant percentage deviation in consumption. Since the approximate excess return equation highlights that the optimal portfolio share is determined by equating the scaled covariance of consumption growth and equity returns with the equity premium, changing the income process does not affect the optimal portfolio share by much.
+
+Second, as wealth grows large, the ratio of labor income and present discounted value of human capital to assets tends to 0. As such, in the limit, irrespective of the covariances between the income shocks and asset returns, the consumer decides their portfolio share as if income is not a consideration. In other words, they behave like an individual who has no labor income, and derives all income from the return on their investments \citep{Carroll2024}.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NBCShareLimit}
+        \caption{NBC model}
+        \label{subfig:shareLimit_NBC}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NIRShareLimit}
+        \caption{NIR model}
+        \label{subfig:shareLimit_NIR}
+    \end{subfigure}
+    \caption{Optimal portfolio share is unaffected by the income process}
+    \label{fig:shareLimit}
+\end{figure}
+
+Figure \ref{fig:shareLimit} shows the different optimal portfolio allocation rules for various values of $\o_{\psi,\,\nu}$. While they all converge to the same limiting portfolio share in wealth, their functional forms are indeed very dissimilar. Given the extremely large savings required to observe such convergence, which is unlikely to be observed of any agent in the model, a change in the correlation between the shocks would indeed affect the equity holdings of even the right-tail of the wealth distribution. To do so, we would require a closer look at the savings behavior implied by the model, and the natural distribution generated under optimal behavior. Section \ref{target_wealth} elaborates further on how optimal portfolio allocation behavior differs in the NBC and NIR models around the target level of wealth.
+
+\subsection{Next-to-last period in finite-horizon}\label{finite_horizon}
+
+Due to the convergence properties of the consumption function, we know that the optimal consumption rule in the finite-horizon model for periods sufficiently away from the last period closely approximate the infinite horizon consumption rule. As such, if the next period's consumption is similar to the infinite-horizon consumption, the optimal portfolio allocation rule should also be similar to the infinite-horizon rule. On the other end of this discussion is the period that is next to last.
+
+The consumer in the last period knows that their optimization problem in the last period boils down to maximizing utility from current-period consumption, which implies that $c_T(m_T) = m_T$. The first useful feature of this is that it provides us with a consumption function for which we have an analytical expression, which allows us to rewrite the optimal portfolio allocation condition as:
+\[
+\E_{T-1}\bs{(\Rfree_{T} - \Rfix)(\Rc_{T}a_{T} + \G\psi_{T}\t_{T})^{-\rho}} = 0
+\]
+First, note that a permanent income growth and transitory income shock are identical in the last period, so to analyze one is to analyze the other. While the coincidence of negative values of $\Rfree_{T} - \Rfix$ and small values of $\Gc_{T}$ still holds true, the MPC out of total monetary resources is a constant 1. As a result, the only channel through which the portfolio choice problem differs at high $m_{T-1}$ as opposed to low is the marginal utility of future consumption. Figure \ref{fig:last_prd_portfolio} shows that the optimal portfolio allocation is nearly identical to that in the infinite horizon problem, showing that the effect of correlations between permanent, as opposed to transitory, income shocks and asset returns for moderate values of $m_{T-1}$ is due to the low MPC out of transitory income. However, it also reiterates the point that the limiting MPC implied by the consumption function in the infinite-horizon problem does not affect the portfolio choice of the extremely wealthy.
+
+\subsection{Behavior around target wealth}\label{target_wealth}
+
+Till now, I have looked at the predictions of the model based on ad-hoc or asymptotic categorizations of poor and wealthy. However, the ability of the model to explain portfolio allocation decisions of individuals also depends on the saving behavior predicted by the model. \citet{Deaton1991} showed that under the satisfaction of a growth impatience condition, individuals save to achieve a target wealth, $m^*$. Assuming that a wealth distribution of agents facing idiosyncratic shocks would be centered around this target level, it is informative to examine how agents behave at the target.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NBCTargetShare}
+        \caption{NBC model}
+        \label{subfig:targetShare_NBC}
+    \end{subfigure}
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{\NIRTargetShare}
+        \caption{NIR model}
+        \label{subfig:targetShare_NIR}
+    \end{subfigure}
+    \caption{Optimal portfolio share at target wealth}
+    \label{fig:targetShare}
+\end{figure}
+
+Figure \ref{subfig:targetShare_NBC} shows that at the target level of wealth, the optimal portfolio share accorded to equity is actually 0. This is because, under the no-borrowing constraint, the target level of wealth implies very little saving, or $a_{t+1} \approx 0$, where the optimal portfolio share was found to be $0$. If the consumer faces a negative shock to log transitory income, they still have some savings left to allow them to remain at the target level of wealth. When a consumer faces a positive shock to log transitory income, they begin participating in the stock market, and invest a small proportion of their savings in equity. However, from the target wealth, with all savings in the risk-free asset, a consumer's normalized wealth in the next period cannot exceed 1.4 under the current parameterization of the truncated distribution used to model log shocks to income. Then, a large proportion of agents in the wealth distribution should invest no more than 20 percent of their savings in equity, which, of course, would be an extreme prediction.
+
+A reason for these extreme findings is the binding no-borrowing constraint, and the consumer's heavy dependence on the transitory income for consumption. In fact, if the consumer experiences a negative shock to log transitory income, their consumption would drastically fall, as the target wealth lies just above the kink in the consumption function, and the MPC rises to 1 once the no-borrowing constraint binds. This means that the agent will begin saving once again only after they experience a positive transitory income shock, which prevents them from investing in equity at low levels of savings. In light of this, it can be observed that though the optimal portfolio share quickly rises to 1 in the case of a positive correlation between asset return and transitory income shocks, the target wealth actually lies below this region, implying that for levels of covariance high enough, the equity share at target wealth drops to 0.
+
+Figure \ref{subfig:targetShare_NIR} shows the most significant way in which the zero-income event affects the distribution. As opposed to the case with the no-borrowing constraint, consumers hold a much greater proportion of their permanent income in their savings. As such, they would want to hold some of their savings in equity at the target level of wealth, which means that a distribution of agents facing idiosyncratic shocks would also be centered around a reasonable portfolio share. However, one thing to note is that the optimal portfolio share at the target level of wealth is decreasing in wealth. This means that upon being close to the long-run savings target, the consumer would increase their equity holdings if they are faced with a negative shock to transitory income and decrease it if the shock is positive. Given the absence of any serial correlation in transitory income shocks, this prediction is rather counterintuitive.

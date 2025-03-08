@@ -1,0 +1,30 @@
+\subsection{Proof of Proposition \ref{prop:high_wealth_share}}\label{pf:high_wealth_share}
+
+Note from Appendix \ref{app:cons_return_cov}, that
+\begin{align*}
+    \rho\cov{\ln \D C_{t+1},\,\Rfree_{t+1}} &\approx \rho\Rfree\bp{\o_{\psi,\,\nu} + \frac{c'(\bar{m})}{c(\bar{m})}\bp{(m_t - c_t)\bp{\frac{\vs\Rfree\s_{\nu}^2 - (\Rfix + \vs(\Rfree - \Rfix))\o_{\psi,\,\nu}}{\G}} + \o_{\z,\,\nu}}}
+\end{align*}
+Since the right hand side is differentiable in $m$, we can determine the approximate limit of the optimal portfolio share from the limit of the right hand side as $m$ approaches infinity. \citet{Carroll2024b} show that $c'(m) \to \underline{\k} \geq 0$ as $m \to \infty$, where $\underline{\k} > 0$ subject to the satisfaction of a growth impatience condition. Thus,
+\begin{align*}
+    \lim_{m\to\infty}\frac{c'(\bar{m})(m - c(m))}{c(\bar{m})} &= \lim_{m\to\infty}\frac{c'(\bar{m})\frac{m-c(m)}{m}}{\frac{c(\bar{m})}{m}}\\
+    \lim_{m\to\infty}\frac{m - c(m)}{m} &= \lim_{m\to\infty}1 - c'(m)\\
+    &= 1 - \underline{\k}\\
+    \lim_{m\to\infty}\frac{c(\bar{m})}{m} &= \lim_{m\to\infty}c'(\bar{m})\bar{m}'(m)\\
+    \implies \lim_{m\to\infty}\frac{c'(\bar{m})(m - c(m))}{c(\bar{m})} &= \lim_{m\to\infty}\frac{c'(\bar{m})(1-c'(\bar{m}))}{c'(\bar{m})\bar{m}'(m)}\\
+    &= \lim_{m\to\infty}\frac{(1-c'(\bar{m}))}{\bar{m}'(m)}\\
+    &= \frac{\G}{\Rfix + \vs(\Rfree - \Rfix)}
+\end{align*}
+Note that $\lim_{m\to\infty}\frac{c'(\bar{m})}{c(\bar{m})} = 0$, so the limit of the covariance term is
+\[
+    \lim_{m\to\infty}\rho\cov{\ln \D C_{t+1},\,\Rfree_{t+1}} \approx \rho\Rfree\frac{\vs\Rfree\s_{\nu}^2}{\Rfix + \vs(\Rfree - \Rfix)}
+\]
+Substituting this back into the excess return equation,
+\begin{align*}
+    \Rfree - \Rfix \approx \frac{\rho\Rfree^2\s_{\nu}^2\vs}{\Rfix + \vs(\Rfree - \Rfix)}\\
+    \Rfix(\Rfree - \Rfix) + \vs(\Rfree - \Rfix)^2 \approx \rho\Rfree^2\s_{\nu}^2\vs\\
+    \lim_{m\to\infty}\vs \approx \frac{\Rfix(\Rfree - \Rfix)}{\rho\Rfree^2\s_{\nu}^2 - (\Rfree - \Rfix)^2}
+\end{align*}
+Thus, it is evident that the optimal portfolio share is independent of the covariance between income and returns on equity as wealth grows arbitrarily large. By the approximation employed in the proof of Proposition \ref{prop:wealth_share_diff}, this limit is approximately the Merton-Samuelson share. That is
+\[
+\lim_{m\to\infty}\vs \approx \frac{\Rfree - \Rfix}{\rho\s_{\nu}^2}
+\]

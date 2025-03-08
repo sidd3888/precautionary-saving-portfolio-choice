@@ -1,10 +1,9 @@
-\documentclass[
-    12pt
-    ]{article}
+\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx} % Required for inserting 
 \graphicspath{{../Figures/}}
+\usepackage{figure_dirs}
 \usepackage[hidelinks, colorlinks=true, linkcolor=blue, citecolor=cyan]{hyperref}
 \usepackage[
     a4paper,
@@ -26,8 +25,9 @@
 \usepackage[labelfont=bf, labelsep=period]{caption}
 \usepackage[capposition=top]{floatrow}
 \usepackage{enumitem}
-\usepackage{fourier}
-%\usepackage{newtx}
+\usepackage{mathrsfs}
+% \usepackage{fourier}
+% \usepackage{newtx}
 \newtheorem{thm}{Theorem}
 \newtheorem*{thm*}{Theorem}
 \newtheorem{defn}{Definition}
@@ -47,6 +47,8 @@
 \newcommand{\Rfix}{\mathsf{R}}
 \newcommand{\Rfree}{\Re}
 \renewcommand{\vs}{\varsigma}
+\renewcommand{\Rc}{\Rs}
+\renewcommand{\Gc}{\Gs}
 
 \newcommand{\pref}{\succcurlyeq}
 \newcommand{\sm}{\setminus}
@@ -55,19 +57,42 @@
 \newcommand{\sims}{I}
 \newcommand{\rev}[1]{#1^{-}}
 
-\newcommand{\cd}{Draft 1} % Choose the version of the paper to render
+\newcommand{\pf}{\noindent\textbf{Proof: }}
+
+\newcommand{\cd}{Draft 2} % Choose the version of the paper to render
 
 \newcommand{\pdd}[3]{\frac{\partial^2 #1}{\partial {#2}^2}\Bigg|_{#3}}
+\newcommand{\pcd}[4]{\frac{\partial^2 #1}{\partial {#2} \partial {#3}}\Bigg|_{#4}}
 
 % \newcommand{\pd2}[3]{\frac{\partial^2 #1}{\partial {#2}^2}\Big|_{#3}}
 
 % \usepackage[authordate, backend=biber, maxcitenames=2, natbib=true]{biblatex-chicago}
-% \addbibresource{References.bib}
+% \addbibresource{correlated_shocks_equity_premium.bib}
 \usepackage{natbib}
 \usepackage[hang, flushmargin]{footmisc}
 
 \usepackage{caption}
 \usepackage{subcaption}
+
+\makeatletter
+
+% make numeric styles use name format
+\patchcmd{\NAT@test}{\else \NAT@nm}{\else \NAT@nmfmt{\NAT@nm}}{}{}
+
+% define \citepos just like \citet
+\DeclareRobustCommand\citepos
+  {\begingroup
+   \let\NAT@nmfmt\NAT@posfmt% ...except with a different name format
+   \NAT@swafalse\let\NAT@ctype\z@\NAT@partrue
+   \@ifstar{\NAT@fulltrue\NAT@citetp}{\NAT@fullfalse\NAT@citetp}}
+
+\let\NAT@orig@nmfmt\NAT@nmfmt
+\def\NAT@posfmt#1{\NAT@orig@nmfmt{#1's}}
+
+\makeatother
+
+% \renewcommand{\mkbibnamefamily}[1]{\textsc{#1}}
+
 
 % \makeatletter
 % \@addtoreset{prop}{section}
@@ -77,22 +102,22 @@
 \let\thefootnote\relax\footnotetext{I thank Chris Carroll, Lalit Contractor, and Alan Lujan for their comments and suggestions. Any remaining errors are my own.}
 }
 \author{Siddarth Venkatesh\thanks{Ashoka University, email: \texttt{siddarth.venkatesh\_tf@ashoka.edu.in}\\\hspace*{1.8em}The \href{https://github.com/econ-ark/HARK/pull/1412}{multivariate lognormal} discretization code I use to solve this model is available in the \href{https://github.com/econ-ark/HARK}{HARK} toolkit.}}
-\date{November 23, 2024}
+\date{This Version: \input{\cd/date}}
 
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{1em}
+% \setlength{\parindent}{0pt}
+% \setlength{\parskip}{1em}
 
 \begin{document}
 
 \input{\cd/title}
 
-\onehalfspacing
+\linespread{1.15}
 
 \input{\cd/body}
 
 % \printbibliography
 
 \bibliographystyle{agsm}
-\bibliography{References}
+\bibliography{correlated_shocks_equity_premium}
 
 \end{document}

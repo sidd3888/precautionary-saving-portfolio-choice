@@ -1,0 +1,152 @@
+\section{Model}\label{model}
+
+\subsection{The basic problem}
+
+Consider the standard consumption-saving problem. The agent maximizes their discounted lifetime utility from the consumption stream $\bc{C_{t}}_{t=0}^{T}$. The primary focus in this paper is on the infinitely-lived agent, so we will let $T = \infty$ for the most part of the analysis. Their problem can then be written as
+\begin{equation}\label{eq:prb}
+    \max_{\bc{C_t}_{t=0}^{T}}\E_{0}\sum_{t=0}^{T}\b^t u(C_t)
+ \end{equation}
+ subject to the period-wise constraints
+\begin{align*}
+    C_{t} + A_{t+1} &= W_{t} + Y_{t}
+\end{align*}
+where $A_{t+1}$ is the total stock of assets at the end of period $t$, $W_{t}$ the total monetary wealth at the beginning of period $t$, and $Y_{t}$ is labor income in period $t$. Labor income is modeled exogenously, where $Y_t$ is centered around an ``expected'' permanent income
+\begin{equation}\label{eq:inc}
+    Y_t = \t_t P_t
+\end{equation}
+where $\t_t$ is a mean-one transitory shock. Permanent income, $P_t$, itself evolves according to the process
+\begin{equation}\label{eq:perm_inc}
+    P_t = \G_t P_{t-1} \psi_t
+\end{equation}
+where $\G_t$ is the predictable component of the growth of permanent income, and $\psi_t$ is a mean-one shock. When considering the infinite-horizon problem, I will simplify the permanent income prcess with $\G_t = \G$ for all $t$.
+
+The agent can also invest, in a perfectly divisible manner, between a risk-free and a risky (equity) asset. If the consumer chooses to hold $\vs_{t+1}$ share of their savings in the risky asset in period $t$ (that is, their portfolio at the start of period $t+1$ contains $\vs_{t+1}$ share of the risky asset), wealth in period $t+1$ is determined by
+\begin{align}
+    W_{t+1} &= \overbrace{\bp{\Rfix + \vs_{t+1}(\Rfree_{t+1} - \Rfix)}}^{\Rc_{t+1}}A_{t+1} \label{eq:wealth}\\
+    \Rfree_{t+1} &= \Rfree \nu_{t+1} \label{eq:return}
+\end{align}
+where $\Rfree > \Rfix$ is the expected return on the risky asset, $\nu_{t+1}$ is a mean-one shock, and $\Rc_{t+1}$ is the effective rate of return on assets stemming from the portfolio optimization decision $\vs_{t+1}$. The choice of $\vs_{t+1}$ is restricted to the interval $\bs{0,\,1}$, thus precluding debt-financed equity positions. We can then use equation (\ref{eq:wealth}) rewrite the period budget constraint as
+\[
+W_{t+1} = \Rc_{t+1}(W_{t} + Y_{t} - C_{t})
+\]
+Allowing $M_t = W_t + Y_t$ to denote the total current level of monetary resources
+\[
+M_{t+1} = \Rc_{t+1}(M_t - C_t) + Y_{t+1}
+\]
+
+\subsection{Income and wealth uncertainty}
+
+I have hitherto remained silent on the exact distribution followed by the shocks to income and wealth. There are, particularly, three uncertainties of interest. $\psi$ and $\nu$ have been introduced before. The third is $\z$, of which $\t$ is a function. The exact specification of this function will be detailed in the subsequent section. First, I assume that shocks are independent across time periods. Then, I model the shocks to be jointly lognormally distributed. In particular,
+\begin{align*}
+    \log (\psi_t,\,\nu_t,\,\z_t) \sim \Nc(\mu,\,\S)
+\end{align*}
+where
+\begin{align*}
+    \S &= \begin{bmatrix}
+        \s_{\psi}^2 & \o_{\psi,\,\nu} & \o_{\psi,\,\z}\\
+        \o_{\nu,\,\psi} & \s_{\nu}^2 & \o_{\nu,\,\z}\\
+        \o_{\z,\,\psi} & \o_{\z,\,\nu} & \s_{\z}^2
+    \end{bmatrix}\\
+    \mu &= \begin{bmatrix}
+        -\s_{\psi}^2 / 2\\
+        -\s_{\nu}^2 / 2\\
+        -\s_{\z}^2 / 2
+    \end{bmatrix}
+\end{align*}
+The marginal distributions of each of the shocks ensure that $\E_t[\psi] = \E_t[\nu] = \E_t[\z] = 1$. Meanwhile, $\o_{x,\,y}$ captures the covariance of any two variables $x$ and $y$ among the three.
+
+\subsection{Motives for precautionary saving}
+
+I extend the models by \citet{Deaton1991} and \citet{Carroll1992}, along with their distinct approaches to precautionary saving. The former model is based on the idea that the agent is unable to borrow to smooth consumption, while the latter model imposes a zero-income risk, due to which the agent chooses not to borrow. I examine both scenarios to see how portfolio choice is affected by the joint distribution of income and equity return shocks. Going forward, I shall refer to the former as the no-borrowing constraint (NBC) model, and the latter as the no-income risk (NIR) model.
+
+In the NBC model, the agent is faced with an artificial no-borrowing constraint,
+\[
+A_{t+1} \geq 0
+\]
+which implies that $a_{t+1} \geq 0$. Along with this, the transitory income shock $\t_{t+1} = \z_{t+1}$, which means that $\t_{t+1}$ is simply the mean-one lognormal variable from the joint distribution described previously. The agent with the NBC faces a kink in the consumption function at the point where the borrowing constraint begins to bind. At this point, the agent simply consumes the totality of their wealth. Lemma \ref{lm:nbc_kink}, echoing \citet{Deaton1991}, provides a useful characterization of this kink that will appear in later results.
+
+\begin{lemma}\label{lm:nbc_kink}
+    For some $\tilde{m} > 0$, the optimal consumption function for the NBC agent satisfies
+    \[
+    \begin{cases}
+        c(m) = m & m \leq \tilde{m}\\
+        c(m) < m & m > \tilde{m}
+    \end{cases}
+    \]
+\end{lemma}
+
+\begin{proof}
+    Consider the problem of the NBC agent without the borrowing constraint for the current period only. Under such conditions, $c(m) > 0$ for all $m \geq 0$, as $\lim_{c \to 0}u'(c) = \infty$ for $\rho > 0$. Since $c(m) - m$ is continuous, and $\lim_{c \to \infty}u'(c) = 0$, $c(m) < m$ for $m > \tilde{m}$. We know $\tilde{m} > 0$ because $c(0) > 0$. However, since $c(m) - m$ is decreasing, $c(m) = m$ for $m = \tilde{m}$. Since the borrowing constraint binds, for $m < \tilde{m}$, $c(m) = m$.
+\end{proof}
+
+In the NIR model, the agent faces no such constraint on borrowing, though they may potentially encounter a zero-income event, i.e. their labor income may be zero in some periods. Particularly, their transitory income is determined in each period by
+\[
+\t_{t+1} = \begin{cases}
+    0 & \text{ with probability } \wp\\
+    \z_{t+1} / (1 - \wp) & \text{ with probability } 1 - \wp
+\end{cases}
+\]
+where the resolution of the zero-income event is independent of any of the other shocks. In the finite-horizon version of the model, consumers may face zero-income events till period $T$ with positive probability, which means that no-default condition at the end of life is enough to ensure that consumers do not borrow.\footnote{\citet{Carroll2024b} discuss that the NBC model can be interpreted as the limit of the NIR model as $\wp$ tends to 0.} On the other hand, we can introduce a standard no-Ponzi condition in the infinite horizon version of the model (which is the limit of the finite horizon problem) to the same effect. As such, I numerically solve for the optimal policy functions only over a domain of positive savings.
+
+One of the possible contentions with modelling the zero-income event as independent of asset return shocks could be that recessions are periods of layoffs, and therefore increasing unemployment. It would then be natural for the probability of the zero-income event to be greater conditional on lower returns on equity. While this is a valid line of reasoning, it is currently beyond the scope of this paper to introduce this added layer of complexity. Another interpretation that can be accorded to zero-income events are major unforeseen expenditures such as on healthcare, which can be approximated as situations where the consumer's net disposable income to spend on the consumption good is near zero. In such situations, they must consume using their savings.
+
+\subsection{Optimal behavior}
+
+In this paper, I restrict my attention to an agent with CRRA utility. That is, the agent's period utility from consumption is given by
+\[
+u(C_t) = \frac{C_t^{1-\rho}}{1-\rho}
+\]
+We can then write the problem in Bellman form:
+\begin{equation}
+    V_t(M_t,\,P_t) = \max_{\bc{C_t,\,\vs_{t+1}}}\frac{C_{t}^{1-\rho}}{1 - \rho} + \b \E_t\bs{V_{t+1}(\Rc_{t+1}(M_t - C_{t}) + Y_{t+1},\,P_{t+1})}
+\end{equation}
+Normalize all period $t$ variables by the permanent income $P_t$ (since $A_t$ is determined in period $t-1$, it is normalized by $P_{t-1}$), and denote these new variables in lowercase (i.e. $c_t = C_t / P_t$). Letting $\Gc_{t+1} = \G_{t+1}\psi_{t+1}$,
+\begin{align*}
+    m_{t+1} = \frac{\Rc_{t+1}}{\Gc_{t+1}}(m_t - c_t) + \t_{t+1}
+\end{align*}
+The Bellman formulation then becomes
+\begin{equation}\label{eq:bellman}
+    v_{t}(m_t) = \max_{c_{t},\,\vs_{t+1}}\frac{c^{1-\rho}}{1-\rho} + \beta \E\bs{(\Gc_{t+1})^{1-\rho}v_{t+1}\bp{\frac{\Rc_{t+1}}{\Gc_{t+1}}(m_t - c_t) + \t_{t+1}}}
+\end{equation}
+and the consumption Euler equation is then given by\footnote{Use the envelope theorem to see that, $u'(c_t) = v'(m_t)$, and
+\begin{align*}
+    v'(m_t) &= \b \E\bs{\Gc_{t+1}^{-\rho}\Rc_{t+1}v'(m_{t+1})}
+\end{align*}
+Then using the same conditions under optimality for period $t+1$, $v'(m_{t+1}) = u'(c_{t+1})$.
+}
+\begin{equation}\label{eq:euler}
+    c_t^{-\rho} = \b \E_{t}\bs{\Rc_{t+1}(\Gc_{t+1}c_{t+1})^{-\rho}}
+\end{equation}
+The optimality condition for the portfolio share, $\vs_{t+1}$ is slightly trickier, given that it is bounded by $\bs{0,\,1}$. Finally, note that portfolio share is irrelevant when $a_{t+1} = 0$, which means that we can only pin it down for when $a_{t+1} \neq 0$. In that case, a choice of $\vs_{t+1}$ is optimal if
+\begin{equation}\label{eq:excess_return}
+    \begin{cases}
+        \E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} = 0 & \vs_{t+1} \in \bp{0,\,1}\\
+        \E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} \geq 0 & \vs_{t+1} = 1\\
+        \E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}} \leq 0 & \vs_{t+1} = 0
+    \end{cases}
+\end{equation}
+Now see that whenever the optimal portfolio decision is to hold a mixture of both the safe and the risky asset, the consumption Euler equation can be reduced to
+\begin{align*}
+    c_{t}^{-\rho} &= \b \E_{t}\bs{(\Rfix + \vs_{t+1}(\Rfree_{t+1} - \Rfix))(\Gc_{t+1}c_{t+1})^{-\rho}}\\
+    &= \b \bs{\E_{t}\bs{\Rfix(\Gc_{t+1}c_{t+1})^{-\rho}} + \vs_{t+1}\E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}}}\\
+    &= \b\Rfix\G_{t+1}^{-\rho}\E_{t}\bs{(\psi_{t+1}c_{t+1})^{-\rho}} \tag{from (\ref{eq:excess_return})}
+\end{align*}
+
+\subsection{Numerical solution}\label{discretization}
+
+The first part of solving the model is to address the problem of efficiently computing expectations of the marginal utilities of consumption decisions in future periods. Under the current formulation, the shocks to income and returns are drawn independently in each time period, which means that it is enough to discretize these shocks using their single-period distribution. I use an equiprobable approximation of a truncated version (at 3 standard deviations of the underlying standard normal) of these lognormal variables.\footnote{The code for this algorithm is available as part of a \href{https://github.com/econ-ark/HARK/pull/1412}{contribution} I made to the \href{https://github.com/econ-ark/HARK}{HARK} toolkit.}
+
+Here are the steps involved in discretizing the distribution:
+\begin{enumerate}
+    \item Choose a suitable truncation of the distribution in each dimension by choosing an interval $\bs{p_{min},\,p_{max}} \subseteq \bs{0,\,1}$
+    \item Divide the interval given by $\bs{\Phi^{-1}(p_{min}),\,\Phi^{-1}(p_{max})}$ into $n$ intervals of $\frac{p_{max} - p_{min}}{n}$ probability each, $I = \bc{\bs{\Phi^{-1}\left(\frac{(i - 1)p_{max} + (n - i + 1)p_{min}}{n}\right),\,\Phi^{-1}\left(\frac{ip_{max} + (n - i)p_{min}}{n}\right)}}_{i=1}^{n}$
+    \item Decompose the covariance matrix $\S$ using the Cholesky decomposition and obtain a matrix $L$ such that $LL^T = \S$
+    \item Then construct the random variables $Y = \mu + LZ$, where $Z \sim \Nc(0,\,I)$, to get $Y \sim \Nc(\mu,\,\Sigma)$
+    \item Construct the set $I^3$ and , and compute the conditional expectation of the vector of shocks $X = \exp(Y)$ in each set of $I^3$, yielding the set of equiprobable atoms $S = \bc{\bp{\psi,\,\nu,\,\z}_{j}}_{j=1}^{n^3}$
+\end{enumerate}
+
+Computing expectations of functions of these shocks can now be reduced to the following approximation
+\[
+\E\bs{g(\psi,\,\nu,\,\z)} \approx n^{-3}\sum_{j=1}^{n^3}g(\psi_j,\,\nu_j,\,\z_j)
+\]
+Given a method to compute expectations over a multivariate lognormal distribution, the next step is to compute the optimal decision rules. To do so, I sequentially apply the endogenous grid method to a two-stage representation of the portfolio choice problem (stage 2) and the consumption-saving problem (stage 1), and iteratively compute the infinite horizon policy rule \citep{Carroll2006, Carroll2024}.\footnote{See Appendix \ref{app:seq_egm} for a detailed explanation of the computational algorithm.}

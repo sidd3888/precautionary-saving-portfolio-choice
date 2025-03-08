@@ -8,3 +8,14 @@
 *.synctex.gz
 
 .ipynb_checkpoints
+
+__pycache__
+
+equity_premium.ipynb
+
+cFunc*.png
+kFunc*.png
+ShareLimit*.png
+wealth_transition_baseline.png
+
+Draft 1
