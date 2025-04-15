@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx} % Required for inserting 
@@ -17,9 +17,9 @@
 \usepackage{makecell}
 \usepackage{titlesec}
 % \usepackage{natbib}
-\titleformat*{\section}{\Large\bf}
-\titleformat*{\subsection}{\large\bf}
-\titleformat*{\subsubsection}{\normalsize\bf}
+\titleformat*{\section}{\centering\large\sc}
+\titleformat*{\subsection}{\normalsize\it}
+\titleformat*{\subsubsection}{\normalsize\it}
 \usepackage{chngcntr}
 \usepackage{lipsum}
 \usepackage[labelfont=bf, labelsep=period]{caption}
@@ -59,7 +59,7 @@
 
 \newcommand{\pf}{\noindent\textbf{Proof: }}
 
-\newcommand{\cd}{Draft2} % Choose the version of the paper to render
+\newcommand{\cd}{Draft3} % Choose the version of the paper to render
 
 \newcommand{\pdd}[3]{\frac{\partial^2 #1}{\partial {#2}^2}\Bigg|_{#3}}
 \newcommand{\pcd}[4]{\frac{\partial^2 #1}{\partial {#2} \partial {#3}}\Bigg|_{#4}}
@@ -73,6 +73,8 @@
 
 \usepackage{caption}
 \usepackage{subcaption}
+
+\linespread{1.1}
 
 \makeatletter
 
@@ -98,20 +100,20 @@
 % \@addtoreset{prop}{section}
 % \makeatother
 
-\title{Portfolio choice with correlated income growth and equity return shocks
+\title{
+  %Portfolio choice with correlated income growth and equity return shocks
+  Precautionary saving and portfolio choice with joint income and equity return processes
 \let\thefootnote\relax\footnotetext{I thank Chris Carroll, Lalit Contractor, and Alan Lujan for their comments and suggestions. Any remaining errors are my own.}
 }
 \author{Siddarth Venkatesh\thanks{Ashoka University, email: \texttt{siddarth.venkatesh\_tf@ashoka.edu.in}\\\hspace*{1.8em}The \href{https://github.com/econ-ark/HARK/pull/1412}{multivariate lognormal} discretization code I use to solve this model is available in the \href{https://github.com/econ-ark/HARK}{HARK} toolkit.}}
 \date{This Version: \input{\cd/date}}
 
-% \setlength{\parindent}{0pt}
-% \setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
 
 \begin{document}
 
 \input{\cd/title}
-
-\linespread{1.15}
 
 \input{\cd/body}
 

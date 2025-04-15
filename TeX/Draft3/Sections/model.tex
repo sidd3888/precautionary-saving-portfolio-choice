@@ -36,7 +36,7 @@ M_{t+1} = \Rc_{t+1}(M_t - C_t) + Y_{t+1}
 
 \subsection{Income and wealth uncertainty}
 
-I know describe the exact distribution followed by the shocks to income and wealth. There are, particularly, three uncertainties of interest. $\psi$ and $\eta$ have been introduced before. The third is $\z$, of which $\t$ is a function. The specifications  of interest of this function will be detailed in the subsequent section. I model the shocks $\bc{(\psi_t,\,\eta_t,\,\z_t)}_{t \geq 0}$ as independently and identically distributed multivariate lognormal random variables. That is,
+I know describe the exact distribution followed by the shocks to income and wealth. There are, particularly, three uncertainties of interest. $\psi$ and $\eta$ have been introduced before. The third is $\z$, of which $\t$ is a function. The specifications  of interest of this function will be detailed in section \ref{motives}. I model the shocks $\bc{(\psi_t,\,\eta_t,\,\z_t)}_{t \geq 0}$ as independently and identically distributed multivariate lognormal random variables. That is,
 \begin{align*}
     \log (\psi_t,\,\eta_t,\,\z_t) \sim \Nc(\mu,\,\S)
 \end{align*}
@@ -54,41 +54,6 @@ where
     \end{bmatrix}
 \end{align*}
 The marginal distributions of each of the shocks ensure that $\E_t[\psi] = \E_t[\eta] = \E_t[\z] = 1$. Meanwhile, $\o_{x,\,y}$ captures the covariance of any two variables $x$ and $y$ among the three.
-
-\subsection{Motives for precautionary saving}
-
-I extend the models by \citet{Deaton1991} and \citet{Carroll1992}, along with their distinct approaches to precautionary saving. The former model is based on the idea that the agent is unable to borrow to smooth consumption, while the latter model imposes a zero-income risk, due to which the agent chooses not to borrow. I examine both scenarios to see how portfolio choice is affected by the joint distribution of income and equity return shocks. Going forward, I shall refer to the former as the no-borrowing constraint (NBC) model, and the latter as the no-income risk (NIR) model.
-
-In the NBC model, the agent is faced with an artificial no-borrowing constraint,
-\[
-A_{t+1} \geq 0
-\]
-which implies that $a_{t+1} \geq 0$. Along with this, the transitory income shock $\t_{t+1} = \z_{t+1}$, which means that $\t_{t+1}$ is simply the mean-one lognormal variable from the joint distribution described previously. The agent with the NBC faces a kink in the consumption function at the point where the borrowing constraint begins to bind. At this point, the agent simply consumes the totality of their wealth. Lemma \ref{lm:nbc_kink}, echoing \citet{Deaton1991}, provides a useful characterization of this kink that will appear in later results.
-
-\begin{lemma}\label{lm:nbc_kink}
-    For some $\tilde{m} > 0$, the optimal consumption function for the NBC agent satisfies
-    \[
-    \begin{cases}
-        c(m) = m & m \leq \tilde{m}\\
-        c(m) < m & m > \tilde{m}
-    \end{cases}
-    \]
-\end{lemma}
-
-\begin{proof}
-    Consider the problem of the NBC agent without the borrowing constraint for the current period only. Under such conditions, $c(m) > 0$ for all $m \geq 0$, as $\lim_{c \to 0}u'(c) = \infty$ for $\rho > 0$. Since $c(m) - m$ is continuous, and $\lim_{c \to \infty}u'(c) = 0$, $c(m) < m$ for $m > \tilde{m}$. We know $\tilde{m} > 0$ because $c(0) > 0$. However, since $c(m) - m$ is decreasing, $c(m) = m$ for $m = \tilde{m}$. Since the borrowing constraint binds, for $m < \tilde{m}$, $c(m) = m$.
-\end{proof}
-
-In the NIR model, the agent faces no such constraint on borrowing, though they may potentially encounter a zero-income event, i.e. their labor income may be zero in some periods. Particularly, their transitory income is determined in each period by
-\[
-\t_{t+1} = \begin{cases}
-    0 & \text{ with probability } \wp\\
-    \z_{t+1} / (1 - \wp) & \text{ with probability } 1 - \wp
-\end{cases}
-\]
-where the resolution of the zero-income event is independent of any of the other shocks. In the finite-horizon version of the model, consumers may face zero-income events till period $T$ with positive probability, which means that no-default condition at the end of life is enough to ensure that consumers do not borrow.\footnote{\citet{Carroll2024b} discuss that the NBC model can be interpreted as the limit of the NIR model as $\wp$ tends to 0.} On the other hand, we can introduce a standard no-Ponzi condition in the infinite horizon version of the model (which is the limit of the finite horizon problem) to the same effect. As such, I numerically solve for the optimal policy functions only over a domain of positive savings.
-
-One of the possible contentions with modelling the zero-income event as independent of asset return shocks could be that recessions are periods of layoffs, and therefore increasing unemployment. It would then be natural for the probability of the zero-income event to be greater conditional on lower returns on equity. While this is a valid line of reasoning, it is currently beyond the scope of this paper to introduce this added layer of complexity. Another interpretation that can be accorded to zero-income events are major unforeseen expenditures such as on healthcare, which can be approximated as situations where the consumer's net disposable income to spend on the consumption good is near zero. In such situations, they must consume using their savings.
 
 \subsection{Optimal behavior}
 
@@ -135,6 +100,41 @@ Now see that whenever the optimal portfolio decision is to hold a mixture of bot
     &= \b \bs{\E_{t}\bs{\Rfix(\Gc_{t+1}c_{t+1})^{-\rho}} + \vs_{t+1}\E_{t}\bs{(\Rfree_{t+1} - \Rfix)(\Gc_{t+1}c_{t+1})^{-\rho}}}\\
     &= \b\Rfix\G_{t+1}^{-\rho}\E_{t}\bs{(\psi_{t+1}c_{t+1})^{-\rho}} \tag{from (\ref{eq:excess_return})}
 \end{align*}
+
+\subsection{Motives for precautionary saving}\label{motives}
+
+I extend the models by \citet{Deaton1991} and \citet{Carroll1992}, along with their distinct approaches to precautionary saving. The former model is based on the idea that the agent is unable to borrow to smooth consumption, while the latter model imposes a zero-income risk, due to which the agent chooses not to borrow. I examine both scenarios to see how portfolio choice is affected by the joint distribution of income and equity return shocks. Going forward, I shall refer to the former as the no-borrowing constraint (NBC) model, and the latter as the no-income risk (NIR) model.
+
+In the NBC model, the agent is faced with an artificial no-borrowing constraint,
+\[
+A_{t+1} \geq 0
+\]
+which implies that $a_{t+1} \geq 0$. Along with this, the transitory income shock $\t_{t+1} = \z_{t+1}$, which means that $\t_{t+1}$ is simply the mean-one lognormal variable from the joint distribution described previously. The agent with the NBC faces a kink in the consumption function at the point where the borrowing constraint begins to bind. At this point, the agent simply consumes the totality of their wealth. Lemma \ref{lm:nbc_kink}, echoing \citet{Deaton1991}, provides a useful characterization of this kink that will appear in later results.
+
+\begin{lemma}\label{lm:nbc_kink}
+    For some $\tilde{m} > 0$, the optimal consumption function for the NBC agent satisfies
+    \[
+    \begin{cases}
+        c(m) = m & m \leq \tilde{m}\\
+        c(m) < m & m > \tilde{m}
+    \end{cases}
+    \]
+\end{lemma}
+
+\begin{proof}
+    Consider the problem of the NBC agent without the borrowing constraint for the current period only. Under such conditions, $c(m) > 0$ for all $m \geq 0$, as $\lim_{c \to 0}u'(c) = \infty$ for $\rho > 0$. Since $c(m) - m$ is continuous, and $\lim_{c \to \infty}u'(c) = 0$, $c(m) < m$ for $m > \tilde{m}$. We know $\tilde{m} > 0$ because $c(0) > 0$. However, since $c(m) - m$ is decreasing, $c(m) = m$ for $m = \tilde{m}$. Since the borrowing constraint binds, for $m < \tilde{m}$, $c(m) = m$.
+\end{proof}
+
+In the NIR model, the agent faces no such constraint on borrowing, though they may potentially encounter a zero-income event, i.e. their labor income may be zero in some periods. Particularly, their transitory income is determined in each period by
+\[
+\t_{t+1} = \begin{cases}
+    0 & \text{ with probability } \wp\\
+    \z_{t+1} / (1 - \wp) & \text{ with probability } 1 - \wp
+\end{cases}
+\]
+where the resolution of the zero-income event is independent of any of the other shocks. In the finite-horizon version of the model, consumers may face zero-income events till period $T$ with positive probability, which means that no-default condition at the end of life is enough to ensure that consumers do not borrow.\footnote{\citet{Carroll2024b} discuss that the NBC model can be interpreted as the limit of the NIR model as $\wp$ tends to 0.} On the other hand, we can introduce a standard no-Ponzi condition in the infinite horizon version of the model (which is the limit of the finite horizon problem) to the same effect. As such, I numerically solve for the optimal policy functions only over a domain of positive savings.
+
+One of the possible contentions with modelling the zero-income event as independent of asset return shocks could be that recessions are periods of layoffs, and therefore increasing unemployment. It would then be natural for the probability of the zero-income event to be greater conditional on lower returns on equity. While this is a valid line of reasoning, it is currently beyond the scope of this paper to introduce this added layer of complexity. Another interpretation that can be accorded to zero-income events are major unforeseen expenditures such as on healthcare, which can be approximated as situations where the consumer's net disposable income to spend on the consumption good is near zero. In such situations, they must consume using their savings.
 
 \subsection{Numerical solution}\label{discretization}
 

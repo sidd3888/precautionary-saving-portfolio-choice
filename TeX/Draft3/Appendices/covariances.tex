@@ -1,0 +1,24 @@
+\subsection{Approximations of covariances}\label{app:covariances}
+
+We want to approximate the covariances of functions of two random variables $X$ and $Y$ around their expectations $\mu_X$ and $\mu_Y$. To do so:
+\begin{align*}
+    \cov{f(X),\,g(Y)} &= \E\bs{f(X)g(Y)} - \E\bs{f(X)}\E\bs{g(Y)}\\
+    \E\bs{f(X)g(Y)} &\approx f(\mu_X)g(\mu_Y) + \frac{1}{2}\bs{f''(\mu_X)g(\mu_Y)\var{X} + f(\mu_X)g''(\mu_Y)\var{Y}} \\&+ f'(\mu_X)g'(\mu_Y)\cov{X,\,Y}\\
+    \E\bs{f(X)}\E\bs{g(Y)} &\approx f(\mu_X)g(\mu_Y) + \frac{1}{2}\bs{f''(\mu_X)g(\mu_Y)\var{X} + f(\mu_X)g''(\mu_Y)\var{Y}} \\&+ \frac{1}{4}f''(\mu_X)g''(\mu_Y)\var{X}\var{Y}\\
+    \cov{f(X),\,g(Y)} &\approx f'(\mu_X)g'(\mu_Y)\cov{X,\,Y} - \frac{1}{4}f''(\mu_X)g''(\mu_Y)\var{X}\var{Y}
+\end{align*}
+
+Using a similar application of the expectations formulae, it can be observed that
+\begin{align*}
+    \E\bs{f(X_1,\,X_2,\,X_3)g(X_3)} &\approx f(\mu_X)g(\mu_{X,\,3}) + \frac{1}{2}g(\mu_{X,\,3})\sum_{i=1}^{3}\sum_{j=1}^{3}\cov{X_i,\,X_j}\pcd{f(X)}{X_i}{X_j}{\mu_X}\\ &+ g'(\mu_{X,\,3})\sum_{i=1}^{3}\pd{f(X)}{X_i}{\mu_X}\cov{X_i,\,X_3}\\
+    &+ \frac{1}{2}g''(\mu_{X,\,3})f(\mu_X)\var{X_3}
+\end{align*}
+Similarly,
+\begin{align*}
+    \E\bs{f(X)}\E\bs{g(X_3)} &\approx f(\mu_X)g(\mu_{X,\,3}) + \frac{1}{2}g(\mu_{X,\,3})\sum_{i=1}^{3}\sum_{j=1}^{3}\cov{X_i,\,X_j}\pcd{f(X)}{X_i}{X_j}{\mu_X}\\ &+ \frac{1}{4}g''(\mu_{X,\,3})\var{X_3}\sum_{i=1}^{3}\sum_{j=1}^{3}\pcd{f(X)}{X_i}{X_j}{\mu_X}\\
+    &+ \frac{1}{2}f(\mu_X)\var{X_3}g''(\mu_{X,\,3})
+\end{align*}
+Then
+\begin{align*}
+    \cov{f(X),\,g(X_3)} &\approx g'(\mu_{X,\,3})\sum_{i=1}^{3}\pd{f(X)}{X_i}{\mu_X}\cov{X_i,\,X_3}\\ &- \frac{1}{4}g''(\mu_{X,\,3})\var{X_3}\sum_{i=1}^{3}\sum_{j=1}^{3}\pcd{f(X)}{X_i}{X_j}{\mu_X}
+\end{align*}
