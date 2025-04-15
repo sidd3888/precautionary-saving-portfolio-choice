@@ -56,115 +56,115 @@ def gen_us_cov_matrix(ω : float, kind = "P"):
 rc('font', **{'family': 'serif', 'serif': ['Computer Modern'], 'size': 16})
 rc('text', usetex=True)
 
-# # Baseline NBC model
+# Baseline NBC model
 
-# consumer = BufferStockModel()
+consumer = BufferStockModel()
 
-# consumer.pre_solve(aMax = 300, n=70, boroConst=True, N = 12)
+consumer.pre_solve(aMax = 300, n=70, boroConst=True, N = 12)
 
-# consumer.solve()
+consumer.solve()
 
-# consumer.plot_ςFunc(path = 'portfolio_baseline.png', mGrid = mGrid, ms_line=True)
+consumer.plot_ςFunc(path = 'portfolio_baseline.png', mGrid = mGrid, ms_line=True)
 
-# consumer.plot_cFunc(path = 'NBCcons_baseline.png')
+consumer.plot_cFunc(path = 'NBCcons_baseline.png')
 
-# # NBC model with permanent income correlation
+# NBC model with permanent income correlation
 
-# Σ = gen_cov_matrix(0.008)
+Σ = gen_cov_matrix(0.008)
 
-# consumer = BufferStockModel(Σ = Σ)
+consumer = BufferStockModel(Σ = Σ)
 
-# consumer.pre_solve(aMax = 300, n= 70, boroConst = True, N=12)
+consumer.pre_solve(aMax = 300, n= 70, boroConst = True, N=12)
 
-# consumer.solve()
+consumer.solve()
 
-# consumer.plot_ςFunc(path = 'NBCportfolio_permanent_low_income.png')
+consumer.plot_ςFunc(path = 'NBCportfolio_permanent_low_income.png')
 
-# consumer.plot_ςFunc(path = 'NBCportfolio_permanent_high_income.png', mGrid = mGrid, ms_line = True)
+consumer.plot_ςFunc(path = 'NBCportfolio_permanent_high_income.png', mGrid = mGrid, ms_line = True)
 
-# consumer.plot_targetς(path = 'NBCshare_target.png', mGrid=np.linspace(0, 4, 100))
+consumer.plot_targetς(path = 'NBCshare_target.png', mGrid=np.linspace(0, 4, 100))
 
-# values = consumer.simulate_inf_horizon()
-# values_df = pd.DataFrame(values, columns=["$m$", "$\\varsigma$"])
+values = consumer.simulate_inf_horizon()
+values_df = pd.DataFrame(values, columns=["$m$", "$\\varsigma$"])
 
-# plt.rcParams["figure.figsize"] = (8,6)
+plt.rcParams["figure.figsize"] = (8,6)
 
-# sns.histplot(values_df, x='$m$', kde=True).get_figure().savefig('NBC_mdist.png')
+sns.histplot(values_df, x='$m$', kde=True).get_figure().savefig('NBC_mdist.png')
 
-# plt.clf()
+plt.clf()
 
-# plt.rcParams["figure.figsize"] = (8,6)
+plt.rcParams["figure.figsize"] = (8,6)
 
-# sns.histplot(values_df, x='$\\varsigma$', kde=True).get_figure().savefig('NBC_sharedist.png')
+sns.histplot(values_df, x='$\\varsigma$', kde=True).get_figure().savefig('NBC_sharedist.png')
 
-# plt.clf()
+plt.clf()
 
-# plt.rcParams["figure.figsize"] = (8,6)
+plt.rcParams["figure.figsize"] = (8,6)
 
-# sns.displot(values_df, x='$m$', y='$\\varsigma$').savefig('NBC_jointdist.png')
+sns.displot(values_df, x='$m$', y='$\\varsigma$').savefig('NBC_jointdist.png')
 
-# plt.clf()
+plt.clf()
 
-# # NBC model with transitory income correlation
+# NBC model with transitory income correlation
 
-# Σ = gen_cov_matrix(0.014, kind="T")
+Σ = gen_cov_matrix(0.014, kind="T")
 
-# consumer = BufferStockModel(Σ = Σ)
+consumer = BufferStockModel(Σ = Σ)
 
-# consumer.pre_solve(aMax = 300, n= 70, boroConst = True, N=12)
+consumer.pre_solve(aMax = 300, n= 70, boroConst = True, N=12)
 
-# consumer.solve()
+consumer.solve()
 
-# consumer.plot_ςFunc(path = 'NBCportfolio_transitory_low_income.png')
+consumer.plot_ςFunc(path = 'NBCportfolio_transitory_low_income.png')
 
-# consumer.plot_ςFunc(path = 'NBCportfolio_transitory_high_income.png', mGrid = mGrid, ms_line = True)
+consumer.plot_ςFunc(path = 'NBCportfolio_transitory_high_income.png', mGrid = mGrid, ms_line = True)
 
-# # Solve the two-period version of the previous model
+# Solve the two-period version of the previous model
 
-# Σ = gen_cov_matrix(0.008, kind="T")
+Σ = gen_cov_matrix(0.008, kind="T")
 
-# consumer = BufferStockModel(Σ = Σ)
+consumer = BufferStockModel(Σ = Σ)
 
-# consumer.pre_solve(aMax = 300, n= 70, boroConst = True, N=12)
+consumer.pre_solve(aMax = 300, n= 70, boroConst = True, N=12)
 
-# consumer.solve(T=1)
+consumer.solve(T=1)
 
-# consumer.plot_ςFunc(t=0, path = 'NBC_lastprd.png')
+consumer.plot_ςFunc(t=0, path = 'NBC_lastprd.png')
 
-# # NIR model with permanent income correlation
+# NIR model with permanent income correlation
 
-# Σ = gen_cov_matrix(0.008)
+Σ = gen_cov_matrix(0.008)
 
-# consumer = BufferStockModel(Σ = Σ)
+consumer = BufferStockModel(Σ = Σ)
 
-# consumer.pre_solve(aMax = 300, n= 70, boroConst = False, N=12)
+consumer.pre_solve(aMax = 300, n= 70, boroConst = False, N=12)
 
-# consumer.solve()
+consumer.solve()
 
-# consumer.plot_ςFunc(path = 'NIRportfolio_permanent_low_income.png')
+consumer.plot_ςFunc(path = 'NIRportfolio_permanent_low_income.png')
 
-# consumer.plot_targetς(path = 'NIRshare_target', mGrid = np.linspace(0, 4, 100))
+consumer.plot_targetς(path = 'NIRshare_target', mGrid = np.linspace(0, 4, 100))
 
-# values = consumer.simulate_inf_horizon()
-# values_df = pd.DataFrame(values, columns=["$m$", "$\\varsigma$"])
+values = consumer.simulate_inf_horizon()
+values_df = pd.DataFrame(values, columns=["$m$", "$\\varsigma$"])
 
-# plt.rcParams["figure.figsize"] = (8,6)
+plt.rcParams["figure.figsize"] = (8,6)
 
-# sns.histplot(values_df, x='$m$', kde=True).get_figure().savefig('NIR_mdist.png')
+sns.histplot(values_df, x='$m$', kde=True).get_figure().savefig('NIR_mdist.png')
 
-# plt.clf()
+plt.clf()
 
-# plt.rcParams["figure.figsize"] = (8,6)
+plt.rcParams["figure.figsize"] = (8,6)
 
-# sns.histplot(values_df, x='$\\varsigma$', kde=True).get_figure().savefig('NIR_sharedist.png')
+sns.histplot(values_df, x='$\\varsigma$', kde=True).get_figure().savefig('NIR_sharedist.png')
 
-# plt.clf()
+plt.clf()
 
-# plt.rcParams["figure.figsize"] = (8,6)
+plt.rcParams["figure.figsize"] = (8,6)
 
-# sns.displot(values_df, x='$m$', y='$\\varsigma$').savefig('NIR_jointdist.png')
+sns.displot(values_df, x='$m$', y='$\\varsigma$').savefig('NIR_jointdist.png')
 
-# plt.clf()
+plt.clf()
 
 # Portfolio share limit in the NBC model
 
