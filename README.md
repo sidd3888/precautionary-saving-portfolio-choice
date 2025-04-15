@@ -1,4 +1,4 @@
-# Portfolio choice with correlated income growth and equity return shocks
+# Precautionary saving and portfolio choice with joint income and equity return processes
 
 This repository contains the Python and $\LaTeX$ code used to solve the model and typeset the paper.
 
