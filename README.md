@@ -16,4 +16,4 @@ The $\LaTeX$ code is self-sufficient, and should work with any up-to-date $\TeX$
 
 ## Files
 
-The code used to solve the model and generate the plots in the paper are available in the folder titled `Code`. While the code can be run for replication purposes using `portfolio_choice.py`, the file `consumer.py` contains the definition of the model class, which is called upon to create an instance of an agent's problem and solve it. The draft of the paper is available in the folder titled `TeX`, by the name `correlated_shocks_equity_premium.pdf`.
+The code used to solve the model and generate the plots in the paper are available in the folder titled `Code`. While the code can be run for replication purposes using `portfolio_choice.py`, the file `consumer.py` contains the definition of the model class, which is called upon to create an instance of an agent's problem and solve it. The draft of the paper is available in the folder titled `TeX`, by the name `precautionary-saving-portfolio-choice.pdf`.
